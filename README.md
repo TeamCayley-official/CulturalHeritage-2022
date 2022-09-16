@@ -1,1 +1,1 @@
-# CulturalHertage-2022
+# CulturalHeritage-2022
