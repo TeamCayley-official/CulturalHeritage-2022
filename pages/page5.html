@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>5. 국보 지식그래프</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+
+		<!-- Favicon -->
+		<link href="./../images/teamCayley_logo_trans.png" rel="icon">
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header">
+					<h1>문화재 시냅스: 국보 데이터 연결하기</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="../index.html">Home</a></li>
+										<li><a href="page0.html" target="_blank">About Team.Cayley</a></li>
+										<li><a href="page1.html" target="_blank">프로젝트 목적</a></li>
+										<li><a href="page2.html" target="_blank">데이터 구축 과정</a></li>
+										<li><a href="page3.html" target="_blank">구축 데이터 현황</a></li>
+										<li><a href="page4.html" target="_blank">텍스트 데이터 활용예시</a></li>
+										<li><a href="page5.html" target="_blank">국보 지식그래프</a></li>
+										<li><a href="page6.html" target="_blank">지식그래프 활용예시</a></li>
+									</ul>
+
+									<div style="position : absolute; bottom:0.5%; left:10%;letter-spacing:0.5em;color:rgb(163, 163, 163);font-size:larger;">
+										<ul class="icons" style="border-top: none!important;">
+											<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+											<li style="border-top: none;"><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+											<li style="border-top: none;"><a href="mailto:team.cayley.official@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+											<li style="font-size: 0.5em;letter-spacing: 0.1em;">&copy;2022. Team.Cayley All Rights Reserved</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Main -->
+					<article id="main">
+						<!-------제목------->
+						<header>
+							<h1>5. 국보 지식그래프</h1>
+							<p>
+								국보 rdf 데이터 구축과 관련한 내용입니다. 
+							</p>
+						</header>
+
+						<!-------페이지------->
+						<section class="wrapper style5">
+							<div class="inner2">
+				​				  <!--text1-->
+								<header>
+									<h2>1. 지식그래프</h2>
+								</header><br>
+
+								<h3>
+									지식그래프란?
+								</h3>
+
+								<p>
+									구글이 사용하는 지식 베이스(Knowledge Base)를 가리키는 용어로 등장해 <b>현실에서의 개체, 사건, 개념 등의 관계를 나타낸 네트워크</b>를 의미하며, 보통 그래프 데이터베이스에 저장되어 그래프 구조로 시각화 된다. 
+									웹 표준 어휘(예: RDF, schema 등)로 분산된 데이터를 연계함으로써 데이터 사이의 의미적인 관계를 기계가 읽고 이해할 수 있는 형태로 표현할 수 있다. 
+									현재는 온톨로지, 링크드 데이터(Linked Data) 등의 개념과 함께 사용되고 있다. 
+									<br><br>
+									지식그래프는 <b>노드, 간선, 라벨</b>로 구성되어 있다. <b>노드</b>는 개체(entity), <b>간선</b>에는 <b>관계정보</b>(labeled)와 방향성(directed)이 포함되며 s-p-o 구조(Subject - Property - Object)를 가진다. 
+									각 개체는 웹의 고유한 식별자(URI)로 표현되어 속성(property)를 통해 다른 자원과 연결되거나 리터럴(Literal) 형태의 메타데이터를 가질 수 있다. 추가로 is나 a 속성으로 가리키는 개체를 <b>클래스</b>(Class)라 하는데, “숭례문은 국보다.”에서 국보가 클래스에 해당한다. <br><br>
+									“숭례문은 서울에 위치한다.”를 지식그래프로 나타낸다고 가정하자. 
+									핵심은 숭례문과 서울의 관계를 나타내는 것이므로 노드는 ‘숭례문’과 ‘서울’이 된다. 
+									둘은 ‘위치’라는 관계로 연결할 수 있는데, DB마다 위치, 소재지, 장소 등 다양한 유사어를 부여하면 통일성이 감소해 방대한 네트워크를 구현할 수 없다. 
+									이를 해결하기 위해 “일정한 곳에 자리를 차지한 개념”을 ‘위치’라 약속한 사전을 참고하는데, 이것이 앞서 언급한 RDF와 같은 표준 어휘이다. 
+									이후 숭례문이 주어, 서울이 목적어에 해당하므로 숭례문에서 서울을 향하는 간선을 그린 후 표준 어휘 ‘위치’를 속성에 부여하면 지식그래프가 완성된다. 
+								</p>
+
+								<h3>
+									지식그래프 구축목적
+								</h3>
+								<p>
+									국보를 지식그래프로 구현한 목적은 크게 3가지가 있다. 첫째로 <b>정보의 확장</b>이다. 정보를 향한 인간의 요구는 무한해 하나의 정보를 찾는 과정에서 추가적인 정보가 필요할 수 있다. 
+									지식그래프는 관련 데이터를 최대한으로 연결함으로써 연달아 생기는 요구를 직관적으로 해결할 수 있으며, URL이 부여된 노드는 다른 그래프와 연결되어 다양한 정보에 접근할 수 있다는 장점이 있다. 
+									현재도 양질의 국보 데이터를 제공하는 플랫폼이 다수 있지만 이들 간의 연결이 부족해 이용자가 여러 사이트를 접속해야 한다는 한계가 있다. 
+									따라서 지식그래프를 구축함으로써 한 네트워크에 최대한 모든 정보를 담고자 했다.
+									<br><br>
+									두번째로 <b>정보 탐색의 용이함</b>이다. ‘조선시대 국보’와 같이 여러 데이터를 동시에 필요로 하거나 국보와 다른 맥락의 정보를 동시에 탐색하는 등과 같은 경우 기존의 정보검색으로는 한계가 있다. 
+									반면 지식그래프는 인간의 사고방식과 유사한 정보 접근이 가능하다. 조선 노드를 클릭하면 관련 데이터가 한 번에 정리되며 숭례문에서 서울특별시 인구와 같은 정보도 접근할 수 있다. 
+									이런 탐색이 가능해 정보 제공자 입장에서도 재질, 분류기준 등 다양한 카테고리를 세분화해 제공할 수 있어 결과적으로 양질의 데이터베이스를 구축할 수 있다.<br><br>
+									마지막으로<b>데이터 관계성 구현</b>이다. 문화재 데이터는 국보 하나에도 시대, 재질, 왕조 등 상당한 노드가 얽혀 있을 뿐만 아니라 몇 개의 노드를 거치면 거의 모든 데이터가 연관되어 있을 정도로 타 데이터에 비해 개체 간의 관계성이 강하다. 
+									다시 말해 문화재를 제대로 이해하기 위해선 주변 데이터들의 관계 파악이 필수적이라는 것이다. 
+									엑셀과 같은 기존 테이블베이스로도 이러한 관계를 표현할 수 있지만 지식그래프는 데이터의 현위치와 관련 노드를 한 화면에 표현해, 개체 하나하나로의 접근이 아닌 구조화된 네트워크로 접근할 수 있다. 
+									즉 고수준의 문화재 지식 제공에 특화된 것이다.
+								</p>
+								<br>
+
+								<!--text2-->
+								<header>
+								<h2>2. rdf 데이터 구축 과정</h2>
+								</header>
+								<br>
+
+								<h3>모델링</h3>
+								<p>
+									csv 데이터를 그래프 데이터로 변환하기 위해 표준 어휘를 기반으로 한 모델을 만들어주는 작업인 메타데이터 모델링, 속성 매핑을 통해 문화유산 매핑 테이블을 작성하였다. 
+									<br><br>
+									문화유산 속성 매핑 작업에서는 <u>rdfs, schema, dubline core, koad</u>의 어휘를 사용하여 domian, property, range를 결정하였다. 
+									<br><br>
+									<b>domain</b>은 특정 속성(p)를 사용할 때, 주어(s)에 와야 하는 값의 범위로, 문화유산 개체라고 할 수 있다.(예시 : 숭례문)<br>
+									domain으로 schema의 Thing, CreativeWork, VisualArtWork, rdfs의 rdfs: Resource를 사용하였다. (DCMI는 domain을 사용하지 않는다.)
+									<br><br>
+									<b>property</b>는 데이터 사이의 관계를 나타낸다. <br>
+									사용한 각각의 어휘에서 문화재의 속성을 설명하는 가장 적절한 property를 선택하였다. 예시로 문화재의 ‘크기’칼럼은 ‘제품 또는 크리에이티브 작업의 표준화된 크기’를 뜻하는 schema의 size로 property를 정할 수 있다. ch:?은 적절한 property를 찾지 못했을 때, 임의로 부여한 property이다. 
+									<br><br>
+									<b>range</b>는 특성 속성을 사용할 때, 목적어(o)에 와야 하는 값의 범위로 property 속성의 범위에 해당한다. <br>
+									range값은 property가 가지는 속성 유형에 따라 결정된다.
+									<br><br>
+									문화재분류, 시대, 재질의 계층관계(포함관계)를 표현하기 위하여 skos:broader, skos:narrower을 활용하여  데이터를 구축하였다. 
+								</p>
+
+								<p>
+									부여한 속성의 domain, property, range의 종류와 선택 이유는 아래 구글 스프레드 시트로 확인할 수 있다.
+								</p>
+
+								<div class="col-6 col-12-medium">
+									<ul class="actions stacked">
+										<li><a href="https://docs.google.com/spreadsheets/d/163chbo59EGbLdQHzC_P_ka016RlBgfYgzdHlRLhozf0/edit#gid=1181563657" target="_blank" class="button">rdf데이터 맵핑 스키마</a></li>
+									</ul>
+								</div>
+
+								<h3>
+									참조데이터
+								</h3>
+								
+								<p>
+									참조데이터로 주소를 상세히 표현하기 위해 koad(행정구역 온톨로지)의 속성을 사용하여 자원을 참조하였다. 소재시시도, 시군구, 읍면동과 출토지시도, 시군구, 읍면동은 koad의 속성을 사용하여 자원을 참조하였다. 관리자, 소유자가 행정기관인 경우 koor의 자원을 참조하였다. 
+								</p>
+
+								<p>
+									추가적으로, 계층관계를 갖는 컬럼들은 통제어휘로 설정하여 자체 참조 데이터를 구축하였다. 
+									통제어휘로 선정한 컬럼은 '재질'과 '재지분류', '문화재분류' 1~4 컬럼, '시대'와 '시대구분', 적합 속성을 찾지 못한 'ch:' 속성이다. 
+									해당 통제어휘들은 계층 및 포함관계를 정리하여 영문으로 변경하였고, 각 컬럼간의 관계성이 있는 경우 <code>skos</code> 어휘를 활용하여 나타내었다. 
+									<br>
+									<br>
+									사용한 base URI와 통제어휘 체계를 정리한 내용은 아래 시트에서 확인할 수 있다. 
+									<div class="col-6 col-12-medium">
+										<ul class="actions stacked">
+											<li><a href="https://docs.google.com/spreadsheets/d/1BeqKXVlELpH-SbaVz_LDniOkmOaJVOcRYHi4gTkRJsc/edit#gid=930612075" target="_blank" class="button">변환 통제어휘 체계</a></li>
+										</ul>
+									</div>
+								</p>
+
+								<h3>
+									turtle, rdf파일 공유
+								</h3>
+
+								<p>
+									속성 매핑 테이블을 기준으로 openrefine을 사용하여 데이터를 변환하였다. openrefine이란 데이터 전처리, 포맷 변환 등을 위해 사용하는 오픈 소스 어플리케이션으로 데이터 전처리와 변환을 위해 사용한다. 
+									<br><br>
+									openrefine으로 데이터를 변환하는 과정은 다음과 같다. 
+									<br><br>
+									openrefine에 파일을 commas(CSV)로 업로드 한다. facet에서 각 컬럼별 value를 확인하고 각 컬럼을 복사하여 구분자를 기준으로 split 한다. 
+									이후 컬럼별로 property를 지정하고 사용할 어휘 prefix와 class를 추가한다. 
+									이때 활용한 entity들의 base URI는 <code>http://data.datahub.kr/cultural-heritage/id/{id}</code> 이며,
+									참조한 통합어휘들의 세부 URI는 위 '변환 통제어휘 체계' 시트에서 확인할 수 있다. 
+									이후 각 각 컬럼을 선택하여 datatype을 선택하고, 각 컬럼에 맞는 property를 입력한다. 
+									Add property를 하면서 전체 칼럼을 추가하여 변환한 데이터를 데이터를 RDF as RDF/XML, RDF as Turtle 중 하나로 다운받는다.
+									<br><br>
+									그래프 데이터를 저장하고 시각화하여 노드들 간의 관계를 시각적으로 확인할 수 있는 Visualization 기능을 제공하는 툴인 graph DB를 활용하여 openrefine으로 변환한 데이터를 시각화 하였다.
+									<br><br>
+									Visual graph를 통해 dfs:label 또는 URI 기준으로 검색하여 서로 간의 연결관계를 확인할 수 있다. 
+									<br><br>
+									이후 rdf데이터로 표현된 데이터를 위한 질의 언어인 SPAQL쿼리를 사용하여 rdf모델을 점검한다. graphDB에서 변환이 안 된 부분, 용어의 통일이 안 된 부분, 엔티티 간 연결 상태를 확인하기 위한 작업으로 질의 결과를 바탕으로 오류를 수정하여 데이터 모델을 보완하였다.  
+								</p>
+								<br>
+							    
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+						<li><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:team.cayley@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+					</ul>
+					<p>
+						<br>Facilitators: 김학래, 김현지
+						<br>Members: 권예빈, 김가인, 김영규, 김원영, 김해리, 손범준, 신주영,
+						<br>설지은, 안지은, 이유정, 이정윤, 정예은, 조현서, 최은혜, 허인
+					</p>
+					<ul class="copyright">
+						<li>&copy;2022. Team.Cayley All Rights Reserved</li>
+						<br>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<br>
+						<li>Editors: <a href="https://github.com/kim-0q">Youngkyu Kim</a>, <a href="https://github.com/JeongYunLee">JeongYun Lee</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+			<!--Up to top button-->
+			<a href="#" class="back-to-top d-flex align-items-center justify-content-center active">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+				</svg>
+			</a>
+
+			<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

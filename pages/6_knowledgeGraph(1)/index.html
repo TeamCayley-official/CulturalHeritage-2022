@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+ <html> 
+  <head>
+    <style> 
+      body { margin: 0; } 
+      .scene-tooltip{
+        color: black !important;
+        background-color: #f5f5f5;
+        font-weight: bold;
+        border-radius: 10px;
+        padding-top: 3px;
+        opacity: 0.5;
+      }
+    </style>
+
+    <script src="https://unpkg.com/three@0.143.0/build/three.js"></script>
+    <script src="https://unpkg.com/three-spritetext@1.6.5/dist/three-spritetext.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph@1.70.10/dist/3d-force-graph.min.js"></script>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  </head>
+
+  <body>
+    <div id="3d-graph"></div>
+
+    <script>
+   
+      const Graph = ForceGraph3D()
+        (document.getElementById('3d-graph'))
+          .jsonUrl('cultural_heritage_json_0918_noMatching.json')
+          .nodeLabel('hover')
+          .nodeAutoColorBy('group')
+
+          .linkThreeObjectExtend(true)
+          .linkThreeObject((links) => {
+            // extend link with text sprite
+            const sprite = new SpriteText(`${links.description}`); //const 변수명 변경
+            sprite.color = 'lightgrey';
+            sprite.textHeight = 5.5; //간선 텍스트 크기 조절
+            return sprite;
+          })
+          .linkPositionUpdate((sprite, { start, end }) => {
+            const middlePos = Object.assign(
+            ...['x', 'y', 'z'].map((c) => ({
+              [c]: start[c] + (end[c] - start[c]) / 2, // calc middle point
+            }))
+          );
+            // Position sprite
+            Object.assign(sprite.position, middlePos);
+          })
+
+          //img 넣어주기
+          .nodeThreeObject((node) => {
+            if (node.icon) {
+              var map = new THREE.TextureLoader().load( node.icon );
+              map.minFilter = THREE.LinearFilter;
+              var material = new THREE.SpriteMaterial( { map: map } );
+              var sprite =  new THREE.Sprite( material );
+              sprite.scale.set(32,32,1);
+              return sprite;
+            }
+            else {
+              return false
+            }
+          });
+
+      // Spread nodes a little wider
+      Graph.d3Force('charge').strength(-500);
+
+    </script>
+  </body>
+</html>

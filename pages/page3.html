@@ -1,0 +1,589 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>3. 구축 데이터 현황</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+
+		<!-- Favicon -->
+		<link href="./../images/teamCayley_logo_trans.png" rel="icon">
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<h1>문화재 시냅스: 국보 데이터 연결하기</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="../index.html">Home</a></li>
+										<li><a href="page0.html" target="_blank">About Team.Cayley</a></li>
+										<li><a href="page1.html" target="_blank">프로젝트 목적</a></li>
+										<li><a href="page2.html" target="_blank">데이터 구축 과정</a></li>
+										<li><a href="page3.html" target="_blank">구축 데이터 현황</a></li>
+										<li><a href="page4.html" target="_blank">텍스트 데이터 활용예시</a></li>
+										<li><a href="page5.html" target="_blank">국보 지식그래프</a></li>
+										<li><a href="page6.html" target="_blank">지식그래프 활용예시</a></li>
+									</ul>
+
+									<div style="position : absolute; bottom:0.5%; left:10%;letter-spacing:0.5em;color:rgb(163, 163, 163);font-size:larger;">
+										<ul class="icons" style="border-top: none!important;">
+											<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+											<li style="border-top: none;"><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+											<li style="border-top: none;"><a href="mailto:team.cayley.official@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+											<li style="font-size: 0.5em;letter-spacing: 0.1em;">&copy;2022. Team.Cayley All Rights Reserved</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Main -->
+					<article id="main">
+						<!-------제목------->
+						<header>
+							<h1>3. 구축 데이터 현황</h1>
+							<p>
+								team. Cayley가 구축한 데이터가 기존의 문화재청 데이터와는 어떤 차이를 보이는지 비교하고,<br>
+								team. Cayley의 데이터로 확인한 국내 국보의 현황을 살펴본다.
+							</p>
+						</header>
+
+						<!-------페이지------->
+						<section class="wrapper style5">
+							<div class="inner2">
+								<section>
+									<header>
+										<h2>목차<a name='home' style="color:#fff;"></a></h2>
+										<a href='#num1'>1. 기존 데이터셋과의 비교 </a>
+										<br>
+										<a href='#num2'>2. Team Cayley 데이터셋으로 살펴본 국내 국보 현황</a>
+										<br>
+										<a href='#num3'>3. 지도로 나타낸 국보</a>
+										<br>
+										<hr>
+										<br>
+									</header>
+
+
+									<!-- Main -->
+									<header>
+										<h2 name="num1">1. 기존 데이터셋과의 비교 <a href='#home' style="color:lightgrey;font-size:smaller;">▴</a></h2>
+										<p>케일리는 기존 문화재청API를 참고하여, 데이터를 수정, 보완, 추가하여 케일리만의 데이터 셋을 구축했다. 케일리가 구축한 데이터가 기존 데이터셋과 어떤 차이가 있는지 알아본다.</p>
+									</header>
+
+									<h3>컬럼 비교</h3>
+
+									<p>
+										기존 문화재청 데이터의 컬럼은 다음과 같다.
+									</p>
+
+									<div style='background-color: lightgrey;padding:0.5em; border-radius: 10px;font-size: smaller;overflow: auto;height: 200px;'>
+										<ul>
+											<li>문화재 종목</li>
+											<li>지정호수</li>
+											<li>문화재명(국문)</li>
+											<li>문화재명(한자)</li>
+											<li>문화재 분류</li>
+											<li>문화재 분류2</li>
+											<li>문화재 분류3</li>
+											<li>문화재 분류4</li>
+											<li>수량</li>
+											<li>지정(등록일)</li>
+											<li>시도명</li>
+											<li>시군구명</li>
+											<li>소재지 상세</li>
+											<li>시대</li>
+											<li>소유자</li>
+											<li>관리자</li>
+											<li>지정해제여부</li>
+											<li>ccbacndt</li>
+											<li>메인노출이미지URL</li>
+											<li>내용</li>
+										</ul>
+									</div>
+									<p>이상 20가지 이다.</p>
+
+									<p>케일리 데이터 셋의 칼럼은 다음과 같다.</p>
+									<div style='background-color: lightgrey;padding:0.5em; border-radius: 10px;font-size: smaller;overflow: auto;height: 200px;'>
+										<ul>
+											<li>지정호수</li>
+											<li>문화재명(국문)</li>
+											<li>문화재명(한문)</li>
+											<li>문화재명(영문)</li>
+											<li>다른 명칭</li>
+											<li>문화재 분류1</li>
+											<li>문화재 분류2</li>
+											<li>문화재 분류3</li>
+											<li>문화재 분류4</li>
+											<li>수량</li>
+											<li>재질</li>
+											<li>재질 상세</li>
+											<li>크기</li>
+											<li>지정(등록일)</li>
+											<li>소유자</li>
+											<li>관리자</li>
+											<li>소재지 시도명</li>
+											<li>소재지 시군구명</li>
+											<li>소재지 상세(지번 주소)</li>
+											<li>소재지 상세(도로명 주소)</li>
+											<li>소재지_위도</li>
+											<li>소재지_경도</li>
+											<li>출토지 시도명</li>
+											<li>출토지 시군구명</li>
+											<li>출토지 상세</li>
+											<li>시대</li>
+											<li>전기/중기/후기</li>
+											<li>시대 상세</li>
+											<li>세기</li>
+											<li>연도</li>
+											<li>추정</li>
+											<li>수리/붕괴 여부</li>
+											<li>설명 텍스트</li>
+										</ul>
+									</div>
+
+									<p>케일리가 구축한 데이터 셋은 13개 더 많은 33개로, 다른명칭, 재질, 재질상세, 크기, 소재지상세 - (지번주소, 위도, 경도), 출토지시도명, 출토지시군구명, 출토지상세, 전기/중기/후기, 시대상세, 세기, 연도, 추정, 수리/붕괴 여부가 새로 추가되었다.</p>
+									<p>내용 추가: 재질/재질상세, 크기, 전기/중기/후기, 시대상세, 세기, 연도, 추정 데이터는 문화재청 웹사이트와 한국민족문화대백과사전 등 다른 정보원을 찾아 추가했다. 시대를 분류하는 컬럼들은 여러 정보원을 참고하여 팀케일리만의 새로운 기준을 만들었다.</p>
+									<p>* 구체화: 기존 문화재의 위치를 알려주는 시도명, 시군구명, 소재지 상세 컬럼을 소재지와 춭토지로 나누어 구체화했다.</p>
+									<br>
+
+									<!--설명글 길이-->
+									<h3>설명글 길이 비교</h3>
+
+									<p>
+										케일리는 문화재 설명글의 양적, 질적 측면을 높이고 설명글의 양식을 통일했다.
+										문화재청 데이터의 설명글 전체 글자수는 228,701자, 평균 글자수는 648자 이다.
+										케일리 데이터 셋의 설명글 전체 글자수는 666,445자, 평균 글자수는 1888자로, 약 3배 높은 수치이다.
+									</p>
+
+									<!--시대 비교-->
+									<h3>시대 비교</h3>
+
+									<p>문화재청 데이터에서는 각 문화재의 시대 정보가 다양한 양식이 혼재되어 표현된다.</p>
+									<div class="col-12"><img src="../images/data_compare/era_compare_heriatge.png" alt="" /></div>
+									<p style="font-size:85%; color:teal">  ex) 조선 태조 7년(1398), 조선시대 초기 15세기, 1719∼1720년(숙종 45∼숙종 46), 조선 숙종 등.</p>
+									<p>하지만 팀 케일리에서는 시대 데이터를 각각 '시대', '전기/중기/후기', '시대상세', '세기', '연도', '추정'의 6개 컬럼으로 구분하여 구체적인 정보를 담았으며, 더욱 세밀한 접근 및 활용이 가능하도록 설계했다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/era_compare_cayley.png" alt="" /></span></div>
+									<p style="font-size:85%; color:teal">  ex) 시대:삼국시대 / 후기 / 시대상세:진흥왕 29 / 세기:6 / 연도:569 / 추정:△</p>
+									<br>
+
+									<!--위치 비교-->
+									<h3>위치 비교</h3>
+
+									<p>문화재청 데이터에서는 문화재의 소재지 위치 정보를 지번주소와 도로명주소를 한 컬럼에 병기하거나, 둘 중 하나만 표기하였다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/geo_compare_heritage.png" alt="" /></span></div>
+									<p>팀 케일리에서는 소재지 상세 정보를 도로명 주소와 지번주소로 나누어 제공하여, 위치 정보의 정확한 접근 및 활용이 가능하도록 했다. 더불어 출토된 유물의 경우, 출토지의 상세 위치 정보까지 제공한다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/geo_compare_cayley.png" alt="" /></span></div>
+									<br>
+
+									<!--소재지 오류값-->
+									<h3>소재지 업데이트</h3>
+									<p>문화재청 데이터에는 바뀐 주소로 업데이트되지 않은 오류가 있었다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/location_update.png" alt="" /></span></div>
+									<p>케일리가 구축한 데이터 셋에서는 도로명주소, 지번주소 두 가지로 업데이트했다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/specific_loc.png" alt="" /></span></div>
+									<p>더 구체적인 소재지를 찾은 경우도 있다. 기존 문화재청 데이터에서 소재지의 시도까지만 기입되어 있는 경우 상세주소를 찾아 추가했다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/road_name.png" alt="" /></span></div>
+									<p>기존에는 소재지 상세 컬럼에 지번 또는 도로명 주소가 구분없이, 혹은 한꺼번에 적혀있어 기계가 읽기 어려웠다. 케일리는 도로명주소와 지번주소 컬럼으로 구분하여 추가했다</p>
+									<br>
+
+									<!--분류체계-->
+									<header>
+										<h3>분류체계 개선</h3>
+									</header>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/heritage_classify.png" alt="" /></span></div>
+									<p>
+										294, 295번 행을 보면
+										가장 오른쪽 케일리 데이터 셋에는 비어있는 것이 문화재청 데이터에는 문화재분류3과 똑같은 내용이 들어가 있는 것을 확인할 수 있다.
+										문화재청 데이터의 경우 문화재분류4가 비어있을 경우 다운로드시 자동적으로 그 앞의 문화재분류3의 내용을 가져와 빈 칸을 채우도록 설정되어 있다.
+										하지만 이 경우 문화재분류체계에 맞지 않으며 혼란을 가져온다.
+										그래서 케일리는 이 경우 문화재분류4 컬럼을 비워두는 것으로 해결했다.
+									</p>
+									<br>
+
+									<!--케일리 추가 사항-->
+									<h3>케일리 데이터만의 추가 사항</h3>
+									<p>그 밖에도, 팀 케일리는 문화재의 다른 명칭, 재질, 크기, 수리/붕괴 여부 등을 직접 조사해 제공한다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/other_name.png" alt="" /></span></div>
+									<p>국보로 정식 등록된 명칭 이외에도, 한문, 영문과 동시에 많은 사람들에게 친숙한 다른 명칭들도 제공한다.</p>
+									<div class="col-12"><img src="../images/data_compare/material_specific.png" alt="" /></div>
+									<p>해당 문화재를 구성하고있는 주요 재질 및, 재질 상세를 함께 제공한다.</p>
+									<div class="col-12"><span class="image fit"><img src="../images/data_compare/size_specific.png" alt="" /></span></div>
+									<p>문화재의 상세한 크기를 부위별로 구분해 제공한다.</p>
+									<div class="col-12"><img src="../images/data_compare/repair.png" alt="" /></div>
+									<p>해당 문화재의 수리 및 붕괴 여부를 함께 기록해 제공한다.</p>
+
+									<br>
+									<br>
+
+
+
+									<header>
+										<h2 name="num2">2. Team Cayley 데이터셋으로 살펴본 국내 국보 현황 <a href='#home' style="color:lightgrey;font-size:smaller;">▴</a></h2>
+										<p>문화재분류, 재질, 소재지, 시대 및 시대 상세 중심으로 알아본다.</p>
+									</header>
+
+
+									<h3>1. 문화재분류</h3>
+									<p>문화재분류를 살펴보면, 다음과 같다.</p>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/classify1.png" alt="" /></span></div>
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/classify2.png" alt="" /></span></div>
+										</div>
+									</div>
+
+									<ol>
+										<li>유물 - 생활공예 (83)</li>
+										<li>기록유산 - 전적류, 유적건조물 - 종교신앙 (62)</li>
+										<li>유물 - 불교조각 (47)</li>
+									</ol>
+									<p>
+										향로, 연적, 도자기, 각종 장신구와 같은 <b>생활공예 유물</b>이 총 83점으로 그 수가 가장 많았다.
+										탑, 불전 등이 해당되는 <b>종교 신앙 관련 유적 건조물</b>과 <b>기록 유산 중 전적류</b>가 그다음으로 많이 나타났다.
+										<b>유물 중 불교조각</b>은 세 번째로 많았으며 다양한 불상이 여기에 해당된다.
+									</p>
+
+									<br>
+
+									<h3>2. 재질 및 재질 상세</h3>
+
+									<p>
+										재질 및 재질 상세를 살펴보면, 다음과 같다.
+									</p>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/material1.png" alt="" /></span></div>
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/material2.png" alt="" /></span></div>
+										</div>
+									</div>
+
+									<ol>
+										<li>돌 - 화강암 (50)</li>
+										<li>종이 - 기타 (38)</li>
+										<li>금속 - 금동 (28)</li>
+									</ol>
+
+									<p>
+										<b>화강암</b>으로 만들어진 문화재는 총 50점이고, 특히 종교 신앙 관련 유적 건조물과 비석 등에 많이 쓰인 것으로 확인됐다.
+										앞서 언급한 '문화재분류'에서 기록 유산 중 전적류에 해당하는 문화재가 두 번째로 많다는 점을 고려해 볼 때, <b>종이 중 기타</b>가 두 번째로 많이 쓰인 재질이라는 점도 충분히 이해할 수 있다.
+										또한 <b>금동</b>으로 만들어진 문화재는 총 28점으로, 데이터를 더 살펴보면서 그중 불교조각에 해당되는 불상이 대부분이었음을 알 수 있었다.
+									</p>
+									<br>
+
+									<h3>3. 소재지</h3>
+									<p>소재지를 살펴보면, 다음과 같다.</p>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/location1.png" alt="" /></span></div>
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/location2.png" alt="" /></span></div>
+										</div>
+									</div>
+
+									<ol>
+										<li>서울특별시 - 용산구 (94)</li>
+										<li>경상북도 - 경주시 (31)</li>
+										<li>서울특별시 - 관악구 (18)</li>
+									</ol>
+
+									<p>
+										소재지 중에서 <b>서울특별시 용산구</b>가 1위인 것은 국립중앙박물관과 삼성미술관 리움이 용산구에 위치하기 때문이라고 본다.
+										다음으로 <b>경상북도 경주시</b>가 2위인 것은 신라, 통일신라의 수도가 계속 경주였다는 점이 큰 영향을 미쳤다고 생각한다.
+										<b>서울특별시 관악구</b>는 3위를 차지하였는데, 이는 호림박물관, 국립중앙도서관과 서울대학교 규장각 한국학연구원이 관악구에 위치하기 때문이라고 본다.
+									</p>
+
+									<br>
+
+									<!--text4-->
+									<header>
+										<h3>4. 시대 및 시대 상세</h3>
+									</header>
+									<p>시대 및 시대 상세를 살펴보면, 다음과 같다.</p>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/period1.png" alt="" /></span></div>
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/period2.png" alt="" /></span></div>
+										</div>
+									</div>
+									<ol>
+										<li>고려시대 - 중기 (59)</li>
+										<li>삼국시대 - 후기 (52)</li>
+										<li>조선시대 - 중기 (33)</li>
+									</ol>
+
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/period_king1.png" alt="" /></span></div>
+											<div class="col-6"><span class="image fit"><img src="../images/page3_data_anay/period_king2.png" alt="" /></span></div>
+										</div>
+									</div>
+
+									<ol>
+										<li>현종 (14)</li>
+										<li>태조 (8)</li>
+										<li>경덕왕 (8)</li>
+									</ol>
+									<p>
+										<b>고려시대 중기</b> 때의 문화재가 59점으로 가장 많았는데, 시대 상세와 함께 보면 <b>현종</b>이 고려시대 중기 때의 왕이라는 점도 영향을 미쳤다고 볼 수 있다.
+										다음으로 <b>삼국시대 후기</b>와 <b>조선시대 중기</b> 순으로 그 당시에 제작된 문화재 수가 많았다.
+										시대 상세를 보면, <b>태조</b>는 조선시대 초기 때의 왕이며 <b>경덕왕</b>은 남북국시대 중기 때의 왕으로, 태조와 경덕왕 때 특별히 많은 문화재가 제작되었다는 사실도 알 수 있다.
+									</p>
+
+									<br>
+
+
+									<header>
+										<h2>3. 지도로 나타낸 국보 <a href='#home' style="color:lightgrey;font-size:smaller;">▴</a></h2>
+										<p>문화재 데이터의 주소(도로명, 지번 주소)를 바탕으로 문화재 소재정보를 지도 시각화로 표현하였다.</p>
+									</header>
+
+									<h3>1. 문화재 분포 현황  </h3>
+									<p>
+										데이터셋의 소재지명, 소재지명 주소(지번)을 이용하여 국보 소재 기관의 분포와 지역별
+										소재 국보의 개수를 나타낸 시각화이다. 전반적으로 서울, 충남,경북 지역에 다수 분포하고
+										있음을 확인할 수 있다.
+									</p>
+
+
+									<b>1-1. 전체 분포 현황 확인하기. </b>
+									<br>
+									<br>
+									<li>
+										<b>소장처 분포 확인하기</b>
+										<br>
+										<p>
+											현재 국보를 소장하고 있는 전국의 기관을 표시한 지도 시각화이다. 지도 위 핀에 커서를 올리면
+											기관명과 소장 국보의 개수, 그리고 소장 중인 국보의 리스트가 나타난다.
+										</p>
+										<embed height = "500px" width = "100%" src = "../images/html_map/institution_loc.html" >
+									</li>
+
+									<br>
+
+									<li>
+										<b>소재지별 소재 현황 확인</b>
+										<br>
+										<p> 각 소재지에서 소장 중인 수량은 어느정도 되는지 marker의 색상으로 파악할 수 있도록 한 지도이다.
+											소장 유물이 10개가 넘어가는 기관은 핀으로 나타나도록 하였다. 서울을 제외한 지역들 중 한 소장처가
+											10개 이상의 유물을 소장한 경우는 2개로 국립공주박물관과 경주시였다.</p>
+										<embed height='500px' width='100%' src='../images/html_map/now_location.html' >
+									</li>
+
+									<br>
+									<br>
+
+
+									<b>1-2. 시도, 시군구별 문화재 현황</b>
+									<br>
+									<br>
+
+									<li>
+										<b>시도별 분포 현황</b>
+										<br>
+										<p>
+											소장처의 시/도를 기준으로 소장중인 국보의 개수를 집계한 후,
+											지역별로 색상을 통해 합산 개수를 나타낸 지도 시각화이다. 서울의 경우를 제외하고,
+											과거 삼국 시대 때 도읍이 위치한 적이 있었던 경북(신라 - 경주), 충남(백제 - 공주)에서
+											비교적 많은 문화재가 분포하고 있음을 확인할 수 있다.
+										</p>
+										<embed height='500px' width='100%' src = '../images/html_map/sido_colorplethe.html'>
+									</li>
+
+									<br>
+									<br>
+
+									<li>
+										<b>시군구별 분포 현황</b>
+										<br>
+										<p>
+											소장처의 시/군/구를 기준으로 소장중인 국보의 개수를 집계한 후,
+											색상으로 합산 개수를 나타낸 지도 시각화이다. 국내 국보를 가장 많이 소장중인
+											국립중앙박물관과 리움 미술관이 위치한 용산구가 압도적으로 많은 개수의 문화재가
+											분포하고 있다.
+										</p>
+										<embed height='500px' width='100%' src='../images/html_map/sigungu_colorplethe.html'>
+									</li>
+
+									<br>
+									<br>
+
+									<header>
+										<h3>2. 재질/유형별 분포 현황</h3>
+									</header>
+
+									<b>2-1. 유형별 분포 현황 </b>
+									<br>
+									<p>
+										문화재청 API를 통해 얻은 데이터에서 제시된 문화재 분류를 활용하였다.
+										분류 항목별로 분포한 문화재들을 확인할 수 있도록 한 시각화로,
+										Folium 라이브러리의 FeatureGroup 메소드를 활용하여 나타냈다.
+										다만, 세부 분류로 갈 수록 미분류 되어 있는 문화재가 있어서,
+										세부 분류 3까지 모든 문화재가 나타내지 못했다는 한계가 있다.
+									</p>
+
+									<li>
+										<b>1차 분류 - 기록/유물/유적건조</b>
+										<br>
+										<p>
+											'기록 / 유물 / 유적건조' 의 세 항목에 따라 문화재의 분포 현황을 지도에서 확인할 수 있는 시각화이다.
+											기록 유산의 경우 수도권 지역에서도 많이 분포하고 있음을 확인할 수 있으며, 유적건보물의 경우 대체로
+											전국에 고루 분포하나 호남과 영동 지방에 비교적 많이 분포하고 있음을 파악할 수 있다.
+										</p>
+										<embed height='500px' width='100%' src='../images/html_map/classification_1.html'>
+									</li>
+
+									<br>
+									<br>
+
+									<li>
+										<b>2차 분류 - 용도와 목적에 따른 세분</b>
+										<br>
+										<p>
+											용도와 목적에 따라 1차 분류에서 세분된 항목들의 분포를 확인할 수 있는 시각화이다.
+											문서류의 소장처가 수도권에 주로 분포하고 있다는 점이 특징적이며, '불교공예',
+											'종교신앙','불교조각'에 해당하는 국보들의 경우, 전국에 고르게 분포하고 있는 모습을 보인다.
+											이는 해당 항목에 속하는 국보의 소재가 대체로 사찰이기 때문에 나타나는 현상으로 볼 수 있다.
+										</p>
+										<embed height='500px' width='100%' src='../images/html_map/classification_specify_1.html'>
+									</li>
+
+									<br>
+									<br>
+
+									<li>
+										<b>3차 분류 - 구체적 용도에 따른 세분</b>
+										<br>
+										<p>3차 분류는 2차 분류에서 세분되어 보다 구체적인 사용 용도를 나타내는 항목이다.</p>
+										<embed height='500px' width='100%' src='../images/html_map/classification_specify_2.html'>
+									</li>
+
+									<br>
+									<br>
+
+									<b>2-2. 1차 분류 유형별 marker cluster</b>
+									<p>
+										marker cluster를 통해 한 지역 근방에 유물이 얼마나 있는지를 한번에 확인할 수 있다.
+										이를 통해 특정 지역 근방에 문화재 소재지가 어느정도 분포하고 있으며,
+										어느정도 근접 거리에서 군집을 이루고 있는지 파악할 수 있다.
+									</p>
+
+									<table>
+										<tr>
+											<td>
+											<b>[기록유산]</b>
+											<embed height='500px' width='230px' src='../images/html_map/marker_cluster_documents.html'>
+											</td>
+
+											<td>
+											<b>[유물]</b>
+											<embed height='500px' width='230px' src='../images/html_map/marker_cluster_stuff.html'>
+											</td>
+
+											<td>
+											<b>[유적건조물]</b>
+											<embed height='500px' width='230px' src='../images/html_map/marker_cluster_structure.html'>
+											</td>
+										</tr>
+									</table>
+
+									<br>
+
+									<b>2-3. 재질별 분포 현황 </b>
+									<p>
+										문화재의 재질의 경우, 제작지에서 많이 나오는 자원을 활용하여 제작된 경우가 많다.
+										지도상에 재질별 문화재 분포현황을 볼 수 있도록 시각화 하여, 지역별로 어떠한 경향을 보이는지
+										대략적으로 확인할 수 있도록 하였다
+									</p>
+
+									<li>
+										<b>재질 분류 1</b>
+										<p>
+											종이 재질의 경우, 대다수가 수도권에 분포하고 있다. 앞서 살펴 본 문서류의 분포와 거의 동일한
+											양상을 보인다고 할 수 있다. 섬유 재질 문화재도 이와 비슷한 분포를 보인다.
+											나무가 재질인 문화재는 전국적으로 고르게 분포하고 있으며, 이는 돌 재질의 문화재도 마찬가지이다.
+											다만, 돌 재질의 경우 특히 영남권에 더 많이 분포하고 있는 모습을 보인다.
+										</p>
+										<embed height='500px' width='100%' src='../images/html_map/material_1.html'>
+									</li>
+
+									<br>
+									<br>
+
+									<li>
+										<b>재질 분류 2</b>
+										<p>
+											재질 분류 1을 구체적으로 세분한 분류이다. 금이 재질인 문화재는 과저 존재하였던 국가들의 수도
+											혹은 그 근방에 위치하고 있다는 점이 특징적이다.
+										</p>
+										<embed height='500px' width='100%' src='../images/html_map/material_2.html'>
+									</li>
+
+									<br>
+									<br>
+
+									<h3>3. 이미지 팝업</h3>
+									<p>
+										지도에 문화재 30개씩 묶어서 위치와 이미지가 팝업될 수 있게 하였다. 핀 아이콘을 클릭하면
+										해당 문화재의 이미지가 뜬다. 전체 문화재가 한번에 뜨게 하려 시도하였으나, 실행 시간이 초과되는
+										오류가 발생하여 불가피하게 30개씩만 뜨도록 하였다. 본 웹 슬라이드에서는 데이터 활용 예시를 보여주는
+										것이기 때문에 1호부터 30호까지의 시각화만 공개하나, <a href='https://colab.research.google.com/drive/1_IBtaatBrojrNfQFvitenwcuNhNierc2?usp=sharing' target='_blank' style='background-color: #DBEAE9;'>colab 파일</a>에 들어가면 모든 국보의 사진을 지도상에서
+										확인할 수 있다.
+									</p>
+
+									<embed height='500px' width='100%' src = '../images/html_map/image_popp.html'>
+
+								</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+						<li><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:team.cayley@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+					</ul>
+					<p>
+						<br>Facilitators: 김학래, 김현지
+						<br>Members: 권예빈, 김가인, 김영규, 김원영, 김해리, 손범준, 신주영,
+						<br>설지은, 안지은, 이유정, 이정윤, 정예은, 조현서, 최은혜, 허인
+					</p>
+					<ul class="copyright">
+						<li>&copy;2022. Team.Cayley All Rights Reserved</li>
+						<br>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<br>
+						<li>Editors: <a href="https://github.com/kim-0q">Youngkyu Kim</a>, <a href="https://github.com/JeongYunLee">JeongYun Lee</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6ba3198f6c6c9dca27cc7e5f190c1cfa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6ba3198f6c6c9dca27cc7e5f190c1cfa" ></div>
+        
+</body>
+<script>    
+    
+            var map_6ba3198f6c6c9dca27cc7e5f190c1cfa = L.map(
+                "map_6ba3198f6c6c9dca27cc7e5f190c1cfa",
+                {
+                    center: [36.34, 127.77],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_99a9b6151bf43607b04e6817c7524653 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6ba3198f6c6c9dca27cc7e5f190c1cfa);
+        
+    
+            var marker_cluster_87336ec879498976d2ea288cb8b5f9d4 = L.markerClusterGroup(
+                {}
+            );
+            map_6ba3198f6c6c9dca27cc7e5f190c1cfa.addLayer(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var marker_4dadd635bd4c2abaddbd03998322c360 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_ce491c67ba0930e3392b2362ebe3737f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4dadd635bd4c2abaddbd03998322c360.setIcon(icon_ce491c67ba0930e3392b2362ebe3737f);
+        
+    
+        var popup_827818cfdcc8071d9b81a1a8fd2d75fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abcf7ac4c59f0febfe1ac435c1e58074 = $(`<div id="html_abcf7ac4c59f0febfe1ac435c1e58074" style="width: 100.0%; height: 100.0%;">서울 북한산 신라 진흥왕 순수비</div>`)[0];
+            popup_827818cfdcc8071d9b81a1a8fd2d75fc.setContent(html_abcf7ac4c59f0febfe1ac435c1e58074);
+        
+
+        marker_4dadd635bd4c2abaddbd03998322c360.bindPopup(popup_827818cfdcc8071d9b81a1a8fd2d75fc)
+        ;
+
+        
+    
+    
+            var marker_6ca94e4209346e890dba8ef05f3b3b3e = L.marker(
+                [36.94319, 127.1346],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_57ca0b91d8e94b08ec4c73f8b201c9c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ca94e4209346e890dba8ef05f3b3b3e.setIcon(icon_57ca0b91d8e94b08ec4c73f8b201c9c2);
+        
+    
+        var popup_6a4fae63dabd1e8a558be72963c54bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_066f9e63ec6f50d2f901f830438d30d6 = $(`<div id="html_066f9e63ec6f50d2f901f830438d30d6" style="width: 100.0%; height: 100.0%;">천안 봉선홍경사 갈기비</div>`)[0];
+            popup_6a4fae63dabd1e8a558be72963c54bb0.setContent(html_066f9e63ec6f50d2f901f830438d30d6);
+        
+
+        marker_6ca94e4209346e890dba8ef05f3b3b3e.bindPopup(popup_6a4fae63dabd1e8a558be72963c54bb0)
+        ;
+
+        
+    
+    
+            var marker_dcbc1c25b7ed4c690983815db4170ee5 = L.marker(
+                [36.34477, 126.6554],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_92ed07eecc18b52be491ffa73fa0464d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dcbc1c25b7ed4c690983815db4170ee5.setIcon(icon_92ed07eecc18b52be491ffa73fa0464d);
+        
+    
+        var popup_c1d9b018beafb15cfd8fcdbb197ea42c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c1359f31578750dbb2fb59e807ad5db = $(`<div id="html_2c1359f31578750dbb2fb59e807ad5db" style="width: 100.0%; height: 100.0%;">보령 성주사지 낭혜화상탑비</div>`)[0];
+            popup_c1d9b018beafb15cfd8fcdbb197ea42c.setContent(html_2c1359f31578750dbb2fb59e807ad5db);
+        
+
+        marker_dcbc1c25b7ed4c690983815db4170ee5.bindPopup(popup_c1d9b018beafb15cfd8fcdbb197ea42c)
+        ;
+
+        
+    
+    
+            var marker_328368d4cb65c459ed3d1d33073dccc1 = L.marker(
+                [35.82504, 129.1883],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_5b57186493a91244ce0e319263c9958c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_328368d4cb65c459ed3d1d33073dccc1.setIcon(icon_5b57186493a91244ce0e319263c9958c);
+        
+    
+        var popup_a59b37c202db58b1e3035f1e2760aa98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8edb4bb689532a64b7528ebfa6389ea9 = $(`<div id="html_8edb4bb689532a64b7528ebfa6389ea9" style="width: 100.0%; height: 100.0%;">경주 태종무열왕릉비</div>`)[0];
+            popup_a59b37c202db58b1e3035f1e2760aa98.setContent(html_8edb4bb689532a64b7528ebfa6389ea9);
+        
+
+        marker_328368d4cb65c459ed3d1d33073dccc1.bindPopup(popup_a59b37c202db58b1e3035f1e2760aa98)
+        ;
+
+        
+    
+    
+            var marker_dfe5154a65cf1c7be88e464f9d9d49cd = L.marker(
+                [35.56662, 128.1658],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_44f12f08fa52110194c401c67716587b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dfe5154a65cf1c7be88e464f9d9d49cd.setIcon(icon_44f12f08fa52110194c401c67716587b);
+        
+    
+        var popup_2d825f0e1a2f2643bd8b8f45a3d7e032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86c3566c53273857ac7de581eeed8580 = $(`<div id="html_86c3566c53273857ac7de581eeed8580" style="width: 100.0%; height: 100.0%;">합천 해인사 대장경판</div>`)[0];
+            popup_2d825f0e1a2f2643bd8b8f45a3d7e032.setContent(html_86c3566c53273857ac7de581eeed8580);
+        
+
+        marker_dfe5154a65cf1c7be88e464f9d9d49cd.bindPopup(popup_2d825f0e1a2f2643bd8b8f45a3d7e032)
+        ;
+
+        
+    
+    
+            var marker_70d49beec38dd579043a6829ec1c03b6 = L.marker(
+                [35.54086, 128.5025],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_9fe7203e9c5e30a26727efd1401be173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_70d49beec38dd579043a6829ec1c03b6.setIcon(icon_9fe7203e9c5e30a26727efd1401be173);
+        
+    
+        var popup_bd7b7b72a0135a0752178b0e1de1403a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2ecb9de781101cc691ff2a4e0b69e50 = $(`<div id="html_b2ecb9de781101cc691ff2a4e0b69e50" style="width: 100.0%; height: 100.0%;">창녕 신라 진흥왕 척경비</div>`)[0];
+            popup_bd7b7b72a0135a0752178b0e1de1403a.setContent(html_b2ecb9de781101cc691ff2a4e0b69e50);
+        
+
+        marker_70d49beec38dd579043a6829ec1c03b6.bindPopup(popup_bd7b7b72a0135a0752178b0e1de1403a)
+        ;
+
+        
+    
+    
+            var marker_c85f30c304495210d2029f4dee5376e7 = L.marker(
+                [35.00225, 127.2758],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_8d70b36928fe7b2941e29394bab28fa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c85f30c304495210d2029f4dee5376e7.setIcon(icon_8d70b36928fe7b2941e29394bab28fa4);
+        
+    
+        var popup_e210b12065bb0d9ea34a2964b3f03f2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_031ac6c92eec708a98e1aa2a95d42ee5 = $(`<div id="html_031ac6c92eec708a98e1aa2a95d42ee5" style="width: 100.0%; height: 100.0%;">혜심 고신제서</div>`)[0];
+            popup_e210b12065bb0d9ea34a2964b3f03f2b.setContent(html_031ac6c92eec708a98e1aa2a95d42ee5);
+        
+
+        marker_c85f30c304495210d2029f4dee5376e7.bindPopup(popup_e210b12065bb0d9ea34a2964b3f03f2b)
+        ;
+
+        
+    
+    
+            var marker_4393725c055768b73f8292ba6e309700 = L.marker(
+                [35.23337, 127.65],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_7917cbeec48f32b287670091379c3096 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4393725c055768b73f8292ba6e309700.setIcon(icon_7917cbeec48f32b287670091379c3096);
+        
+    
+        var popup_a95de5ef14ea446e5cc04ed517dc16a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ee3628548e0dd4ea14df1fe650c5bb6 = $(`<div id="html_2ee3628548e0dd4ea14df1fe650c5bb6" style="width: 100.0%; height: 100.0%;">하동 쌍계사 진감선사탑비</div>`)[0];
+            popup_a95de5ef14ea446e5cc04ed517dc16a9.setContent(html_2ee3628548e0dd4ea14df1fe650c5bb6);
+        
+
+        marker_4393725c055768b73f8292ba6e309700.bindPopup(popup_a95de5ef14ea446e5cc04ed517dc16a9)
+        ;
+
+        
+    
+    
+            var marker_b8a6b5b9a530157dd5ed7e69b5220651 = L.marker(
+                [37.20961, 127.7647],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_2c18e34e815f57a88cdf77e1312cf38e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b8a6b5b9a530157dd5ed7e69b5220651.setIcon(icon_2c18e34e815f57a88cdf77e1312cf38e);
+        
+    
+        var popup_9fdfabbd4696d2dc3fb6a7691db0c921 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d52650e2e0a74dd17759bc1d39c6743b = $(`<div id="html_d52650e2e0a74dd17759bc1d39c6743b" style="width: 100.0%; height: 100.0%;">원주 법천사지 지광국사탑비</div>`)[0];
+            popup_9fdfabbd4696d2dc3fb6a7691db0c921.setContent(html_d52650e2e0a74dd17759bc1d39c6743b);
+        
+
+        marker_b8a6b5b9a530157dd5ed7e69b5220651.bindPopup(popup_9fdfabbd4696d2dc3fb6a7691db0c921)
+        ;
+
+        
+    
+    
+            var marker_354d3b7a0402028c765ed68e25d6adea = L.marker(
+                [35.10436, 129.0191],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_57c7d5d1cb58c26632abf59d5657401a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_354d3b7a0402028c765ed68e25d6adea.setIcon(icon_57c7d5d1cb58c26632abf59d5657401a);
+        
+    
+        var popup_f48d5a5cb305a1b33c94eb7a301c6657 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a5e3bb5a3ea9265c563cf6f440cdd3f = $(`<div id="html_0a5e3bb5a3ea9265c563cf6f440cdd3f" style="width: 100.0%; height: 100.0%;">심지백 개국원종공신녹권</div>`)[0];
+            popup_f48d5a5cb305a1b33c94eb7a301c6657.setContent(html_0a5e3bb5a3ea9265c563cf6f440cdd3f);
+        
+
+        marker_354d3b7a0402028c765ed68e25d6adea.bindPopup(popup_f48d5a5cb305a1b33c94eb7a301c6657)
+        ;
+
+        
+    
+    
+            var marker_2125e00f501a35095ff7c0b3845b2780 = L.marker(
+                [37.59451, 126.9966],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_f016a18f213d12cc110f12081183e9b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2125e00f501a35095ff7c0b3845b2780.setIcon(icon_f016a18f213d12cc110f12081183e9b2);
+        
+    
+        var popup_a187072362f5bba333622069441a00a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3611677845d56c39e08758ce7396f71 = $(`<div id="html_b3611677845d56c39e08758ce7396f71" style="width: 100.0%; height: 100.0%;">훈민정음</div>`)[0];
+            popup_a187072362f5bba333622069441a00a0.setContent(html_b3611677845d56c39e08758ce7396f71);
+        
+
+        marker_2125e00f501a35095ff7c0b3845b2780.bindPopup(popup_a187072362f5bba333622069441a00a0)
+        ;
+
+        
+    
+    
+            var marker_a7e6f6858933762644827c9e60ea7d7f = L.marker(
+                [37.59451, 126.9966],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_8cd42e80f732c78a22aadc953154fbe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a7e6f6858933762644827c9e60ea7d7f.setIcon(icon_8cd42e80f732c78a22aadc953154fbe0);
+        
+    
+        var popup_4c46172c8b1d328510179b7783f98002 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61cfe264c06a317d306a24121c6fec8f = $(`<div id="html_61cfe264c06a317d306a24121c6fec8f" style="width: 100.0%; height: 100.0%;">동국정운 권1, 6</div>`)[0];
+            popup_4c46172c8b1d328510179b7783f98002.setContent(html_61cfe264c06a317d306a24121c6fec8f);
+        
+
+        marker_a7e6f6858933762644827c9e60ea7d7f.bindPopup(popup_4c46172c8b1d328510179b7783f98002)
+        ;
+
+        
+    
+    
+            var marker_d409be1b8d9a692b932ce69a259dc619 = L.marker(
+                [36.80981, 127.0343],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_a02d834e7f3097721748f90102018c72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d409be1b8d9a692b932ce69a259dc619.setIcon(icon_a02d834e7f3097721748f90102018c72);
+        
+    
+        var popup_cf5325a4d2487962e5164c2c7db71c5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e8fbd89c2b23371f5a7a8cb5ab4f6eb = $(`<div id="html_0e8fbd89c2b23371f5a7a8cb5ab4f6eb" style="width: 100.0%; height: 100.0%;">이순신 난중일기 및 서간첩 임진장초</div>`)[0];
+            popup_cf5325a4d2487962e5164c2c7db71c5f.setContent(html_0e8fbd89c2b23371f5a7a8cb5ab4f6eb);
+        
+
+        marker_d409be1b8d9a692b932ce69a259dc619.bindPopup(popup_cf5325a4d2487962e5164c2c7db71c5f)
+        ;
+
+        
+    
+    
+            var marker_06065079dec6c1fe635d0fcd4c810c4f = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_933f849893204e7478865173dc42df52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_06065079dec6c1fe635d0fcd4c810c4f.setIcon(icon_933f849893204e7478865173dc42df52);
+        
+    
+        var popup_a1416cde7465b02bfe2a1f3b20545c57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdf22bb4e531b6e0a912d0a4e44f8084 = $(`<div id="html_bdf22bb4e531b6e0a912d0a4e44f8084" style="width: 100.0%; height: 100.0%;">고려말 화령부 호적 관련 고문서</div>`)[0];
+            popup_a1416cde7465b02bfe2a1f3b20545c57.setContent(html_bdf22bb4e531b6e0a912d0a4e44f8084);
+        
+
+        marker_06065079dec6c1fe635d0fcd4c810c4f.bindPopup(popup_a1416cde7465b02bfe2a1f3b20545c57)
+        ;
+
+        
+    
+    
+            var marker_043a63554c84023c78154b14a21bc98a = L.marker(
+                [36.70173, 128.8111],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_62330e2c38285d82856f5b0d36069b99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_043a63554c84023c78154b14a21bc98a.setIcon(icon_62330e2c38285d82856f5b0d36069b99);
+        
+    
+        var popup_d2c49f30e50303f494c9eecd10261877 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3614fe40d720cae19e5ffd19f0ddf2d0 = $(`<div id="html_3614fe40d720cae19e5ffd19f0ddf2d0" style="width: 100.0%; height: 100.0%;">징비록</div>`)[0];
+            popup_d2c49f30e50303f494c9eecd10261877.setContent(html_3614fe40d720cae19e5ffd19f0ddf2d0);
+        
+
+        marker_043a63554c84023c78154b14a21bc98a.bindPopup(popup_d2c49f30e50303f494c9eecd10261877)
+        ;
+
+        
+    
+    
+            var marker_deec853eef06500ead9157b8f18bbe72 = L.marker(
+                [37.54301, 127.0776],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_541b26c58b64b19b396b69e8b9e12bc5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_deec853eef06500ead9157b8f18bbe72.setIcon(icon_541b26c58b64b19b396b69e8b9e12bc5);
+        
+    
+        var popup_ef8a12739a2fd3bec1f143873c439312 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1e66d7d1704ab50c9aecf7f37fd2b0d = $(`<div id="html_e1e66d7d1704ab50c9aecf7f37fd2b0d" style="width: 100.0%; height: 100.0%;">동국정운</div>`)[0];
+            popup_ef8a12739a2fd3bec1f143873c439312.setContent(html_e1e66d7d1704ab50c9aecf7f37fd2b0d);
+        
+
+        marker_deec853eef06500ead9157b8f18bbe72.bindPopup(popup_ef8a12739a2fd3bec1f143873c439312)
+        ;
+
+        
+    
+    
+            var marker_a5119fc92e06079a156d25039ca7dc0d = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_202225ee812be35f5024bed1883917e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a5119fc92e06079a156d25039ca7dc0d.setIcon(icon_202225ee812be35f5024bed1883917e8);
+        
+    
+        var popup_0e7dd4079ebbedc74f358f879919bf77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59e3576544ef5d46c35ece51132eb3f1 = $(`<div id="html_59e3576544ef5d46c35ece51132eb3f1" style="width: 100.0%; height: 100.0%;">십칠사찬고금통요 권16</div>`)[0];
+            popup_0e7dd4079ebbedc74f358f879919bf77.setContent(html_59e3576544ef5d46c35ece51132eb3f1);
+        
+
+        marker_a5119fc92e06079a156d25039ca7dc0d.bindPopup(popup_0e7dd4079ebbedc74f358f879919bf77)
+        ;
+
+        
+    
+    
+            var marker_3a751452dd7ec1446ded8b4493c41641 = L.marker(
+                [37.49686, 127.0031],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_26082779f018a40c73b0f4116031cadf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a751452dd7ec1446ded8b4493c41641.setIcon(icon_26082779f018a40c73b0f4116031cadf);
+        
+    
+        var popup_3c28d62db389b3e8fb7d127a27c0d980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c094ceabde7bf797cc4097c6220b5f5f = $(`<div id="html_c094ceabde7bf797cc4097c6220b5f5f" style="width: 100.0%; height: 100.0%;">십칠사찬고금통요 권17</div>`)[0];
+            popup_3c28d62db389b3e8fb7d127a27c0d980.setContent(html_c094ceabde7bf797cc4097c6220b5f5f);
+        
+
+        marker_3a751452dd7ec1446ded8b4493c41641.bindPopup(popup_3c28d62db389b3e8fb7d127a27c0d980)
+        ;
+
+        
+    
+    
+            var marker_20725a2d6669013f74f35dd4e37af828 = L.marker(
+                [37.59451, 126.9966],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_625575b980fe06362f8a66a5db831e7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20725a2d6669013f74f35dd4e37af828.setIcon(icon_625575b980fe06362f8a66a5db831e7b);
+        
+    
+        var popup_f95f808e5f4178fbd803b823a7ed1710 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_799c30c4bbcf1bee32b51f4bacf30714 = $(`<div id="html_799c30c4bbcf1bee32b51f4bacf30714" style="width: 100.0%; height: 100.0%;">동래선생교정북사상절 권4, 5</div>`)[0];
+            popup_f95f808e5f4178fbd803b823a7ed1710.setContent(html_799c30c4bbcf1bee32b51f4bacf30714);
+        
+
+        marker_20725a2d6669013f74f35dd4e37af828.bindPopup(popup_f95f808e5f4178fbd803b823a7ed1710)
+        ;
+
+        
+    
+    
+            var marker_046428fb7be6f39835d1f263ddd4bf1a = L.marker(
+                [37.56376, 126.9975],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_5f8f3a75d911c05e2cf60923bdbe08f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_046428fb7be6f39835d1f263ddd4bf1a.setIcon(icon_5f8f3a75d911c05e2cf60923bdbe08f8);
+        
+    
+        var popup_06ebd8158b1250f007160966b6a510f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dfb3b620b1932befa5f7fa1e7151749 = $(`<div id="html_5dfb3b620b1932befa5f7fa1e7151749" style="width: 100.0%; height: 100.0%;">동래선생교정북사상절 권6</div>`)[0];
+            popup_06ebd8158b1250f007160966b6a510f6.setContent(html_5dfb3b620b1932befa5f7fa1e7151749);
+        
+
+        marker_046428fb7be6f39835d1f263ddd4bf1a.bindPopup(popup_06ebd8158b1250f007160966b6a510f6)
+        ;
+
+        
+    
+    
+            var marker_80a2d8d7e2cd0c07d47698ce75299a50 = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_1595bc5445f09a36860c0b61ba99f590 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_80a2d8d7e2cd0c07d47698ce75299a50.setIcon(icon_1595bc5445f09a36860c0b61ba99f590);
+        
+    
+        var popup_2cfb1392538fa7cbbd52df60fa894b8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7d0d8a99e6f2dc0a1aeba1c939f429d = $(`<div id="html_c7d0d8a99e6f2dc0a1aeba1c939f429d" style="width: 100.0%; height: 100.0%;">송조표전총류 권7</div>`)[0];
+            popup_2cfb1392538fa7cbbd52df60fa894b8b.setContent(html_c7d0d8a99e6f2dc0a1aeba1c939f429d);
+        
+
+        marker_80a2d8d7e2cd0c07d47698ce75299a50.bindPopup(popup_2cfb1392538fa7cbbd52df60fa894b8b)
+        ;
+
+        
+    
+    
+            var marker_4208d2c1f07612cfd004a2937b962841 = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_ff0a7c880babe6ab3f68f706a6aab5f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4208d2c1f07612cfd004a2937b962841.setIcon(icon_ff0a7c880babe6ab3f68f706a6aab5f7);
+        
+    
+        var popup_c931f7ac4fa1f9c4de509530a4a57080 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43c3967c0ec07fc1b2099aae13884e5a = $(`<div id="html_43c3967c0ec07fc1b2099aae13884e5a" style="width: 100.0%; height: 100.0%;">조선왕조실록 정족산사고본</div>`)[0];
+            popup_c931f7ac4fa1f9c4de509530a4a57080.setContent(html_43c3967c0ec07fc1b2099aae13884e5a);
+        
+
+        marker_4208d2c1f07612cfd004a2937b962841.bindPopup(popup_c931f7ac4fa1f9c4de509530a4a57080)
+        ;
+
+        
+    
+    
+            var marker_20e04de87b58e7e2f0cca57bb0a01252 = L.marker(
+                [35.1897, 129.0529],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_75f4f683925337f412244cb0a1d04e7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20e04de87b58e7e2f0cca57bb0a01252.setIcon(icon_75f4f683925337f412244cb0a1d04e7e);
+        
+    
+        var popup_89184b4a1149407bc9d63a9961ca8253 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f64b370f71bdf5c89d68428ea2aa1748 = $(`<div id="html_f64b370f71bdf5c89d68428ea2aa1748" style="width: 100.0%; height: 100.0%;">조선왕조실록 태백산사고본</div>`)[0];
+            popup_89184b4a1149407bc9d63a9961ca8253.setContent(html_f64b370f71bdf5c89d68428ea2aa1748);
+        
+
+        marker_20e04de87b58e7e2f0cca57bb0a01252.bindPopup(popup_89184b4a1149407bc9d63a9961ca8253)
+        ;
+
+        
+    
+    
+            var marker_3a0469623670a946b95ea4758cf6fce1 = L.marker(
+                [37.57706, 126.9764],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_abcf77a668624f0fa19f0381e292031b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3a0469623670a946b95ea4758cf6fce1.setIcon(icon_abcf77a668624f0fa19f0381e292031b);
+        
+    
+        var popup_1986194d6811cc21d09fae8416c2a0ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_759c2822f4ad1a2de452ae4c7989aae6 = $(`<div id="html_759c2822f4ad1a2de452ae4c7989aae6" style="width: 100.0%; height: 100.0%;">조선왕조실록 오대산사고본</div>`)[0];
+            popup_1986194d6811cc21d09fae8416c2a0ed.setContent(html_759c2822f4ad1a2de452ae4c7989aae6);
+        
+
+        marker_3a0469623670a946b95ea4758cf6fce1.bindPopup(popup_1986194d6811cc21d09fae8416c2a0ed)
+        ;
+
+        
+    
+    
+            var marker_b3871c08b15dd96684d4e79aa4d3303e = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_7461da2e1d5d211aaf17592f47d3b04e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b3871c08b15dd96684d4e79aa4d3303e.setIcon(icon_7461da2e1d5d211aaf17592f47d3b04e);
+        
+    
+        var popup_c7e5c4a23ab16fd719856ab2fa53d5ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92609beee8b6755695b26420f41f4ddc = $(`<div id="html_92609beee8b6755695b26420f41f4ddc" style="width: 100.0%; height: 100.0%;">조선왕조실록 적상산사고본</div>`)[0];
+            popup_c7e5c4a23ab16fd719856ab2fa53d5ed.setContent(html_92609beee8b6755695b26420f41f4ddc);
+        
+
+        marker_b3871c08b15dd96684d4e79aa4d3303e.bindPopup(popup_c7e5c4a23ab16fd719856ab2fa53d5ed)
+        ;
+
+        
+    
+    
+            var marker_d1100089c06b36c60d1498e62358b6bd = L.marker(
+                [37.39298, 127.0535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_764a77484f45f542522d21150fc2daf2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d1100089c06b36c60d1498e62358b6bd.setIcon(icon_764a77484f45f542522d21150fc2daf2);
+        
+    
+        var popup_5fbceb6d06e107075352056e6ca98274 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e04ca3fcc92ee537e323093efca1bfa = $(`<div id="html_0e04ca3fcc92ee537e323093efca1bfa" style="width: 100.0%; height: 100.0%;">조선왕조실록 봉모당본</div>`)[0];
+            popup_5fbceb6d06e107075352056e6ca98274.setContent(html_0e04ca3fcc92ee537e323093efca1bfa);
+        
+
+        marker_d1100089c06b36c60d1498e62358b6bd.bindPopup(popup_5fbceb6d06e107075352056e6ca98274)
+        ;
+
+        
+    
+    
+            var marker_55fc35f6864fb8ae6a654c7fb151459f = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_c0ae371219dec2bba216fe6d8b451a44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_55fc35f6864fb8ae6a654c7fb151459f.setIcon(icon_c0ae371219dec2bba216fe6d8b451a44);
+        
+    
+        var popup_3e295123c3503f05896026d4219a59ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00389a0c004c3ca8b52613a239493c5a = $(`<div id="html_00389a0c004c3ca8b52613a239493c5a" style="width: 100.0%; height: 100.0%;">조선왕조실록 낙질 및 산엽본</div>`)[0];
+            popup_3e295123c3503f05896026d4219a59ad.setContent(html_00389a0c004c3ca8b52613a239493c5a);
+        
+
+        marker_55fc35f6864fb8ae6a654c7fb151459f.bindPopup(popup_3e295123c3503f05896026d4219a59ad)
+        ;
+
+        
+    
+    
+            var marker_dc541e2a42280747a3b960442666985b = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_a9a4c349b33e86e83fd2b001d3aaf31c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dc541e2a42280747a3b960442666985b.setIcon(icon_a9a4c349b33e86e83fd2b001d3aaf31c);
+        
+    
+        var popup_8090b981a39dfce537d768afe576e7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ec685bd8793d658d0ae5a5fdf34ef4d = $(`<div id="html_4ec685bd8793d658d0ae5a5fdf34ef4d" style="width: 100.0%; height: 100.0%;">비변사등록</div>`)[0];
+            popup_8090b981a39dfce537d768afe576e7d8.setContent(html_4ec685bd8793d658d0ae5a5fdf34ef4d);
+        
+
+        marker_dc541e2a42280747a3b960442666985b.bindPopup(popup_8090b981a39dfce537d768afe576e7d8)
+        ;
+
+        
+    
+    
+            var marker_5b0f598866d0b663074c7eb2b83aedfa = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_8554e5ff23bf9bbd50b5a279327fbfea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b0f598866d0b663074c7eb2b83aedfa.setIcon(icon_8554e5ff23bf9bbd50b5a279327fbfea);
+        
+    
+        var popup_8fededf6abd1d3dfe6d8a6133cafe4c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f7b037dd1ca044421655aa78a3d4eac = $(`<div id="html_9f7b037dd1ca044421655aa78a3d4eac" style="width: 100.0%; height: 100.0%;">일성록</div>`)[0];
+            popup_8fededf6abd1d3dfe6d8a6133cafe4c2.setContent(html_9f7b037dd1ca044421655aa78a3d4eac);
+        
+
+        marker_5b0f598866d0b663074c7eb2b83aedfa.bindPopup(popup_8fededf6abd1d3dfe6d8a6133cafe4c2)
+        ;
+
+        
+    
+    
+            var marker_05ffaeafa6ebee006dfd8cec7f98b2ae = L.marker(
+                [36.46596, 127.1114],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_4b45a3f542f9bca0a0b97eaaa0fc7f2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05ffaeafa6ebee006dfd8cec7f98b2ae.setIcon(icon_4b45a3f542f9bca0a0b97eaaa0fc7f2f);
+        
+    
+        var popup_416bce16d1f8e3517bb41400e40e279a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce1c813738295bf6154c6ee7beaa2689 = $(`<div id="html_ce1c813738295bf6154c6ee7beaa2689" style="width: 100.0%; height: 100.0%;">무령왕릉 지석</div>`)[0];
+            popup_416bce16d1f8e3517bb41400e40e279a.setContent(html_ce1c813738295bf6154c6ee7beaa2689);
+        
+
+        marker_05ffaeafa6ebee006dfd8cec7f98b2ae.bindPopup(popup_416bce16d1f8e3517bb41400e40e279a)
+        ;
+
+        
+    
+    
+            var marker_9b36f30f32ea94fc807bb917095ca3e6 = L.marker(
+                [32.52202, 123.7418],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_bd47bc23c2839d92d1e3d303a41d56f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9b36f30f32ea94fc807bb917095ca3e6.setIcon(icon_bd47bc23c2839d92d1e3d303a41d56f1);
+        
+    
+        var popup_fbf425d4b82f3061fb2db1cd33b2efce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f8ed50de649569918d039b1aa41d299 = $(`<div id="html_3f8ed50de649569918d039b1aa41d299" style="width: 100.0%; height: 100.0%;">장양수 홍패</div>`)[0];
+            popup_fbf425d4b82f3061fb2db1cd33b2efce.setContent(html_3f8ed50de649569918d039b1aa41d299);
+        
+
+        marker_9b36f30f32ea94fc807bb917095ca3e6.bindPopup(popup_fbf425d4b82f3061fb2db1cd33b2efce)
+        ;
+
+        
+    
+    
+            var marker_6da32fc784e82623f37f761c09507d0a = L.marker(
+                [37.53261, 126.9902],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_6cc64b5a4ad1bad7358452704fb1c162 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6da32fc784e82623f37f761c09507d0a.setIcon(icon_6cc64b5a4ad1bad7358452704fb1c162);
+        
+    
+        var popup_d0c4ab801e5547355a389cce38f1800c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20efc2493dcb9f3af3a057b05d9f8750 = $(`<div id="html_20efc2493dcb9f3af3a057b05d9f8750" style="width: 100.0%; height: 100.0%;">상지은니 묘법연화경</div>`)[0];
+            popup_d0c4ab801e5547355a389cce38f1800c.setContent(html_20efc2493dcb9f3af3a057b05d9f8750);
+        
+
+        marker_6da32fc784e82623f37f761c09507d0a.bindPopup(popup_d0c4ab801e5547355a389cce38f1800c)
+        ;
+
+        
+    
+    
+            var marker_1d1e0bf63659361f1329110bcb86cbe3 = L.marker(
+                [37.53837, 126.9993],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_a1e1c93f4977623bc3425fa10a5cf20e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d1e0bf63659361f1329110bcb86cbe3.setIcon(icon_a1e1c93f4977623bc3425fa10a5cf20e);
+        
+    
+        var popup_1eb8407b467abe16ce11c900cb4fedcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3101cabe87dd3a73316bf1a4b175d2e0 = $(`<div id="html_3101cabe87dd3a73316bf1a4b175d2e0" style="width: 100.0%; height: 100.0%;">신라백지묵서 대방광불화엄경 주본 권1~10, 44~50</div>`)[0];
+            popup_1eb8407b467abe16ce11c900cb4fedcd.setContent(html_3101cabe87dd3a73316bf1a4b175d2e0);
+        
+
+        marker_1d1e0bf63659361f1329110bcb86cbe3.bindPopup(popup_1eb8407b467abe16ce11c900cb4fedcd)
+        ;
+
+        
+    
+    
+            var marker_2e7b77ce9b1f04c812526c73ed22fe10 = L.marker(
+                [36.94505, 128.3216],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_1f141c83561edd5e8fc9df494ae1b82a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e7b77ce9b1f04c812526c73ed22fe10.setIcon(icon_1f141c83561edd5e8fc9df494ae1b82a);
+        
+    
+        var popup_daece7156937eee7ed0de596ad036604 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c83a26e22e0ccfad84ada1215069be99 = $(`<div id="html_c83a26e22e0ccfad84ada1215069be99" style="width: 100.0%; height: 100.0%;">단양 신라 적성비</div>`)[0];
+            popup_daece7156937eee7ed0de596ad036604.setContent(html_c83a26e22e0ccfad84ada1215069be99);
+        
+
+        marker_2e7b77ce9b1f04c812526c73ed22fe10.bindPopup(popup_daece7156937eee7ed0de596ad036604)
+        ;
+
+        
+    
+    
+            var marker_601d391c116656b6866548f82b5d0283 = L.marker(
+                [37.5651, 126.9649],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_25b0a9033c7f56e17c1bf6b37df0fb69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_601d391c116656b6866548f82b5d0283.setIcon(icon_25b0a9033c7f56e17c1bf6b37df0fb69);
+        
+    
+        var popup_a908956bf0ce19fb5b369d808dcac035 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fb8daba3c0f7e72419d4720272f2281 = $(`<div id="html_8fb8daba3c0f7e72419d4720272f2281" style="width: 100.0%; height: 100.0%;">대방광불화엄경 진본 권37</div>`)[0];
+            popup_a908956bf0ce19fb5b369d808dcac035.setContent(html_8fb8daba3c0f7e72419d4720272f2281);
+        
+
+        marker_601d391c116656b6866548f82b5d0283.bindPopup(popup_a908956bf0ce19fb5b369d808dcac035)
+        ;
+
+        
+    
+    
+            var marker_3b2fdc4381f02cd9be6e9bbf3eacdc35 = L.marker(
+                [37.56376, 126.9975],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_45be548398c02021b956442ad563c9f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3b2fdc4381f02cd9be6e9bbf3eacdc35.setIcon(icon_45be548398c02021b956442ad563c9f9);
+        
+    
+        var popup_961d2c19a04d8896b2e2281180f87624 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7a351153406f66563a68bb14fb817d9 = $(`<div id="html_c7a351153406f66563a68bb14fb817d9" style="width: 100.0%; height: 100.0%;">대방광불화엄경 주본 권6</div>`)[0];
+            popup_961d2c19a04d8896b2e2281180f87624.setContent(html_c7a351153406f66563a68bb14fb817d9);
+        
+
+        marker_3b2fdc4381f02cd9be6e9bbf3eacdc35.bindPopup(popup_961d2c19a04d8896b2e2281180f87624)
+        ;
+
+        
+    
+    
+            var marker_f212d97430974856083558cf8d4c547e = L.marker(
+                [37.56376, 126.9975],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_99162d1d27614a29cacae247e6b40014 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f212d97430974856083558cf8d4c547e.setIcon(icon_99162d1d27614a29cacae247e6b40014);
+        
+    
+        var popup_90fbd925f59c9375c180ef31b76a5fec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7957df8cf9fb69b255779614f0aeafc0 = $(`<div id="html_7957df8cf9fb69b255779614f0aeafc0" style="width: 100.0%; height: 100.0%;">대방광불화엄경 주본 권36</div>`)[0];
+            popup_90fbd925f59c9375c180ef31b76a5fec.setContent(html_7957df8cf9fb69b255779614f0aeafc0);
+        
+
+        marker_f212d97430974856083558cf8d4c547e.bindPopup(popup_90fbd925f59c9375c180ef31b76a5fec)
+        ;
+
+        
+    
+    
+            var marker_4017fbddefe6e37f6162856466243f6e = L.marker(
+                [37.02836, 127.8482],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_2c2cd0671409e5bd38c9fa0d5d96393b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4017fbddefe6e37f6162856466243f6e.setIcon(icon_2c2cd0671409e5bd38c9fa0d5d96393b);
+        
+    
+        var popup_762d1451d059f68fd531013ebee12cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39e5e4d80c15e48997f6cf7dbdfebedc = $(`<div id="html_39e5e4d80c15e48997f6cf7dbdfebedc" style="width: 100.0%; height: 100.0%;">충주 고구려비</div>`)[0];
+            popup_762d1451d059f68fd531013ebee12cb7.setContent(html_39e5e4d80c15e48997f6cf7dbdfebedc);
+        
+
+        marker_4017fbddefe6e37f6162856466243f6e.bindPopup(popup_762d1451d059f68fd531013ebee12cb7)
+        ;
+
+        
+    
+    
+            var marker_ab567d855f5d0597ea7555b5df986fd6 = L.marker(
+                [35.80128, 128.0977],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_80cd25329995595fd9a94eba557af112 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab567d855f5d0597ea7555b5df986fd6.setIcon(icon_80cd25329995595fd9a94eba557af112);
+        
+    
+        var popup_967663b32e8a3cbb39e64e58b4e4ab7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_888595e5cf89277b67d2d939adfe3090 = $(`<div id="html_888595e5cf89277b67d2d939adfe3090" style="width: 100.0%; height: 100.0%;">합천 해인사 고려목판</div>`)[0];
+            popup_967663b32e8a3cbb39e64e58b4e4ab7c.setContent(html_888595e5cf89277b67d2d939adfe3090);
+        
+
+        marker_ab567d855f5d0597ea7555b5df986fd6.bindPopup(popup_967663b32e8a3cbb39e64e58b4e4ab7c)
+        ;
+
+        
+    
+    
+            var marker_8ac343957136bb632b04cd07768b58b9 = L.marker(
+                [37.53837, 126.9993],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_67e614c6dc1578380ccbe4a385ec4477 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ac343957136bb632b04cd07768b58b9.setIcon(icon_67e614c6dc1578380ccbe4a385ec4477);
+        
+    
+        var popup_067c6027ead9120260dee72def7339ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db5d70d9769d0c734ee0ca2082a45af7 = $(`<div id="html_db5d70d9769d0c734ee0ca2082a45af7" style="width: 100.0%; height: 100.0%;">감지은니 불공견삭신변진언경 권13</div>`)[0];
+            popup_067c6027ead9120260dee72def7339ea.setContent(html_db5d70d9769d0c734ee0ca2082a45af7);
+        
+
+        marker_8ac343957136bb632b04cd07768b58b9.bindPopup(popup_067c6027ead9120260dee72def7339ea)
+        ;
+
+        
+    
+    
+            var marker_db5e6b02b02e0a2a547a30d784ad75a2 = L.marker(
+                [37.48111, 126.9184],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_8ae4b66669e5d5e1b35400b3d5a5828a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_db5e6b02b02e0a2a547a30d784ad75a2.setIcon(icon_8ae4b66669e5d5e1b35400b3d5a5828a);
+        
+    
+        var popup_8b67279a6d3764a524faa8bd8c42def7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f9be1f4936a6097d36b968b7ec139fe = $(`<div id="html_8f9be1f4936a6097d36b968b7ec139fe" style="width: 100.0%; height: 100.0%;">백지묵서 묘법연화경</div>`)[0];
+            popup_8b67279a6d3764a524faa8bd8c42def7.setContent(html_8f9be1f4936a6097d36b968b7ec139fe);
+        
+
+        marker_db5e6b02b02e0a2a547a30d784ad75a2.bindPopup(popup_8b67279a6d3764a524faa8bd8c42def7)
+        ;
+
+        
+    
+    
+            var marker_5446087790e404983f17653eba879416 = L.marker(
+                [37.55929, 126.9986],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_22fc3c00f4004bbfea83957a5a7a1f19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5446087790e404983f17653eba879416.setIcon(icon_22fc3c00f4004bbfea83957a5a7a1f19);
+        
+    
+        var popup_4898435398a6c4adf62302132f1eb5e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_871b3b166399cdf270b70fc109b70d71 = $(`<div id="html_871b3b166399cdf270b70fc109b70d71" style="width: 100.0%; height: 100.0%;">대불정여래밀인수증요의제보살만행수능엄경(언해)</div>`)[0];
+            popup_4898435398a6c4adf62302132f1eb5e9.setContent(html_871b3b166399cdf270b70fc109b70d71);
+        
+
+        marker_5446087790e404983f17653eba879416.bindPopup(popup_4898435398a6c4adf62302132f1eb5e9)
+        ;
+
+        
+    
+    
+            var marker_fe39993942e50d5aa67b6dc8988345f8 = L.marker(
+                [37.53837, 126.9993],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_fc101eb9e3a08ac8744d48d2c0d5266c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fe39993942e50d5aa67b6dc8988345f8.setIcon(icon_fc101eb9e3a08ac8744d48d2c0d5266c);
+        
+    
+        var popup_dfc8295509a8fc53a2b19b2b1b9fdd6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eafde04752c847be675ffacd06e12e96 = $(`<div id="html_eafde04752c847be675ffacd06e12e96" style="width: 100.0%; height: 100.0%;">감지은니 대방광불화엄경 정원본 권31</div>`)[0];
+            popup_dfc8295509a8fc53a2b19b2b1b9fdd6a.setContent(html_eafde04752c847be675ffacd06e12e96);
+        
+
+        marker_fe39993942e50d5aa67b6dc8988345f8.bindPopup(popup_dfc8295509a8fc53a2b19b2b1b9fdd6a)
+        ;
+
+        
+    
+    
+            var marker_691289a183586f1d5b42503a06c6b707 = L.marker(
+                [35.80048, 127.0901],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_42d02a197ea95e6371980943606a427f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_691289a183586f1d5b42503a06c6b707.setIcon(icon_42d02a197ea95e6371980943606a427f);
+        
+    
+        var popup_d3e6749568b698f220094cb0e372a44a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffe615c48521bd8099cf52448469094e = $(`<div id="html_ffe615c48521bd8099cf52448469094e" style="width: 100.0%; height: 100.0%;">이화 개국공신녹권</div>`)[0];
+            popup_d3e6749568b698f220094cb0e372a44a.setContent(html_ffe615c48521bd8099cf52448469094e);
+        
+
+        marker_691289a183586f1d5b42503a06c6b707.bindPopup(popup_d3e6749568b698f220094cb0e372a44a)
+        ;
+
+        
+    
+    
+            var marker_cc728714035803d11c03093cb9501887 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_3af0754e7d08f2d5682bd8856d23596b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc728714035803d11c03093cb9501887.setIcon(icon_3af0754e7d08f2d5682bd8856d23596b);
+        
+    
+        var popup_cbb802e14445045d03076181492ba32c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d991e9aba6aa2e80ef8bc6f774949d73 = $(`<div id="html_d991e9aba6aa2e80ef8bc6f774949d73" style="width: 100.0%; height: 100.0%;">감지은니 묘법연화경</div>`)[0];
+            popup_cbb802e14445045d03076181492ba32c.setContent(html_d991e9aba6aa2e80ef8bc6f774949d73);
+        
+
+        marker_cc728714035803d11c03093cb9501887.bindPopup(popup_cbb802e14445045d03076181492ba32c)
+        ;
+
+        
+    
+    
+            var marker_fa0a5bb16384725e1c6a72581e22a916 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_21830daab9d52624e488ebc969da2cf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa0a5bb16384725e1c6a72581e22a916.setIcon(icon_21830daab9d52624e488ebc969da2cf1);
+        
+    
+        var popup_83dac79250a040bc6ff0abe3cf7f0e7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ae3c4c38dc05ff950150c0047e42f38 = $(`<div id="html_2ae3c4c38dc05ff950150c0047e42f38" style="width: 100.0%; height: 100.0%;">감지금니 대방광불화엄경보현행원품</div>`)[0];
+            popup_83dac79250a040bc6ff0abe3cf7f0e7f.setContent(html_2ae3c4c38dc05ff950150c0047e42f38);
+        
+
+        marker_fa0a5bb16384725e1c6a72581e22a916.bindPopup(popup_83dac79250a040bc6ff0abe3cf7f0e7f)
+        ;
+
+        
+    
+    
+            var marker_1147bf82524768dc1b6d194d192ab3bd = L.marker(
+                [37.5744, 126.9858],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_6eac6091bb8c5cad89c27612a16b3a78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1147bf82524768dc1b6d194d192ab3bd.setIcon(icon_6eac6091bb8c5cad89c27612a16b3a78);
+        
+    
+        var popup_ac0a26d81d334d5a133e6aa2d6b59435 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d104f5676936ee9ab89882dc81c581cb = $(`<div id="html_d104f5676936ee9ab89882dc81c581cb" style="width: 100.0%; height: 100.0%;">소원화개첩</div>`)[0];
+            popup_ac0a26d81d334d5a133e6aa2d6b59435.setContent(html_d104f5676936ee9ab89882dc81c581cb);
+        
+
+        marker_1147bf82524768dc1b6d194d192ab3bd.bindPopup(popup_ac0a26d81d334d5a133e6aa2d6b59435)
+        ;
+
+        
+    
+    
+            var marker_3eeba08eb13beee934b0b96334316900 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_ff72ec64b119fd9c87ed41702ab1bb86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3eeba08eb13beee934b0b96334316900.setIcon(icon_ff72ec64b119fd9c87ed41702ab1bb86);
+        
+    
+        var popup_e35482ec0ad9011cf94b99228ec4346a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9945575a5b45f2af66a93f8d3e843a0f = $(`<div id="html_9945575a5b45f2af66a93f8d3e843a0f" style="width: 100.0%; height: 100.0%;">초조본 대반야바라밀다경 권249</div>`)[0];
+            popup_e35482ec0ad9011cf94b99228ec4346a.setContent(html_9945575a5b45f2af66a93f8d3e843a0f);
+        
+
+        marker_3eeba08eb13beee934b0b96334316900.bindPopup(popup_e35482ec0ad9011cf94b99228ec4346a)
+        ;
+
+        
+    
+    
+            var marker_904a52d6a3e520c9a5f492b98e3b8cff = L.marker(
+                [37.04377, 129.4094],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_38b32a47754a68e3ff76a47add7c92d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_904a52d6a3e520c9a5f492b98e3b8cff.setIcon(icon_38b32a47754a68e3ff76a47add7c92d5);
+        
+    
+        var popup_aa21b4bec6d8003db8f1d89481c0e55c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_709b46114f5b1107a0afe99ad6143629 = $(`<div id="html_709b46114f5b1107a0afe99ad6143629" style="width: 100.0%; height: 100.0%;">울진 봉평리 신라비</div>`)[0];
+            popup_aa21b4bec6d8003db8f1d89481c0e55c.setContent(html_709b46114f5b1107a0afe99ad6143629);
+        
+
+        marker_904a52d6a3e520c9a5f492b98e3b8cff.bindPopup(popup_aa21b4bec6d8003db8f1d89481c0e55c)
+        ;
+
+        
+    
+    
+            var marker_54810833477b746d030fd01b5deba62b = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_3a2d249c33236b59d787187e84d3abe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54810833477b746d030fd01b5deba62b.setIcon(icon_3a2d249c33236b59d787187e84d3abe0);
+        
+    
+        var popup_28da2aa9c0e6f257393aa72bf6a12a05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_351a52560e2eb1d4b3d7848b0d1cac5f = $(`<div id="html_351a52560e2eb1d4b3d7848b0d1cac5f" style="width: 100.0%; height: 100.0%;">초조본 현양성교론 권11</div>`)[0];
+            popup_28da2aa9c0e6f257393aa72bf6a12a05.setContent(html_351a52560e2eb1d4b3d7848b0d1cac5f);
+        
+
+        marker_54810833477b746d030fd01b5deba62b.bindPopup(popup_28da2aa9c0e6f257393aa72bf6a12a05)
+        ;
+
+        
+    
+    
+            var marker_5172ac55be93e4856e809af47b79da48 = L.marker(
+                [37.22271, 127.1854],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_70b0faaaa8981e973bd23059509349d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5172ac55be93e4856e809af47b79da48.setIcon(icon_70b0faaaa8981e973bd23059509349d4);
+        
+    
+        var popup_e43f81f5a360f732567aeafdc3750615 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7837282b0d47a89a0d07df9823891cdd = $(`<div id="html_7837282b0d47a89a0d07df9823891cdd" style="width: 100.0%; height: 100.0%;">초조본 유가사지론 권17</div>`)[0];
+            popup_e43f81f5a360f732567aeafdc3750615.setContent(html_7837282b0d47a89a0d07df9823891cdd);
+        
+
+        marker_5172ac55be93e4856e809af47b79da48.bindPopup(popup_e43f81f5a360f732567aeafdc3750615)
+        ;
+
+        
+    
+    
+            var marker_92919eeaa058bcd10182e5932b5a9ce3 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_0c38ebcb7c117b681707d9e1b681d854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92919eeaa058bcd10182e5932b5a9ce3.setIcon(icon_0c38ebcb7c117b681707d9e1b681d854);
+        
+    
+        var popup_dff9e65fbdb766c4ceb6498ca9ba4746 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1167c42584abc1cc550484d555c1bdba = $(`<div id="html_1167c42584abc1cc550484d555c1bdba" style="width: 100.0%; height: 100.0%;">초조본 신찬일체경원품차록 권20</div>`)[0];
+            popup_dff9e65fbdb766c4ceb6498ca9ba4746.setContent(html_1167c42584abc1cc550484d555c1bdba);
+        
+
+        marker_92919eeaa058bcd10182e5932b5a9ce3.bindPopup(popup_dff9e65fbdb766c4ceb6498ca9ba4746)
+        ;
+
+        
+    
+    
+            var marker_e4a9b7ae1896c876bb5d6adb113b5f6f = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_29689a4cf241aa6ad0b4f58cf3eef5a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e4a9b7ae1896c876bb5d6adb113b5f6f.setIcon(icon_29689a4cf241aa6ad0b4f58cf3eef5a0);
+        
+    
+        var popup_64850e571ab9957fda23e6684184fd77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d2f693ca3abe8aaba919af8b7cdf923 = $(`<div id="html_0d2f693ca3abe8aaba919af8b7cdf923" style="width: 100.0%; height: 100.0%;">초조본 대보적경 권59</div>`)[0];
+            popup_64850e571ab9957fda23e6684184fd77.setContent(html_0d2f693ca3abe8aaba919af8b7cdf923);
+        
+
+        marker_e4a9b7ae1896c876bb5d6adb113b5f6f.bindPopup(popup_64850e571ab9957fda23e6684184fd77)
+        ;
+
+        
+    
+    
+            var marker_ce03a59cff6c633445d59e97acfc211e = L.marker(
+                [37.5651, 126.9649],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_30217892848cd9bc61756cf6f46a82f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce03a59cff6c633445d59e97acfc211e.setIcon(icon_30217892848cd9bc61756cf6f46a82f0);
+        
+    
+        var popup_3026f8867f56e43cb6f3a2d166ea2ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_700f6013c4915b433203af4aeeac5e75 = $(`<div id="html_700f6013c4915b433203af4aeeac5e75" style="width: 100.0%; height: 100.0%;">이원길 개국원종공신녹권</div>`)[0];
+            popup_3026f8867f56e43cb6f3a2d166ea2ae2.setContent(html_700f6013c4915b433203af4aeeac5e75);
+        
+
+        marker_ce03a59cff6c633445d59e97acfc211e.bindPopup(popup_3026f8867f56e43cb6f3a2d166ea2ae2)
+        ;
+
+        
+    
+    
+            var marker_4c0607fd04256f28b84febcb4bf91a07 = L.marker(
+                [37.5651, 126.9649],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_80a1e91ba56a6bd720917aa255acc2a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c0607fd04256f28b84febcb4bf91a07.setIcon(icon_80a1e91ba56a6bd720917aa255acc2a2);
+        
+    
+        var popup_cd2f942beb824c73867bd4721aafd9be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65f1a844827790913ea39b29c0b5a9cc = $(`<div id="html_65f1a844827790913ea39b29c0b5a9cc" style="width: 100.0%; height: 100.0%;">초조본 대승아비달마잡집론 권14</div>`)[0];
+            popup_cd2f942beb824c73867bd4721aafd9be.setContent(html_65f1a844827790913ea39b29c0b5a9cc);
+        
+
+        marker_4c0607fd04256f28b84febcb4bf91a07.bindPopup(popup_cd2f942beb824c73867bd4721aafd9be)
+        ;
+
+        
+    
+    
+            var marker_041f1a6fed69a9e802001b5799cd5d81 = L.marker(
+                [37.26807, 127.1097],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_51441b1ea1a423dd46a4615ce8db648a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_041f1a6fed69a9e802001b5799cd5d81.setIcon(icon_51441b1ea1a423dd46a4615ce8db648a);
+        
+    
+        var popup_950386514a812016c563be147c818a99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_431d7cb72f1815968f7f9d9f255c338a = $(`<div id="html_431d7cb72f1815968f7f9d9f255c338a" style="width: 100.0%; height: 100.0%;">초조본 대방광불화엄경 주본 권1</div>`)[0];
+            popup_950386514a812016c563be147c818a99.setContent(html_431d7cb72f1815968f7f9d9f255c338a);
+        
+
+        marker_041f1a6fed69a9e802001b5799cd5d81.bindPopup(popup_950386514a812016c563be147c818a99)
+        ;
+
+        
+    
+    
+            var marker_4249b27553ac5a8933e95b65b0916580 = L.marker(
+                [37.04329, 128.4853],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_9aa959e21d4a919fe1570b715f4e3f02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4249b27553ac5a8933e95b65b0916580.setIcon(icon_9aa959e21d4a919fe1570b715f4e3f02);
+        
+    
+        var popup_01f9ff67fc1a0b3e75e5a277970f79bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14634b89a2286448ceb3c12e0b17f7a6 = $(`<div id="html_14634b89a2286448ceb3c12e0b17f7a6" style="width: 100.0%; height: 100.0%;">초조본 대방광불화엄경 주본 권29</div>`)[0];
+            popup_01f9ff67fc1a0b3e75e5a277970f79bd.setContent(html_14634b89a2286448ceb3c12e0b17f7a6);
+        
+
+        marker_4249b27553ac5a8933e95b65b0916580.bindPopup(popup_01f9ff67fc1a0b3e75e5a277970f79bd)
+        ;
+
+        
+    
+    
+            var marker_cfe9a1d5f9be4cb2857edb19f8454572 = L.marker(
+                [36.13002, 129.2629],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_3c445897077379c9f8de38506359d895 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cfe9a1d5f9be4cb2857edb19f8454572.setIcon(icon_3c445897077379c9f8de38506359d895);
+        
+    
+        var popup_9989b98c5f78bb534986a495fcad2a44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe51aaabc2a4b6595e98c6058f93e81a = $(`<div id="html_fe51aaabc2a4b6595e98c6058f93e81a" style="width: 100.0%; height: 100.0%;">포항 냉수리 신라비</div>`)[0];
+            popup_9989b98c5f78bb534986a495fcad2a44.setContent(html_fe51aaabc2a4b6595e98c6058f93e81a);
+        
+
+        marker_cfe9a1d5f9be4cb2857edb19f8454572.bindPopup(popup_9989b98c5f78bb534986a495fcad2a44)
+        ;
+
+        
+    
+    
+            var marker_59ca6a73f6259694c2b2ad8fd26ee3c9 = L.marker(
+                [37.57317, 126.9792],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_a47390084a6f1e1e9d97ec460180d032 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_59ca6a73f6259694c2b2ad8fd26ee3c9.setIcon(icon_a47390084a6f1e1e9d97ec460180d032);
+        
+    
+        var popup_c502b8a6a3e35c2a8dc45027037ab69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8f5eddd2c7853fdb535a721ffa14186 = $(`<div id="html_d8f5eddd2c7853fdb535a721ffa14186" style="width: 100.0%; height: 100.0%;">초조본 대방광불화엄경 주본 권13</div>`)[0];
+            popup_c502b8a6a3e35c2a8dc45027037ab69b.setContent(html_d8f5eddd2c7853fdb535a721ffa14186);
+        
+
+        marker_59ca6a73f6259694c2b2ad8fd26ee3c9.bindPopup(popup_c502b8a6a3e35c2a8dc45027037ab69b)
+        ;
+
+        
+    
+    
+            var marker_2b56c9f58eced5a7ed44a97811b934cb = L.marker(
+                [37.48111, 126.9184],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_3a2884453080f8aab8bd4deace7a707b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2b56c9f58eced5a7ed44a97811b934cb.setIcon(icon_3a2884453080f8aab8bd4deace7a707b);
+        
+    
+        var popup_731a048d6ae8fdb733eeaf58c5b54961 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c980ac20f4b78b997dec3f50255ecd7 = $(`<div id="html_4c980ac20f4b78b997dec3f50255ecd7" style="width: 100.0%; height: 100.0%;">초조본 대방광불화엄경 주본 권2,75</div>`)[0];
+            popup_731a048d6ae8fdb733eeaf58c5b54961.setContent(html_4c980ac20f4b78b997dec3f50255ecd7);
+        
+
+        marker_2b56c9f58eced5a7ed44a97811b934cb.bindPopup(popup_731a048d6ae8fdb733eeaf58c5b54961)
+        ;
+
+        
+    
+    
+            var marker_f30c1c372d97f37d468a11da0dc67af6 = L.marker(
+                [37.48111, 126.9184],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_1d6c848238ea421d9f3ce9b4e2f046ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f30c1c372d97f37d468a11da0dc67af6.setIcon(icon_1d6c848238ea421d9f3ce9b4e2f046ab);
+        
+    
+        var popup_c2ab64408c0244f64302e9dadff178d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6e6dc6f75383ca36bfbcf1eb070cb5b = $(`<div id="html_d6e6dc6f75383ca36bfbcf1eb070cb5b" style="width: 100.0%; height: 100.0%;">초조본 아비달마식신족론 권12</div>`)[0];
+            popup_c2ab64408c0244f64302e9dadff178d7.setContent(html_d6e6dc6f75383ca36bfbcf1eb070cb5b);
+        
+
+        marker_f30c1c372d97f37d468a11da0dc67af6.bindPopup(popup_c2ab64408c0244f64302e9dadff178d7)
+        ;
+
+        
+    
+    
+            var marker_f8f4fcd9ae62cb05db29c6cd3f1d3af7 = L.marker(
+                [37.48111, 126.9184],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_abc7736bb0009e3633a3f6d73a8b8d8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f8f4fcd9ae62cb05db29c6cd3f1d3af7.setIcon(icon_abc7736bb0009e3633a3f6d73a8b8d8e);
+        
+    
+        var popup_c5a7d7ade9e685f845e3060ce5e78d00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e363eac8e7826df2bad4925de8327cea = $(`<div id="html_e363eac8e7826df2bad4925de8327cea" style="width: 100.0%; height: 100.0%;">초조본 아비담비파사론 권11, 17</div>`)[0];
+            popup_c5a7d7ade9e685f845e3060ce5e78d00.setContent(html_e363eac8e7826df2bad4925de8327cea);
+        
+
+        marker_f8f4fcd9ae62cb05db29c6cd3f1d3af7.bindPopup(popup_c5a7d7ade9e685f845e3060ce5e78d00)
+        ;
+
+        
+    
+    
+            var marker_1182a983a0992b30b7cc4b914abdca53 = L.marker(
+                [37.48111, 126.9184],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_61d23f5c9cdcc7c877b596ee30eb5926 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1182a983a0992b30b7cc4b914abdca53.setIcon(icon_61d23f5c9cdcc7c877b596ee30eb5926);
+        
+    
+        var popup_8e146bf9ed523001407d773ba9c9003d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80e6914c8da5b827339751f4415b7554 = $(`<div id="html_80e6914c8da5b827339751f4415b7554" style="width: 100.0%; height: 100.0%;">초조본 불설최상근본대락금강불공삼매대교왕경 권6</div>`)[0];
+            popup_8e146bf9ed523001407d773ba9c9003d.setContent(html_80e6914c8da5b827339751f4415b7554);
+        
+
+        marker_1182a983a0992b30b7cc4b914abdca53.bindPopup(popup_8e146bf9ed523001407d773ba9c9003d)
+        ;
+
+        
+    
+    
+            var marker_cd20b09a934664b1781a13a13fee5dcb = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_7ba54e807fcd041599bbca26d0ef1a09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd20b09a934664b1781a13a13fee5dcb.setIcon(icon_7ba54e807fcd041599bbca26d0ef1a09);
+        
+    
+        var popup_a7a8591f9afd5e0e7ab5ff9c334465d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b745a10d1012b3d7a1299d8f44d6b4b = $(`<div id="html_0b745a10d1012b3d7a1299d8f44d6b4b" style="width: 100.0%; height: 100.0%;">초조본 현양성교론 권12</div>`)[0];
+            popup_a7a8591f9afd5e0e7ab5ff9c334465d1.setContent(html_0b745a10d1012b3d7a1299d8f44d6b4b);
+        
+
+        marker_cd20b09a934664b1781a13a13fee5dcb.bindPopup(popup_a7a8591f9afd5e0e7ab5ff9c334465d1)
+        ;
+
+        
+    
+    
+            var marker_8a40163df398e5e781f51fa87e1d8992 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_f39d0657e17051f516dc062e739f021c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8a40163df398e5e781f51fa87e1d8992.setIcon(icon_f39d0657e17051f516dc062e739f021c);
+        
+    
+        var popup_ab1d11a4e5cd80397b8437bdc2caf19f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bda29031616d82476cb18cc811c2160 = $(`<div id="html_6bda29031616d82476cb18cc811c2160" style="width: 100.0%; height: 100.0%;">초조본 유가사지론 권32</div>`)[0];
+            popup_ab1d11a4e5cd80397b8437bdc2caf19f.setContent(html_6bda29031616d82476cb18cc811c2160);
+        
+
+        marker_8a40163df398e5e781f51fa87e1d8992.bindPopup(popup_ab1d11a4e5cd80397b8437bdc2caf19f)
+        ;
+
+        
+    
+    
+            var marker_3062e19529e27056c0bb4471cd6d8a28 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_166ba5793dd066b19bbd18ed8abd0ba1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3062e19529e27056c0bb4471cd6d8a28.setIcon(icon_166ba5793dd066b19bbd18ed8abd0ba1);
+        
+    
+        var popup_803faa58a8e160ae82980777dc2ac237 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cc1655713cbbb3b93f888dae673decc = $(`<div id="html_9cc1655713cbbb3b93f888dae673decc" style="width: 100.0%; height: 100.0%;">초조본 유가사지론 권15</div>`)[0];
+            popup_803faa58a8e160ae82980777dc2ac237.setContent(html_9cc1655713cbbb3b93f888dae673decc);
+        
+
+        marker_3062e19529e27056c0bb4471cd6d8a28.bindPopup(popup_803faa58a8e160ae82980777dc2ac237)
+        ;
+
+        
+    
+    
+            var marker_a2d7ea4b9ebd851ceb83f05a0df73dc0 = L.marker(
+                [37.41831, 126.6577],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_7166cb03dd7c9c9400c43e6f7ff573df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a2d7ea4b9ebd851ceb83f05a0df73dc0.setIcon(icon_7166cb03dd7c9c9400c43e6f7ff573df);
+        
+    
+        var popup_c28d20627d8f32404dd0e2a83ca93888 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d740b9530a79d983093b7f77fa4506c1 = $(`<div id="html_d740b9530a79d983093b7f77fa4506c1" style="width: 100.0%; height: 100.0%;">초조본 유가사지론 권53</div>`)[0];
+            popup_c28d20627d8f32404dd0e2a83ca93888.setContent(html_d740b9530a79d983093b7f77fa4506c1);
+        
+
+        marker_a2d7ea4b9ebd851ceb83f05a0df73dc0.bindPopup(popup_c28d20627d8f32404dd0e2a83ca93888)
+        ;
+
+        
+    
+    
+            var marker_71e5cc7b521e4ba6b055b82ddbfbc44a = L.marker(
+                [37.41761, 127.8299],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_50e5efce380e80ef841a4ee8038e866b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_71e5cc7b521e4ba6b055b82ddbfbc44a.setIcon(icon_50e5efce380e80ef841a4ee8038e866b);
+        
+    
+        var popup_2607aafc0589064b16725cca7ec11c17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b71a0026381b828c76932085013721a = $(`<div id="html_6b71a0026381b828c76932085013721a" style="width: 100.0%; height: 100.0%;">초조본 대방광불화엄경 주본 권36</div>`)[0];
+            popup_2607aafc0589064b16725cca7ec11c17.setContent(html_6b71a0026381b828c76932085013721a);
+        
+
+        marker_71e5cc7b521e4ba6b055b82ddbfbc44a.bindPopup(popup_2607aafc0589064b16725cca7ec11c17)
+        ;
+
+        
+    
+    
+            var marker_baf885af8c233beff96b46ef978420cb = L.marker(
+                [37.04329, 128.4853],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_9372b1131499432a9cdab49f75060f9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_baf885af8c233beff96b46ef978420cb.setIcon(icon_9372b1131499432a9cdab49f75060f9b);
+        
+    
+        var popup_034eada3e769c1a42bd15265d5fce883 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a063492899e949464af9f7a7c54d50f9 = $(`<div id="html_a063492899e949464af9f7a7c54d50f9" style="width: 100.0%; height: 100.0%;">초조본 대방광불화엄경 주본 권74</div>`)[0];
+            popup_034eada3e769c1a42bd15265d5fce883.setContent(html_a063492899e949464af9f7a7c54d50f9);
+        
+
+        marker_baf885af8c233beff96b46ef978420cb.bindPopup(popup_034eada3e769c1a42bd15265d5fce883)
+        ;
+
+        
+    
+    
+            var marker_c240c8463719348823f657321ba9ad82 = L.marker(
+                [37.39263, 127.0521],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_fe7be646ae82dfeec45fe06646f98bc6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c240c8463719348823f657321ba9ad82.setIcon(icon_fe7be646ae82dfeec45fe06646f98bc6);
+        
+    
+        var popup_99a1e055792de4952f4e8231c1d678a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd8e1991e241ace59258deebfa00a000 = $(`<div id="html_fd8e1991e241ace59258deebfa00a000" style="width: 100.0%; height: 100.0%;">통감속편</div>`)[0];
+            popup_99a1e055792de4952f4e8231c1d678a9.setContent(html_fd8e1991e241ace59258deebfa00a000);
+        
+
+        marker_c240c8463719348823f657321ba9ad82.bindPopup(popup_99a1e055792de4952f4e8231c1d678a9)
+        ;
+
+        
+    
+    
+            var marker_ad1d08c7e6ac62308941d1e9914f3e3d = L.marker(
+                [37.51734, 127.0474],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_9931e2291f09999956a6a17e1e93a300 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ad1d08c7e6ac62308941d1e9914f3e3d.setIcon(icon_9931e2291f09999956a6a17e1e93a300);
+        
+    
+        var popup_a487c8b36024580a1f0252089a0ac193 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b34a2d0326ec77c4e3a6a511e7d0ff4 = $(`<div id="html_1b34a2d0326ec77c4e3a6a511e7d0ff4" style="width: 100.0%; height: 100.0%;">초조본 대반야바라밀다경 권162, 170, 463</div>`)[0];
+            popup_a487c8b36024580a1f0252089a0ac193.setContent(html_1b34a2d0326ec77c4e3a6a511e7d0ff4);
+        
+
+        marker_ad1d08c7e6ac62308941d1e9914f3e3d.bindPopup(popup_a487c8b36024580a1f0252089a0ac193)
+        ;
+
+        
+    
+    
+            var marker_6e0977049ac06d17aafaf68e44c062a1 = L.marker(
+                [37.58944, 127.0168],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_dcbf3a933d5330c2631f7310fe3e246a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e0977049ac06d17aafaf68e44c062a1.setIcon(icon_dcbf3a933d5330c2631f7310fe3e246a);
+        
+    
+        var popup_bcf8545f535ff4f42b7d5082c8c5317d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a5a79022bbd95205c97415de196f490 = $(`<div id="html_2a5a79022bbd95205c97415de196f490" style="width: 100.0%; height: 100.0%;">용감수경 권3~4</div>`)[0];
+            popup_bcf8545f535ff4f42b7d5082c8c5317d.setContent(html_2a5a79022bbd95205c97415de196f490);
+        
+
+        marker_6e0977049ac06d17aafaf68e44c062a1.bindPopup(popup_bcf8545f535ff4f42b7d5082c8c5317d)
+        ;
+
+        
+    
+    
+            var marker_a96d6f728bacc8a932427ac3f872e766 = L.marker(
+                [37.37075, 128.3902],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_3d59542731b67fb90ae3a0b8d8d05f0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a96d6f728bacc8a932427ac3f872e766.setIcon(icon_3d59542731b67fb90ae3a0b8d8d05f0a);
+        
+    
+        var popup_daa1a3d2c1d8edd5f62662ce0e10e75b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d964c8f71b45fd096fffa37f12cb7ef2 = $(`<div id="html_d964c8f71b45fd096fffa37f12cb7ef2" style="width: 100.0%; height: 100.0%;">평창 상원사 중창권선문</div>`)[0];
+            popup_daa1a3d2c1d8edd5f62662ce0e10e75b.setContent(html_d964c8f71b45fd096fffa37f12cb7ef2);
+        
+
+        marker_a96d6f728bacc8a932427ac3f872e766.bindPopup(popup_daa1a3d2c1d8edd5f62662ce0e10e75b)
+        ;
+
+        
+    
+    
+            var marker_ce9b07dd4d97f8fa8a0e1821eebf4fe9 = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_83005633cba8f92b4a5bd4452cae53a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce9b07dd4d97f8fa8a0e1821eebf4fe9.setIcon(icon_83005633cba8f92b4a5bd4452cae53a0);
+        
+    
+        var popup_1f8b56cf60272316c2f51e036f871569 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9b41e4a2ca9543a2d4ee0dd600178e7 = $(`<div id="html_c9b41e4a2ca9543a2d4ee0dd600178e7" style="width: 100.0%; height: 100.0%;">승정원일기</div>`)[0];
+            popup_1f8b56cf60272316c2f51e036f871569.setContent(html_c9b41e4a2ca9543a2d4ee0dd600178e7);
+        
+
+        marker_ce9b07dd4d97f8fa8a0e1821eebf4fe9.bindPopup(popup_1f8b56cf60272316c2f51e036f871569)
+        ;
+
+        
+    
+    
+            var marker_1fc8ce9761aeb5e93eb68ec7b2fac211 = L.marker(
+                [37.57317, 126.9792],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_4dae71cb0849f72e5e82d387cd7535b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1fc8ce9761aeb5e93eb68ec7b2fac211.setIcon(icon_4dae71cb0849f72e5e82d387cd7535b0);
+        
+    
+        var popup_51344880c27b1b9d9d10739f07515af4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d12d7b4028c5723a8045d21ae75999f2 = $(`<div id="html_d12d7b4028c5723a8045d21ae75999f2" style="width: 100.0%; height: 100.0%;">삼국유사 권3~5</div>`)[0];
+            popup_51344880c27b1b9d9d10739f07515af4.setContent(html_d12d7b4028c5723a8045d21ae75999f2);
+        
+
+        marker_1fc8ce9761aeb5e93eb68ec7b2fac211.bindPopup(popup_51344880c27b1b9d9d10739f07515af4)
+        ;
+
+        
+    
+    
+            var marker_07f073d7afe2826f698798cc0850e159 = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_1f50e0f41157ff6fe0190074f58197a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_07f073d7afe2826f698798cc0850e159.setIcon(icon_1f50e0f41157ff6fe0190074f58197a3);
+        
+    
+        var popup_500e47b9b898f9fb6918ce5137eb3b4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d760ea1682c2f0abf8f3f64be808473 = $(`<div id="html_9d760ea1682c2f0abf8f3f64be808473" style="width: 100.0%; height: 100.0%;">삼국유사</div>`)[0];
+            popup_500e47b9b898f9fb6918ce5137eb3b4a.setContent(html_9d760ea1682c2f0abf8f3f64be808473);
+        
+
+        marker_07f073d7afe2826f698798cc0850e159.bindPopup(popup_500e47b9b898f9fb6918ce5137eb3b4a)
+        ;
+
+        
+    
+    
+            var marker_a0e96965fecab592b690b0f5fe7f2fb0 = L.marker(
+                [37.57921, 126.9368],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_91413545e0665a07497a2b6c7f84d333 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0e96965fecab592b690b0f5fe7f2fb0.setIcon(icon_91413545e0665a07497a2b6c7f84d333);
+        
+    
+        var popup_191b938fd16f899c0503ed01f18d7335 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_227660a989c72f6976e838275063e8f2 = $(`<div id="html_227660a989c72f6976e838275063e8f2" style="width: 100.0%; height: 100.0%;">삼국유사 권1~2</div>`)[0];
+            popup_191b938fd16f899c0503ed01f18d7335.setContent(html_227660a989c72f6976e838275063e8f2);
+        
+
+        marker_a0e96965fecab592b690b0f5fe7f2fb0.bindPopup(popup_191b938fd16f899c0503ed01f18d7335)
+        ;
+
+        
+    
+    
+            var marker_5c060a989dd17cbf9896a434f674646f = L.marker(
+                [35.24303, 129.0921],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_4fc0ebe12d5efba1c0e541f0a2aa70b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5c060a989dd17cbf9896a434f674646f.setIcon(icon_4fc0ebe12d5efba1c0e541f0a2aa70b6);
+        
+    
+        var popup_2c180e2fd88f0add41a2f9cb3605b548 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_baf3e465c578a83b4aafa71680d1cd50 = $(`<div id="html_baf3e465c578a83b4aafa71680d1cd50" style="width: 100.0%; height: 100.0%;">삼국유사 권4~5</div>`)[0];
+            popup_2c180e2fd88f0add41a2f9cb3605b548.setContent(html_baf3e465c578a83b4aafa71680d1cd50);
+        
+
+        marker_5c060a989dd17cbf9896a434f674646f.bindPopup(popup_2c180e2fd88f0add41a2f9cb3605b548)
+        ;
+
+        
+    
+    
+            var marker_30b7561d55074a7e7a4f5b317d3ceb5f = L.marker(
+                [36.58653, 128.1868],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_e4596ddab81de06dcbea9ca24c5c9819 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_30b7561d55074a7e7a4f5b317d3ceb5f.setIcon(icon_e4596ddab81de06dcbea9ca24c5c9819);
+        
+    
+        var popup_e8d5f32927a82241228a72c0d3ed3b9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e6b3139f3a3e3627b54703e97777827 = $(`<div id="html_7e6b3139f3a3e3627b54703e97777827" style="width: 100.0%; height: 100.0%;">문경 봉암사 지증대사탑비</div>`)[0];
+            popup_e8d5f32927a82241228a72c0d3ed3b9c.setContent(html_7e6b3139f3a3e3627b54703e97777827);
+        
+
+        marker_30b7561d55074a7e7a4f5b317d3ceb5f.bindPopup(popup_e8d5f32927a82241228a72c0d3ed3b9c)
+        ;
+
+        
+    
+    
+            var marker_dd4c2777159e25cf23738674a3e6aa90 = L.marker(
+                [35.78315, 129.3078],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_8d45f1f445acf3c8d39baffbf21a1f14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd4c2777159e25cf23738674a3e6aa90.setIcon(icon_8d45f1f445acf3c8d39baffbf21a1f14);
+        
+    
+        var popup_779c36752376f57a3a91eaf51f588ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cfbd500e89d00a43e99f5659da3f43a = $(`<div id="html_4cfbd500e89d00a43e99f5659da3f43a" style="width: 100.0%; height: 100.0%;">포항 중성리 신라비</div>`)[0];
+            popup_779c36752376f57a3a91eaf51f588ee0.setContent(html_4cfbd500e89d00a43e99f5659da3f43a);
+        
+
+        marker_dd4c2777159e25cf23738674a3e6aa90.bindPopup(popup_779c36752376f57a3a91eaf51f588ee0)
+        ;
+
+        
+    
+    
+            var marker_84c8fc96c8bdb0a8545d92021a17be5c = L.marker(
+                [37.49686, 127.0031],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_34984b549b2902301e0fef241a6809f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_84c8fc96c8bdb0a8545d92021a17be5c.setIcon(icon_34984b549b2902301e0fef241a6809f6);
+        
+    
+        var popup_92237c6d85e7d7b68ec9cec535ad4efb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e6faa8ef013b8840364a4d253baae03 = $(`<div id="html_2e6faa8ef013b8840364a4d253baae03" style="width: 100.0%; height: 100.0%;">동의보감</div>`)[0];
+            popup_92237c6d85e7d7b68ec9cec535ad4efb.setContent(html_2e6faa8ef013b8840364a4d253baae03);
+        
+
+        marker_84c8fc96c8bdb0a8545d92021a17be5c.bindPopup(popup_92237c6d85e7d7b68ec9cec535ad4efb)
+        ;
+
+        
+    
+    
+            var marker_1dac1707dfd80e3e6fdb7b7af1675de8 = L.marker(
+                [37.39263, 127.0521],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_325405481ccbf32bc62eb1d4c928167f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1dac1707dfd80e3e6fdb7b7af1675de8.setIcon(icon_325405481ccbf32bc62eb1d4c928167f);
+        
+    
+        var popup_a31a57ed8e8031cb4bd61c426d34baac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9cc14ec4b7090c1f7f60483649c0f55 = $(`<div id="html_a9cc14ec4b7090c1f7f60483649c0f55" style="width: 100.0%; height: 100.0%;">동의보감</div>`)[0];
+            popup_a31a57ed8e8031cb4bd61c426d34baac.setContent(html_a9cc14ec4b7090c1f7f60483649c0f55);
+        
+
+        marker_1dac1707dfd80e3e6fdb7b7af1675de8.bindPopup(popup_a31a57ed8e8031cb4bd61c426d34baac)
+        ;
+
+        
+    
+    
+            var marker_d0bad9cca9f34a06ff52941433848806 = L.marker(
+                [37.46052, 126.9535],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_c7e63a4ece7884615979dd3c88f473d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d0bad9cca9f34a06ff52941433848806.setIcon(icon_c7e63a4ece7884615979dd3c88f473d2);
+        
+    
+        var popup_6b8195c121cbb7e8c6d740a9f4a24cf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7180f436b96a7e81adaf5f4105f0a364 = $(`<div id="html_7180f436b96a7e81adaf5f4105f0a364" style="width: 100.0%; height: 100.0%;">동의보감</div>`)[0];
+            popup_6b8195c121cbb7e8c6d740a9f4a24cf9.setContent(html_7180f436b96a7e81adaf5f4105f0a364);
+        
+
+        marker_d0bad9cca9f34a06ff52941433848806.bindPopup(popup_6b8195c121cbb7e8c6d740a9f4a24cf9)
+        ;
+
+        
+    
+    
+            var marker_2c58e62e2f9e7a41404c1eee8ac5f3e6 = L.marker(
+                [37.39263, 127.0521],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_6e7cd4e823d6d499bef2fb2dad9f59a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c58e62e2f9e7a41404c1eee8ac5f3e6.setIcon(icon_6e7cd4e823d6d499bef2fb2dad9f59a2);
+        
+    
+        var popup_c4c7b206919a547cb5ea28391dca1b81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02dcc8f4f8c346ba3e6dfd74dd9dad6e = $(`<div id="html_02dcc8f4f8c346ba3e6dfd74dd9dad6e" style="width: 100.0%; height: 100.0%;">월인천강지곡 권상</div>`)[0];
+            popup_c4c7b206919a547cb5ea28391dca1b81.setContent(html_02dcc8f4f8c346ba3e6dfd74dd9dad6e);
+        
+
+        marker_2c58e62e2f9e7a41404c1eee8ac5f3e6.bindPopup(popup_c4c7b206919a547cb5ea28391dca1b81)
+        ;
+
+        
+    
+    
+            var marker_0e747e91ee52db789dc8c4f7ba33253c = L.marker(
+                [36.50458, 128.7104],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_452ed0239e0e36890e8a5f65531fa086 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e747e91ee52db789dc8c4f7ba33253c.setIcon(icon_452ed0239e0e36890e8a5f65531fa086);
+        
+    
+        var popup_d3f971024e2d8ffee30812b9d511272c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9de131b25bd43c1d7e74ebad643a813c = $(`<div id="html_9de131b25bd43c1d7e74ebad643a813c" style="width: 100.0%; height: 100.0%;">삼국사기</div>`)[0];
+            popup_d3f971024e2d8ffee30812b9d511272c.setContent(html_9de131b25bd43c1d7e74ebad643a813c);
+        
+
+        marker_0e747e91ee52db789dc8c4f7ba33253c.bindPopup(popup_d3f971024e2d8ffee30812b9d511272c)
+        ;
+
+        
+    
+    
+            var marker_4135afba2b2c4e56700be7eaf264157c = L.marker(
+                [37.56763, 126.9761],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_53d0b9813bf51822144744124d461b43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4135afba2b2c4e56700be7eaf264157c.setIcon(icon_53d0b9813bf51822144744124d461b43);
+        
+    
+        var popup_2d75008949bbbd7c83153873d731808e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48433d8cf70b16fa5cb515748c1fd1fb = $(`<div id="html_48433d8cf70b16fa5cb515748c1fd1fb" style="width: 100.0%; height: 100.0%;">삼국사기</div>`)[0];
+            popup_2d75008949bbbd7c83153873d731808e.setContent(html_48433d8cf70b16fa5cb515748c1fd1fb);
+        
+
+        marker_4135afba2b2c4e56700be7eaf264157c.bindPopup(popup_2d75008949bbbd7c83153873d731808e)
+        ;
+
+        
+    
+    
+            var marker_05ee93790af2b3096d15bf3ddb32ce2f = L.marker(
+                [35.18944, 128.0772],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_632857626858cc2e512d55064cea1d87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05ee93790af2b3096d15bf3ddb32ce2f.setIcon(icon_632857626858cc2e512d55064cea1d87);
+        
+    
+        var popup_63a2a19e7b3466496052fbc06a8190d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95c32d422e22ccb7b76e432d607e0208 = $(`<div id="html_95c32d422e22ccb7b76e432d607e0208" style="width: 100.0%; height: 100.0%;">이제 개국공신교서</div>`)[0];
+            popup_63a2a19e7b3466496052fbc06a8190d7.setContent(html_95c32d422e22ccb7b76e432d607e0208);
+        
+
+        marker_05ee93790af2b3096d15bf3ddb32ce2f.bindPopup(popup_63a2a19e7b3466496052fbc06a8190d7)
+        ;
+
+        
+    
+    
+            var marker_3995c8a8ebce1f2564763c9147f0a2f3 = L.marker(
+                [37.39263, 127.0521],
+                {}
+            ).addTo(marker_cluster_87336ec879498976d2ea288cb8b5f9d4);
+        
+    
+            var icon_08b73d085eed9a4a8cb5afe86d7b2aa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3995c8a8ebce1f2564763c9147f0a2f3.setIcon(icon_08b73d085eed9a4a8cb5afe86d7b2aa5);
+        
+    
+        var popup_912aa431fceff75c498b7d7078bcb5be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d8872640712c5eeff1baea83d81d89a = $(`<div id="html_1d8872640712c5eeff1baea83d81d89a" style="width: 100.0%; height: 100.0%;">이십공신회맹축-보사공신녹훈후</div>`)[0];
+            popup_912aa431fceff75c498b7d7078bcb5be.setContent(html_1d8872640712c5eeff1baea83d81d89a);
+        
+
+        marker_3995c8a8ebce1f2564763c9147f0a2f3.bindPopup(popup_912aa431fceff75c498b7d7078bcb5be)
+        ;
+
+        
+    
+</script>

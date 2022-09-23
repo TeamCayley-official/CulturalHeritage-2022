@@ -1,0 +1,3414 @@
+{
+    "nodes": [
+        {
+            "id": "서울 숭례문 (1호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 서울 숭례문 (1호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2685703.jpg "
+        },
+        {
+            "id": "성곽시설",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 성곽시설",
+            "icon": null
+        },
+        {
+            "id": "나무",
+            "group": "3",
+            "hover": "▪︎재질: 나무",
+            "icon": null
+        },
+        {
+            "id": "기타",
+            "group": "3",
+            "hover": "▪︎재질상세: 기타",
+            "icon": null
+        },
+        {
+            "id": "Joseon",
+            "group": "4",
+            "hover": "▪︎시대_1: Joseon",
+            "icon": null
+        },
+        {
+            "id": "EarlyJoseon",
+            "group": "4",
+            "hover": "▪︎시대구분_1: EarlyJoseon",
+            "icon": null
+        },
+        {
+            "id": "서울특별시",
+            "group": "5",
+            "hover": "▪︎소재지시도_시명: 서울특별시",
+            "icon": null
+        },
+        {
+            "id": "서울 원각사지 십층석탑 (2호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 서울 원각사지 십층석탑 (2호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1611450.jpg"
+        },
+        {
+            "id": "탑",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 탑",
+            "icon": null
+        },
+        {
+            "id": "돌",
+            "group": "3",
+            "hover": "▪︎재질: 돌",
+            "icon": null
+        },
+        {
+            "id": "대리석",
+            "group": "3",
+            "hover": "▪︎재질상세: 대리석",
+            "icon": null
+        },
+        {
+            "id": "서울 북한산 신라 진흥왕 순수비 (3호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 서울 북한산 신라 진흥왕 순수비 (3호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1611458.jpg "
+        },
+        {
+            "id": "비",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 비",
+            "icon": null
+        },
+        {
+            "id": "화강암",
+            "group": "3",
+            "hover": "▪︎재질상세: 화강암",
+            "icon": null
+        },
+        {
+            "id": "ThreeKingdoms",
+            "group": "4",
+            "hover": "▪︎시대_1: ThreeKingdoms",
+            "icon": null
+        },
+        {
+            "id": "LateThreeKingdoms",
+            "group": "4",
+            "hover": "▪︎시대구분_1: LateThreeKingdoms",
+            "icon": null
+        },
+        {
+            "id": "여주 고달사지 승탑 (4호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 여주 고달사지 승탑 (4호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612029.jpg "
+        },
+        {
+            "id": "Goryeo",
+            "group": "4",
+            "hover": "▪︎시대_1: Goryeo",
+            "icon": null
+        },
+        {
+            "id": "EarlyGoryeo",
+            "group": "4",
+            "hover": "▪︎시대구분_1: EarlyGoryeo",
+            "icon": null
+        },
+        {
+            "id": "MiddleGoryeo",
+            "group": "4",
+            "hover": "▪︎시대구분_2: MiddleGoryeo",
+            "icon": null
+        },
+        {
+            "id": "경기도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 경기도",
+            "icon": null
+        },
+        {
+            "id": "보은 법주사 쌍사자 석등 (5호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 보은 법주사 쌍사자 석등 (5호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612142.jpg "
+        },
+        {
+            "id": "석등",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 석등",
+            "icon": null
+        },
+        {
+            "id": "NorthernAndSouthernStates",
+            "group": "4",
+            "hover": "▪︎시대_1: NorthernAndSouthernStates",
+            "icon": null
+        },
+        {
+            "id": "EarlyNorthernAndSouthernStates",
+            "group": "4",
+            "hover": "▪︎시대구분_1: EarlyNorthernAndSouthernStates",
+            "icon": null
+        },
+        {
+            "id": "충청북도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 충청북도",
+            "icon": null
+        },
+        {
+            "id": "충주 탑평리 칠층석탑 (6호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 충주 탑평리 칠층석탑 (6호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612146.jpg "
+        },
+        {
+            "id": "MiddleNorthernAndSouthernStates",
+            "group": "4",
+            "hover": "▪︎시대구분_1: MiddleNorthernAndSouthernStates",
+            "icon": null
+        },
+        {
+            "id": "천안 봉선홍경사 갈기비 (7호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 천안 봉선홍경사 갈기비 (7호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612207.jpg "
+        },
+        {
+            "id": "충청남도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 충청남도",
+            "icon": null
+        },
+        {
+            "id": "보령 성주사지 낭혜화상탑비 (8호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 보령 성주사지 낭혜화상탑비 (8호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612218.jpg "
+        },
+        {
+            "id": "사암",
+            "group": "3",
+            "hover": "▪︎재질상세: 사암",
+            "icon": null
+        },
+        {
+            "id": "LateNorthernAndSouthernStates",
+            "group": "4",
+            "hover": "▪︎시대구분_1: LateNorthernAndSouthernStates",
+            "icon": null
+        },
+        {
+            "id": "부여 정림사지 오층석탑 (9호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 부여 정림사지 오층석탑 (9호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021051411044001.jpg "
+        },
+        {
+            "id": "남원 실상사 백장암 삼층석탑 (10호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 남원 실상사 백장암 삼층석탑 (10호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612336.jpg "
+        },
+        {
+            "id": "전라북도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 전라북도",
+            "icon": null
+        },
+        {
+            "id": "익산 미륵사지 석탑 (11호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 익산 미륵사지 석탑 (11호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021030208274000.jpg "
+        },
+        {
+            "id": "구례 화엄사 각황전 앞 석등 (12호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 구례 화엄사 각황전 앞 석등 (12호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612403.jpg "
+        },
+        {
+            "id": "전라남도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 전라남도",
+            "icon": null
+        },
+        {
+            "id": "강진 무위사 극락보전 (13호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 강진 무위사 극락보전 (13호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612416.jpg "
+        },
+        {
+            "id": "불전",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 불전",
+            "icon": null
+        },
+        {
+            "id": "영천 거조사 영산전 (14호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 영천 거조사 영산전 (14호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021040914112004.jpg "
+        },
+        {
+            "id": "LateGoryeo",
+            "group": "4",
+            "hover": "▪︎시대구분_1: LateGoryeo",
+            "icon": null
+        },
+        {
+            "id": "경상북도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 경상북도",
+            "icon": null
+        },
+        {
+            "id": "안동 봉정사 극락전 (15호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 안동 봉정사 극락전 (15호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021040714010601.jpg "
+        },
+        {
+            "id": "안동 법흥사지 칠층전탑 (16호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 안동 법흥사지 칠층전탑 (16호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021040714232605.jpg "
+        },
+        {
+            "id": "흙",
+            "group": "3",
+            "hover": "▪︎재질: 흙",
+            "icon": null
+        },
+        {
+            "id": "영주 부석사 무량수전 앞 석등 (17호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 영주 부석사 무량수전 앞 석등 (17호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021040816183602.jpg "
+        },
+        {
+            "id": "영주 부석사 무량수전 (18호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 영주 부석사 무량수전 (18호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021040909060603.jpg "
+        },
+        {
+            "id": "영주 부석사 조사당 (19호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 영주 부석사 조사당 (19호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021040909091403.jpg "
+        },
+        {
+            "id": "경주 불국사 다보탑 (20호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 불국사 다보탑 (20호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612673.jpg"
+        },
+        {
+            "id": "경주 불국사 삼층석탑 (21호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 불국사 삼층석탑 (21호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021070210514100.jpg"
+        },
+        {
+            "id": "경주 불국사 연화교 및 칠보교 (22호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 불국사 연화교 및 칠보교 (22호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612693.jpg "
+        },
+        {
+            "id": "교량",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 교량",
+            "icon": null
+        },
+        {
+            "id": "경주 불국사 청운교 및 백운교 (23호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 불국사 청운교 및 백운교 (23호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032414194700.JPG "
+        },
+        {
+            "id": "경주 석굴암 석굴 (24호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 석굴암 석굴 (24호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021041610214300.jpg"
+        },
+        {
+            "id": "경주 태종무열왕릉비 (25호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 태종무열왕릉비 (25호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032414305104.JPG"
+        },
+        {
+            "id": "경주 불국사 금동비로자나불좌상 (26호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 불국사 금동비로자나불좌상 (26호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032414453401.JPG"
+        },
+        {
+            "id": "불상",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 불상",
+            "icon": null
+        },
+        {
+            "id": "금속",
+            "group": "3",
+            "hover": "▪︎재질: 금속",
+            "icon": null
+        },
+        {
+            "id": "금동",
+            "group": "3",
+            "hover": "▪︎재질상세: 금동",
+            "icon": null
+        },
+        {
+            "id": "경주 불국사 금동아미타여래좌상 (27호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 불국사 금동아미타여래좌상 (27호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032415015300.JPG"
+        },
+        {
+            "id": "경주 백률사 금동약사여래입상 (28호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 백률사 금동약사여래입상 (28호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032415043705.jpg"
+        },
+        {
+            "id": "성덕대왕신종 (29호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 성덕대왕신종 (29호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612744.jpg"
+        },
+        {
+            "id": "청동",
+            "group": "3",
+            "hover": "▪︎재질상세: 청동",
+            "icon": null
+        },
+        {
+            "id": "경주 분황사 모전석탑 (30호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 분황사 모전석탑 (30호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032415162301.JPG"
+        },
+        {
+            "id": "안산암",
+            "group": "3",
+            "hover": "▪︎재질상세: 안산암",
+            "icon": null
+        },
+        {
+            "id": "경주 첨성대 (31호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 첨성대 (31호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032415274800.JPG"
+        },
+        {
+            "id": "천문",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 천문",
+            "icon": null
+        },
+        {
+            "id": "합천 해인사 대장경판 (32호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 합천 해인사 대장경판 (32호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021041309381300.jpg"
+        },
+        {
+            "id": "판목류",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 판목류",
+            "icon": null
+        },
+        {
+            "id": "산벚나무",
+            "group": "3",
+            "hover": "▪︎재질상세: 산벚나무",
+            "icon": null
+        },
+        {
+            "id": "경상남도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 경상남도",
+            "icon": null
+        },
+        {
+            "id": "창녕 신라 진흥왕 척경비 (33호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 창녕 신라 진흥왕 척경비 (33호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021031909382201.jpg"
+        },
+        {
+            "id": "창녕 술정리 동 삼층석탑 (34호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 창녕 술정리 동 삼층석탑 (34호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021070615183200.jpg"
+        },
+        {
+            "id": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 구례 화엄사 사사자 삼층석탑 (35호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612422.jpg"
+        },
+        {
+            "id": "상원사 동종 (36호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 상원사 동종 (36호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2055266.jpg"
+        },
+        {
+            "id": "동",
+            "group": "3",
+            "hover": "▪︎재질상세: 동",
+            "icon": null
+        },
+        {
+            "id": "강원도",
+            "group": "5",
+            "hover": "▪︎소재지도명: 강원도",
+            "icon": null
+        },
+        {
+            "id": "경주 황복사지 삼층석탑 (37호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 황복사지 삼층석탑 (37호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032415375300.jpg"
+        },
+        {
+            "id": "경주 고선사지 삼층석탑 (38호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 고선사지 삼층석탑 (38호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032415444101.jpg"
+        },
+        {
+            "id": "경주 나원리 오층석탑 (39호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 나원리 오층석탑 (39호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021070209124901.JPG"
+        },
+        {
+            "id": "경주 정혜사지 십삼층석탑 (40호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 경주 정혜사지 십삼층석탑 (40호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021032415503405.jpg"
+        },
+        {
+            "id": "청주 용두사지 철당간 (41호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 청주 용두사지 철당간 (41호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021053109451903.JPG"
+        },
+        {
+            "id": "당간",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 당간",
+            "icon": null
+        },
+        {
+            "id": "철",
+            "group": "3",
+            "hover": "▪︎재질상세: 철",
+            "icon": null
+        },
+        {
+            "id": "순천 송광사 목조삼존불감 (42호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 순천 송광사 목조삼존불감 (42호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2033249.jpg"
+        },
+        {
+            "id": "혜심 고신제서 (43호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 혜심 고신제서 (43호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2277393.jpg"
+        },
+        {
+            "id": "기타류",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 기타류",
+            "icon": null
+        },
+        {
+            "id": "섬유",
+            "group": "3",
+            "hover": "▪︎재질: 섬유",
+            "icon": null
+        },
+        {
+            "id": "견",
+            "group": "3",
+            "hover": "▪︎재질상세: 견",
+            "icon": null
+        },
+        {
+            "id": "장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021050417343903.JPG"
+        },
+        {
+            "id": "영주 부석사 소조여래좌상 (45호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 영주 부석사 소조여래좌상 (45호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612784.jpg"
+        },
+        {
+            "id": "소조",
+            "group": "3",
+            "hover": "▪︎재질상세: 소조",
+            "icon": null
+        },
+        {
+            "id": "부석사 조사당 벽화 (46호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 부석사 조사당 벽화 (46호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2031865.jpg"
+        },
+        {
+            "id": "토벽화",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 토벽화",
+            "icon": null
+        },
+        {
+            "id": "하동 쌍계사 진감선사탑비 (47호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 하동 쌍계사 진감선사탑비 (47호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1613024.jpg"
+        },
+        {
+            "id": "평창 월정사 팔각 구층석탑 (48-1호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 평창 월정사 팔각 구층석탑 (48-1호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612071.jpg"
+        },
+        {
+            "id": "평창 월정사 석조보살좌상 (48-2호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 평창 월정사 석조보살좌상 (48-2호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2017010317322500.jpg"
+        },
+        {
+            "id": "보살상",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 보살상",
+            "icon": null
+        },
+        {
+            "id": "예산 수덕사 대웅전 (49호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 예산 수덕사 대웅전 (49호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021052508575700.jpg"
+        },
+        {
+            "id": "영암 도갑사 해탈문 (50호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 영암 도갑사 해탈문 (50호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021050317222901.JPG"
+        },
+        {
+            "id": "문",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 문",
+            "icon": null
+        },
+        {
+            "id": "강릉 임영관 삼문 (51호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 강릉 임영관 삼문 (51호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612081.jpg"
+        },
+        {
+            "id": "관아",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 관아",
+            "icon": null
+        },
+        {
+            "id": "합천 해인사 장경판전 (52호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 합천 해인사 장경판전 (52호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1613049.jpg"
+        },
+        {
+            "id": "구례 연곡사 동 승탑 (53호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 구례 연곡사 동 승탑 (53호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612474.jpg"
+        },
+        {
+            "id": "구례 연곡사 북 승탑 (54호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 구례 연곡사 북 승탑 (54호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612492.jpg"
+        },
+        {
+            "id": "보은 법주사 팔상전 (55호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 보은 법주사 팔상전 (55호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612156.jpg"
+        },
+        {
+            "id": "MiddleJoseon",
+            "group": "4",
+            "hover": "▪︎시대구분_1: MiddleJoseon",
+            "icon": null
+        },
+        {
+            "id": "순천 송광사 국사전 (56호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 순천 송광사 국사전 (56호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612507.jpg"
+        },
+        {
+            "id": "화순 쌍봉사 철감선사탑 (57호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 화순 쌍봉사 철감선사탑 (57호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612518.jpg"
+        },
+        {
+            "id": "청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2033546.jpg"
+        },
+        {
+            "id": "원주 법천사지 지광국사탑비 (59호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 원주 법천사지 지광국사탑비 (59호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612094.jpg"
+        },
+        {
+            "id": "청자 사자형뚜껑 향로 (60호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 청자 사자형뚜껑 향로 (60호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1611463.jpg"
+        },
+        {
+            "id": "청자",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 청자",
+            "icon": null
+        },
+        {
+            "id": "도자기",
+            "group": "3",
+            "hover": "▪︎재질: 도자기",
+            "icon": null
+        },
+        {
+            "id": "청자 어룡형 주전자 (61호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 청자 어룡형 주전자 (61호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2279088.jpg"
+        },
+        {
+            "id": "김제 금산사 미륵전 (62호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 김제 금산사 미륵전 (62호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021051015231606.jpg"
+        },
+        {
+            "id": "철원 도피안사 철조비로자나불좌상 (63호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 철원 도피안사 철조비로자나불좌상 (63호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612106.jpg"
+        },
+        {
+            "id": "보은 법주사 석련지 (64호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 보은 법주사 석련지 (64호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/1612165.jpg"
+        },
+        {
+            "id": "청자 기린형뚜껑 향로 (65호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 청자 기린형뚜껑 향로 (65호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2279092.jpg"
+        },
+        {
+            "id": "청자 상감연지원앙문 정병 (66호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 청자 상감연지원앙문 정병 (66호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2279103.jpg"
+        },
+        {
+            "id": "구례 화엄사 각황전 (67호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 구례 화엄사 각황전 (67호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2021042708105004.JPG"
+        },
+        {
+            "id": "청자 상감운학문 매병 (68호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 청자 상감운학문 매병 (68호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2279118.jpg"
+        },
+        {
+            "id": "심지백 개국원종공신녹권 (69호)",
+            "group": "1",
+            "hover": "▪︎문화재명(지정호수): 심지백 개국원종공신녹권 (69호)",
+            "icon": "http://www.cha.go.kr/unisearch/images/national_treasure/2277406.jpg"
+        },
+        {
+            "id": "교령류",
+            "group": "2",
+            "hover": "▪︎문화재분류4: 교령류",
+            "icon": null
+        },
+        {
+            "id": "종이",
+            "group": "3",
+            "hover": "▪︎재질: 종이",
+            "icon": null
+        },
+        {
+            "id": "부산광역시",
+            "group": "5",
+            "hover": "▪︎소재지시도_시명: 부산광역시",
+            "icon": null
+        },
+        {
+            "id": "VisualArtWork",
+            "group": "7",
+            "hover": "▪︎VisualArtWork: VisualArtWork",
+            "icon": null
+        }
+    ],
+    "links": [
+        {
+            "source": "서울 숭례문 (1호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "서울 숭례문 (1호)",
+            "target": "EarlyJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "서울 숭례문 (1호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "서울 원각사지 십층석탑 (2호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "서울 원각사지 십층석탑 (2호)",
+            "target": "EarlyJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "서울 원각사지 십층석탑 (2호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "서울 북한산 신라 진흥왕 순수비 (3호)",
+            "target": "ThreeKingdoms",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "서울 북한산 신라 진흥왕 순수비 (3호)",
+            "target": "LateThreeKingdoms",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "서울 북한산 신라 진흥왕 순수비 (3호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "여주 고달사지 승탑 (4호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "여주 고달사지 승탑 (4호)",
+            "target": "EarlyGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "여주 고달사지 승탑 (4호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "여주 고달사지 승탑 (4호)",
+            "target": "경기도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "보은 법주사 쌍사자 석등 (5호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보은 법주사 쌍사자 석등 (5호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보은 법주사 쌍사자 석등 (5호)",
+            "target": "충청북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "충주 탑평리 칠층석탑 (6호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "충주 탑평리 칠층석탑 (6호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "충주 탑평리 칠층석탑 (6호)",
+            "target": "충청북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "천안 봉선홍경사 갈기비 (7호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "천안 봉선홍경사 갈기비 (7호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "천안 봉선홍경사 갈기비 (7호)",
+            "target": "충청남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "보령 성주사지 낭혜화상탑비 (8호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보령 성주사지 낭혜화상탑비 (8호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보령 성주사지 낭혜화상탑비 (8호)",
+            "target": "충청남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "부여 정림사지 오층석탑 (9호)",
+            "target": "ThreeKingdoms",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "부여 정림사지 오층석탑 (9호)",
+            "target": "LateThreeKingdoms",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "부여 정림사지 오층석탑 (9호)",
+            "target": "충청남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "남원 실상사 백장암 삼층석탑 (10호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "남원 실상사 백장암 삼층석탑 (10호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "남원 실상사 백장암 삼층석탑 (10호)",
+            "target": "전라북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "익산 미륵사지 석탑 (11호)",
+            "target": "ThreeKingdoms",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "익산 미륵사지 석탑 (11호)",
+            "target": "LateThreeKingdoms",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "익산 미륵사지 석탑 (11호)",
+            "target": "전라북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "구례 화엄사 각황전 앞 석등 (12호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 화엄사 각황전 앞 석등 (12호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 화엄사 각황전 앞 석등 (12호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "강진 무위사 극락보전 (13호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "강진 무위사 극락보전 (13호)",
+            "target": "EarlyJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "강진 무위사 극락보전 (13호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "영천 거조사 영산전 (14호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영천 거조사 영산전 (14호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영천 거조사 영산전 (14호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "안동 봉정사 극락전 (15호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "안동 봉정사 극락전 (15호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "안동 봉정사 극락전 (15호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "안동 봉정사 극락전 (15호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "안동 법흥사지 칠층전탑 (16호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "안동 법흥사지 칠층전탑 (16호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "안동 법흥사지 칠층전탑 (16호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "안동 법흥사지 칠층전탑 (16호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "영주 부석사 무량수전 앞 석등 (17호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영주 부석사 무량수전 앞 석등 (17호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "영주 부석사 무량수전 (18호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영주 부석사 무량수전 (18호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영주 부석사 무량수전 (18호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "영주 부석사 조사당 (19호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영주 부석사 조사당 (19호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영주 부석사 조사당 (19호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 불국사 다보탑 (20호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 다보탑 (20호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 다보탑 (20호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 불국사 삼층석탑 (21호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 삼층석탑 (21호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 삼층석탑 (21호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 불국사 연화교 및 칠보교 (22호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 연화교 및 칠보교 (22호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 연화교 및 칠보교 (22호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 불국사 청운교 및 백운교 (23호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 청운교 및 백운교 (23호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 청운교 및 백운교 (23호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 석굴암 석굴 (24호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 석굴암 석굴 (24호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 석굴암 석굴 (24호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 태종무열왕릉비 (25호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 태종무열왕릉비 (25호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 태종무열왕릉비 (25호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 불국사 금동비로자나불좌상 (26호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 금동비로자나불좌상 (26호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 금동비로자나불좌상 (26호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 불국사 금동아미타여래좌상 (27호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 금동아미타여래좌상 (27호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 금동아미타여래좌상 (27호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 불국사 금동아미타여래좌상 (27호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 백률사 금동약사여래입상 (28호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 백률사 금동약사여래입상 (28호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 백률사 금동약사여래입상 (28호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 백률사 금동약사여래입상 (28호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "성덕대왕신종 (29호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "성덕대왕신종 (29호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "성덕대왕신종 (29호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 분황사 모전석탑 (30호)",
+            "target": "ThreeKingdoms",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 분황사 모전석탑 (30호)",
+            "target": "LateThreeKingdoms",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 분황사 모전석탑 (30호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 첨성대 (31호)",
+            "target": "ThreeKingdoms",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 첨성대 (31호)",
+            "target": "LateThreeKingdoms",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 첨성대 (31호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "합천 해인사 대장경판 (32호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "합천 해인사 대장경판 (32호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "합천 해인사 대장경판 (32호)",
+            "target": "경상남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "창녕 신라 진흥왕 척경비 (33호)",
+            "target": "ThreeKingdoms",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "창녕 신라 진흥왕 척경비 (33호)",
+            "target": "LateThreeKingdoms",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "창녕 신라 진흥왕 척경비 (33호)",
+            "target": "경상남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "창녕 술정리 동 삼층석탑 (34호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "창녕 술정리 동 삼층석탑 (34호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "창녕 술정리 동 삼층석탑 (34호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "창녕 술정리 동 삼층석탑 (34호)",
+            "target": "경상남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "상원사 동종 (36호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "상원사 동종 (36호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "상원사 동종 (36호)",
+            "target": "강원도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 황복사지 삼층석탑 (37호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 황복사지 삼층석탑 (37호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 황복사지 삼층석탑 (37호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 고선사지 삼층석탑 (38호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 고선사지 삼층석탑 (38호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 고선사지 삼층석탑 (38호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 나원리 오층석탑 (39호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 나원리 오층석탑 (39호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 나원리 오층석탑 (39호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 나원리 오층석탑 (39호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "경주 정혜사지 십삼층석탑 (40호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 정혜사지 십삼층석탑 (40호)",
+            "target": "MiddleNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 정혜사지 십삼층석탑 (40호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "경주 정혜사지 십삼층석탑 (40호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "청주 용두사지 철당간 (41호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청주 용두사지 철당간 (41호)",
+            "target": "EarlyGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청주 용두사지 철당간 (41호)",
+            "target": "충청북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "순천 송광사 목조삼존불감 (42호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "순천 송광사 목조삼존불감 (42호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "혜심 고신제서 (43호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "혜심 고신제서 (43호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "혜심 고신제서 (43호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "영주 부석사 소조여래좌상 (45호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영주 부석사 소조여래좌상 (45호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "부석사 조사당 벽화 (46호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "부석사 조사당 벽화 (46호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "부석사 조사당 벽화 (46호)",
+            "target": "경상북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "하동 쌍계사 진감선사탑비 (47호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "하동 쌍계사 진감선사탑비 (47호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "하동 쌍계사 진감선사탑비 (47호)",
+            "target": "경상남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "평창 월정사 팔각 구층석탑 (48-1호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "평창 월정사 팔각 구층석탑 (48-1호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "평창 월정사 팔각 구층석탑 (48-1호)",
+            "target": "강원도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "평창 월정사 석조보살좌상 (48-2호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "평창 월정사 석조보살좌상 (48-2호)",
+            "target": "EarlyGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "평창 월정사 석조보살좌상 (48-2호)",
+            "target": "강원도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "예산 수덕사 대웅전 (49호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "예산 수덕사 대웅전 (49호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "예산 수덕사 대웅전 (49호)",
+            "target": "충청남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "영암 도갑사 해탈문 (50호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영암 도갑사 해탈문 (50호)",
+            "target": "EarlyJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "영암 도갑사 해탈문 (50호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "강릉 임영관 삼문 (51호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "강릉 임영관 삼문 (51호)",
+            "target": "EarlyGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "강릉 임영관 삼문 (51호)",
+            "target": "강원도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "합천 해인사 장경판전 (52호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "합천 해인사 장경판전 (52호)",
+            "target": "EarlyJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "합천 해인사 장경판전 (52호)",
+            "target": "경상남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "구례 연곡사 동 승탑 (53호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 연곡사 동 승탑 (53호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "구례 연곡사 북 승탑 (54호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 연곡사 북 승탑 (54호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "보은 법주사 팔상전 (55호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보은 법주사 팔상전 (55호)",
+            "target": "MiddleJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보은 법주사 팔상전 (55호)",
+            "target": "충청북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "순천 송광사 국사전 (56호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "순천 송광사 국사전 (56호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "순천 송광사 국사전 (56호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "화순 쌍봉사 철감선사탑 (57호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "화순 쌍봉사 철감선사탑 (57호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "화순 쌍봉사 철감선사탑 (57호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "target": "충청남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "원주 법천사지 지광국사탑비 (59호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "원주 법천사지 지광국사탑비 (59호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "원주 법천사지 지광국사탑비 (59호)",
+            "target": "강원도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "청자 사자형뚜껑 향로 (60호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 사자형뚜껑 향로 (60호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 사자형뚜껑 향로 (60호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "청자 어룡형 주전자 (61호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 어룡형 주전자 (61호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 어룡형 주전자 (61호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "김제 금산사 미륵전 (62호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "김제 금산사 미륵전 (62호)",
+            "target": "MiddleJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "김제 금산사 미륵전 (62호)",
+            "target": "전라북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "철원 도피안사 철조비로자나불좌상 (63호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "철원 도피안사 철조비로자나불좌상 (63호)",
+            "target": "LateNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "철원 도피안사 철조비로자나불좌상 (63호)",
+            "target": "강원도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "보은 법주사 석련지 (64호)",
+            "target": "NorthernAndSouthernStates",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보은 법주사 석련지 (64호)",
+            "target": "EarlyNorthernAndSouthernStates",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "보은 법주사 석련지 (64호)",
+            "target": "충청북도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "청자 기린형뚜껑 향로 (65호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 기린형뚜껑 향로 (65호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 기린형뚜껑 향로 (65호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "청자 상감연지원앙문 정병 (66호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 상감연지원앙문 정병 (66호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 상감연지원앙문 정병 (66호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "구례 화엄사 각황전 (67호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 화엄사 각황전 (67호)",
+            "target": "MiddleJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "구례 화엄사 각황전 (67호)",
+            "target": "전라남도",
+            "value": "소재지도명",
+            "description": "koad:province"
+        },
+        {
+            "source": "청자 상감운학문 매병 (68호)",
+            "target": "Goryeo",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 상감운학문 매병 (68호)",
+            "target": "MiddleGoryeo",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 상감운학문 매병 (68호)",
+            "target": "LateGoryeo",
+            "value": "시대구분_2",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "청자 상감운학문 매병 (68호)",
+            "target": "서울특별시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "심지백 개국원종공신녹권 (69호)",
+            "target": "Joseon",
+            "value": "시대_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "심지백 개국원종공신녹권 (69호)",
+            "target": "EarlyJoseon",
+            "value": "시대구분_1",
+            "description": "dctemrs:temporal"
+        },
+        {
+            "source": "심지백 개국원종공신녹권 (69호)",
+            "target": "부산광역시",
+            "value": "소재지시도_시명",
+            "description": "koad:city"
+        },
+        {
+            "source": "기타",
+            "target": "나무",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "서울 숭례문 (1호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "대리석",
+            "target": "돌",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "서울 원각사지 십층석탑 (2호)",
+            "target": "대리석",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "화강암",
+            "target": "돌",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "서울 북한산 신라 진흥왕 순수비 (3호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "여주 고달사지 승탑 (4호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "기타",
+            "target": "돌",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "보은 법주사 쌍사자 석등 (5호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "충주 탑평리 칠층석탑 (6호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "천안 봉선홍경사 갈기비 (7호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "사암",
+            "target": "돌",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "보령 성주사지 낭혜화상탑비 (8호)",
+            "target": "사암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "부여 정림사지 오층석탑 (9호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "남원 실상사 백장암 삼층석탑 (10호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "익산 미륵사지 석탑 (11호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "구례 화엄사 각황전 앞 석등 (12호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "강진 무위사 극락보전 (13호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "영천 거조사 영산전 (14호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "안동 봉정사 극락전 (15호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "기타",
+            "target": "흙",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "안동 법흥사지 칠층전탑 (16호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "영주 부석사 무량수전 앞 석등 (17호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "영주 부석사 무량수전 (18호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "영주 부석사 조사당 (19호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 불국사 다보탑 (20호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 불국사 삼층석탑 (21호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 불국사 연화교 및 칠보교 (22호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 불국사 청운교 및 백운교 (23호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 석굴암 석굴 (24호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 태종무열왕릉비 (25호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "금동",
+            "target": "금속",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 불국사 금동비로자나불좌상 (26호)",
+            "target": "금동",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 불국사 금동아미타여래좌상 (27호)",
+            "target": "금동",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 백률사 금동약사여래입상 (28호)",
+            "target": "금동",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청동",
+            "target": "금속",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "성덕대왕신종 (29호)",
+            "target": "청동",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "안산암",
+            "target": "돌",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 분황사 모전석탑 (30호)",
+            "target": "안산암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 첨성대 (31호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "산벚나무",
+            "target": "나무",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "합천 해인사 대장경판 (32호)",
+            "target": "산벚나무",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "창녕 신라 진흥왕 척경비 (33호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "창녕 술정리 동 삼층석탑 (34호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "동",
+            "target": "금속",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "상원사 동종 (36호)",
+            "target": "동",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 황복사지 삼층석탑 (37호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 고선사지 삼층석탑 (38호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 나원리 오층석탑 (39호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "경주 정혜사지 십삼층석탑 (40호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "철",
+            "target": "금속",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청주 용두사지 철당간 (41호)",
+            "target": "철",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "순천 송광사 목조삼존불감 (42호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "견",
+            "target": "섬유",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "혜심 고신제서 (43호)",
+            "target": "견",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "소조",
+            "target": "흙",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "영주 부석사 소조여래좌상 (45호)",
+            "target": "소조",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "부석사 조사당 벽화 (46호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "하동 쌍계사 진감선사탑비 (47호)",
+            "target": "대리석",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "평창 월정사 팔각 구층석탑 (48-1호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "평창 월정사 석조보살좌상 (48-2호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "예산 수덕사 대웅전 (49호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "영암 도갑사 해탈문 (50호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "강릉 임영관 삼문 (51호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "합천 해인사 장경판전 (52호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "구례 연곡사 동 승탑 (53호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "구례 연곡사 북 승탑 (54호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "보은 법주사 팔상전 (55호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "순천 송광사 국사전 (56호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "화순 쌍봉사 철감선사탑 (57호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "target": "철",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "원주 법천사지 지광국사탑비 (59호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청자",
+            "target": "도자기",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청자 사자형뚜껑 향로 (60호)",
+            "target": "청자",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청자 어룡형 주전자 (61호)",
+            "target": "청자",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "김제 금산사 미륵전 (62호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "철원 도피안사 철조비로자나불좌상 (63호)",
+            "target": "철",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "보은 법주사 석련지 (64호)",
+            "target": "화강암",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청자 기린형뚜껑 향로 (65호)",
+            "target": "청자",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청자 상감연지원앙문 정병 (66호)",
+            "target": "청자",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "구례 화엄사 각황전 (67호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "청자 상감운학문 매병 (68호)",
+            "target": "청자",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "기타",
+            "target": "종이",
+            "value": "재질",
+            "description": "skos:broader"
+        },
+        {
+            "source": "심지백 개국원종공신녹권 (69호)",
+            "target": "기타",
+            "value": "재질상세",
+            "description": "skos:broader"
+        },
+        {
+            "source": "서울 숭례문 (1호)",
+            "target": "성곽시설",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "서울 원각사지 십층석탑 (2호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "서울 북한산 신라 진흥왕 순수비 (3호)",
+            "target": "비",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "여주 고달사지 승탑 (4호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "보은 법주사 쌍사자 석등 (5호)",
+            "target": "석등",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "충주 탑평리 칠층석탑 (6호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "천안 봉선홍경사 갈기비 (7호)",
+            "target": "비",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "보령 성주사지 낭혜화상탑비 (8호)",
+            "target": "비",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "부여 정림사지 오층석탑 (9호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "남원 실상사 백장암 삼층석탑 (10호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "익산 미륵사지 석탑 (11호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "구례 화엄사 각황전 앞 석등 (12호)",
+            "target": "석등",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "강진 무위사 극락보전 (13호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "영천 거조사 영산전 (14호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "안동 봉정사 극락전 (15호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "안동 법흥사지 칠층전탑 (16호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "영주 부석사 무량수전 앞 석등 (17호)",
+            "target": "석등",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "영주 부석사 무량수전 (18호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "영주 부석사 조사당 (19호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 불국사 다보탑 (20호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 불국사 삼층석탑 (21호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 불국사 연화교 및 칠보교 (22호)",
+            "target": "교량",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 불국사 청운교 및 백운교 (23호)",
+            "target": "교량",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 석굴암 석굴 (24호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 태종무열왕릉비 (25호)",
+            "target": "비",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 불국사 금동비로자나불좌상 (26호)",
+            "target": "불상",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 불국사 금동아미타여래좌상 (27호)",
+            "target": "불상",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 백률사 금동약사여래입상 (28호)",
+            "target": "불상",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 분황사 모전석탑 (30호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 첨성대 (31호)",
+            "target": "천문",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "합천 해인사 대장경판 (32호)",
+            "target": "판목류",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "창녕 신라 진흥왕 척경비 (33호)",
+            "target": "비",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "창녕 술정리 동 삼층석탑 (34호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 황복사지 삼층석탑 (37호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 고선사지 삼층석탑 (38호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 나원리 오층석탑 (39호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "경주 정혜사지 십삼층석탑 (40호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "청주 용두사지 철당간 (41호)",
+            "target": "당간",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "혜심 고신제서 (43호)",
+            "target": "기타류",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "영주 부석사 소조여래좌상 (45호)",
+            "target": "불상",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "부석사 조사당 벽화 (46호)",
+            "target": "토벽화",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "하동 쌍계사 진감선사탑비 (47호)",
+            "target": "비",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "평창 월정사 팔각 구층석탑 (48-1호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "평창 월정사 석조보살좌상 (48-2호)",
+            "target": "보살상",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "예산 수덕사 대웅전 (49호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "영암 도갑사 해탈문 (50호)",
+            "target": "문",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "강릉 임영관 삼문 (51호)",
+            "target": "관아",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "합천 해인사 장경판전 (52호)",
+            "target": "기타",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "구례 연곡사 동 승탑 (53호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "구례 연곡사 북 승탑 (54호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "보은 법주사 팔상전 (55호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "순천 송광사 국사전 (56호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "화순 쌍봉사 철감선사탑 (57호)",
+            "target": "탑",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "target": "불상",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "원주 법천사지 지광국사탑비 (59호)",
+            "target": "비",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "청자 사자형뚜껑 향로 (60호)",
+            "target": "청자",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "청자 어룡형 주전자 (61호)",
+            "target": "청자",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "김제 금산사 미륵전 (62호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "철원 도피안사 철조비로자나불좌상 (63호)",
+            "target": "불상",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "보은 법주사 석련지 (64호)",
+            "target": "기타",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "청자 기린형뚜껑 향로 (65호)",
+            "target": "청자",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "청자 상감연지원앙문 정병 (66호)",
+            "target": "청자",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "구례 화엄사 각황전 (67호)",
+            "target": "불전",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "청자 상감운학문 매병 (68호)",
+            "target": "청자",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "심지백 개국원종공신녹권 (69호)",
+            "target": "교령류",
+            "value": "문화재분류4",
+            "description": "dcterms:subject"
+        },
+        {
+            "source": "서울 숭례문 (1호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "서울 원각사지 십층석탑 (2호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "서울 북한산 신라 진흥왕 순수비 (3호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "여주 고달사지 승탑 (4호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "보은 법주사 쌍사자 석등 (5호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "충주 탑평리 칠층석탑 (6호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "천안 봉선홍경사 갈기비 (7호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "보령 성주사지 낭혜화상탑비 (8호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "부여 정림사지 오층석탑 (9호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "남원 실상사 백장암 삼층석탑 (10호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "익산 미륵사지 석탑 (11호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "구례 화엄사 각황전 앞 석등 (12호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "강진 무위사 극락보전 (13호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "영천 거조사 영산전 (14호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "안동 봉정사 극락전 (15호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "안동 법흥사지 칠층전탑 (16호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "영주 부석사 무량수전 앞 석등 (17호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "영주 부석사 무량수전 (18호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "영주 부석사 조사당 (19호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 불국사 다보탑 (20호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 불국사 삼층석탑 (21호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 불국사 연화교 및 칠보교 (22호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 불국사 청운교 및 백운교 (23호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 석굴암 석굴 (24호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 태종무열왕릉비 (25호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 불국사 금동비로자나불좌상 (26호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 불국사 금동아미타여래좌상 (27호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 백률사 금동약사여래입상 (28호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "성덕대왕신종 (29호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 분황사 모전석탑 (30호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 첨성대 (31호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "합천 해인사 대장경판 (32호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "창녕 신라 진흥왕 척경비 (33호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "창녕 술정리 동 삼층석탑 (34호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "구례 화엄사 사사자 삼층석탑 (35호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "상원사 동종 (36호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 황복사지 삼층석탑 (37호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 고선사지 삼층석탑 (38호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 나원리 오층석탑 (39호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "경주 정혜사지 십삼층석탑 (40호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "청주 용두사지 철당간 (41호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "순천 송광사 목조삼존불감 (42호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "혜심 고신제서 (43호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "장흥 보림사 남·북 삼층석탑 및 석등 (44호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "영주 부석사 소조여래좌상 (45호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "부석사 조사당 벽화 (46호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "하동 쌍계사 진감선사탑비 (47호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "평창 월정사 팔각 구층석탑 (48-1호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "평창 월정사 석조보살좌상 (48-2호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "예산 수덕사 대웅전 (49호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "영암 도갑사 해탈문 (50호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "강릉 임영관 삼문 (51호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "합천 해인사 장경판전 (52호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "구례 연곡사 동 승탑 (53호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "구례 연곡사 북 승탑 (54호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "보은 법주사 팔상전 (55호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "순천 송광사 국사전 (56호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "화순 쌍봉사 철감선사탑 (57호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "청양 장곡사 철조약사여래좌상 및 석조대좌 (58호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "원주 법천사지 지광국사탑비 (59호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "청자 사자형뚜껑 향로 (60호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "청자 어룡형 주전자 (61호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "김제 금산사 미륵전 (62호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "철원 도피안사 철조비로자나불좌상 (63호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "보은 법주사 석련지 (64호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "청자 기린형뚜껑 향로 (65호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "청자 상감연지원앙문 정병 (66호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "구례 화엄사 각황전 (67호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "청자 상감운학문 매병 (68호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        },
+        {
+            "source": "심지백 개국원종공신녹권 (69호)",
+            "target": "VisualArtWork",
+            "value": "class",
+            "description": "schema:VisualArtWork"
+        }
+    ]
+}

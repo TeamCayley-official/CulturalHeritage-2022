@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>제목을 작성해주세요</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+
+		<!-- Favicon -->
+		<link href="./../images/teamCayley_logo_trans.png" rel="icon">
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">문화재 시냅스: 국보 데이터 연결하기</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="generic.html">Generic</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="#">Sign Up</a></li>
+											<li><a href="#">Log In</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<!-------제목------->
+						<header>
+							<h1>데이터시각화</h1>
+							<p>팀 케일리 구축 데이터를 시각화하였다.</p>
+						</header>
+
+						<!-------페이지------->
+						<section class="wrapper style5">
+							<div class="inner2">
+
+								<section>
+
+									<!--text4-->
+									<header>
+										<h3>워드 클라우드</h3>
+									</header>
+
+									
+									<o>
+										<li>워드 클라우드 개요</li>
+									</o>
+                                    <br>
+									<p>	
+										팀 케일리에서는 팀케일리 구축 데이터를 활용한 시각화의 한 예로 국보 워드클라우드를 제작했다. 이때 만든 워드클라우드는 모두 팀케일리 구축 데이터 중 국보 설명글 토큰화를 바탕으로 하며, 크게 ‘빈도수를 기반으로 한 것’과 ‘글로브를 활용하여 단어 별 유사도를 활용한 것’ 두 가지가 있다. 
+										<br>
+										먼저 빈도수 기반인 워드클라우드는 토큰화한 단어의 빈도수를 활용하여 워드클라우드를 만든 것이다. 이때 전체 설명글을 대상으로, 혹은 국보 개별을 대상으로 워드클라우드를 제작했다. 이 워드클라우드는 국보를 설명하는 글에서 등장하는 키워드의 중요도를 시각적으로 나타내었다는 데에서 의의가 있다. 뿐만 아니라 글로브를 활용한 워드클라우드에 비해 단어 중요도에 대한 신뢰도가 훨씬 높다. 이 이유는 글로브를 활용한 워드클라우드와 비교하며 설명하도록 하겠다. 
+										<br>
+										반면, 글로브를 활용한 워드클라우드는 토큰화 결과물에서 뽑은 하나의 단어, 그리고 그 단어와 유사도가 높은 단어들을 활용해 워드클라우드를 만든 것이다. 이 워드클라우드는 단어 간 유사도를 가지고 워드클라우드를 만들었다는 점에서 의의가 있으나, 유사도가 높은 단어를 도출하는 과정에서 아쉬운 점이 있었다. 예를 들어 ‘허균’과 가장 유사한 단어 10개를 뽑아보았을 때 그 중에는 ‘뚜껑’도 있었다. ‘허균’과 ‘뚜껑’의 유사성은 설명글에서도 찾기 힘들었다. 팀케일리 구축데이터에서 1회 등장한 ‘허균’은 국보 103호인 ‘원주 법천사지 지광국사탑(原州 法泉寺址 智光國師塔)’ 설명글에서 법천사 설립시대를 기록한 것 같다고 나오는데, 이 설명글에서의 ‘뚜껑’은 ‘지광국사탑 내에서 발견된 사리공의 뚜껑’이 전부이다. 이러한 이유로 팀케일리는 글로브를 활용한 워드클라우드보다 빈도수를 기반으로 한 워드클라우드의 단어 중요도에 대한 신뢰도가 훨씬 높다고 판단했다. 그렇기에 아래 설명글은 빈도수 기반으로 만든 워드클라우드가 주가 될 것이다. 
+										
+									</p>
+
+									<o>
+										<li>워드클라우드 전처리 과정</li>
+
+									</o>
+                                    <br>
+
+
+                                    <p>워드 클라우드를 만들기에 앞서 우선적으로 팀케일리 구축 데이터를 토큰화할 필요가 있었다. 이를 위해 크게 라이브러리를 활용한 토큰화와 불용어 사전 적용, 그리고 토큰화한 단어들의 빈도수를 세는 과정을 거쳤다. 보다 자세한 내용은 상단의 토큰화 과정을 참고하길 바란다.</p>
+
+
+                                    <o>
+										<li>워드클라우드</li>
+									</o>
+                                    <br>
+									<p>워드클라우드의 경우 단어와 그 빈도수를 딕셔너리로 묶은 후 워드클라우드 라이브러리를 활용해 제작했다. 이때 전체 단어 빈도수를 활용한 것, 그리고 상위 3개 단어를 제외한 것, 마지막으로 mask를 이용한 것 세 가지를 만들었다. 
+									</p>
+									
+									<br> 
+									<p><span class="image fit"><img src="../images/워클1.png" alt="" /></span>먼저 전체 단어 빈도수를 활용한 워드클라우드는 위와 같다. 앞서 언급한 상위 3개 단어인 대한민국, 박물관, 조선은 다른 단어들에 비해 글자의 크기가 눈에 띄는데, 이는 단어들 간의 빈도수 차이가 크기 때문이다. 예로 상위 4번째인 ‘박물관’는 그 빈도수가 129이며 상위 8번째인 ‘중국’은 빈도수가 104인데, 이 두 단어 모두 상위 1번째인 ‘대한민국’ 빈도수인 231과 1.5~2배 가까이 차이가 난다. 
+									
+                                    </p>
+
+                                    <br>
+                                    <br>
+
+                                    <p><span class="image fit"><img src="../images/워클2.png" alt="" /></span>다음으로 상위 3개 단어를 제외한 워드클라우드이다. 앞서 언급한 상위 3개 단어가 사라지고 새롭게 고려시대, 신라, 중국, 국립 등의 단어가 대두됨을 알 수 있다.
+                                    </p>
+
+                                    <br>
+
+                                    <p><span class="image fit"><img src="../images/워클3.png" /></span>마지막으로 대한민국 지도 모양을 mask로 씌운 워드클라우드이다. 이 워드클라우드에 쓰인 데이터는 위와 마찬가지로 상위 3개 단어를 제외한 것이다.
+                                    </p>
+
+                                    
+	
+								</section>
+
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home"><span class="label">Team.Cayley</span></a></li>
+						<li><a href="https://github.com/Open-Knowledge-Korea/covid-19-our-memory" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:team.cayley@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<p>
+						<br>Facilitators: 김학래, 김현지
+						<br>Meambers: 권예빈, 김가인, 김영규, 김해리, 손범준, 신주영,
+						<br>안지은, 이유정, 이정윤, 정예은, 조현서, 최은혜, 허인
+					</p>
+					<ul class="copyright">
+						<li>&copy;2022. Team.Cayley All Rights Reserved</li>
+						<br>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>Ediors: Youngkyu Kim, JeongYun Lee</li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

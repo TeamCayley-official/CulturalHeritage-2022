@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_80fb0286a09dcd5f390d5467936b08f2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_80fb0286a09dcd5f390d5467936b08f2" ></div>
+        
+</body>
+<script>    
+    
+            var map_80fb0286a09dcd5f390d5467936b08f2 = L.map(
+                "map_80fb0286a09dcd5f390d5467936b08f2",
+                {
+                    center: [36.34, 127.77],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_73f5d5d7a8fbb99a351c0a5fe2c2ebaf = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_80fb0286a09dcd5f390d5467936b08f2);
+        
+    
+            var marker_cluster_7b4c0008c2fdbecfc33837879106ddf9 = L.markerClusterGroup(
+                {}
+            );
+            map_80fb0286a09dcd5f390d5467936b08f2.addLayer(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var marker_846ab46c57f0eadda0f3211e3efdae2e = L.marker(
+                [37.55992, 126.9753],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_34217ad6bf6c54dd8055b819e8ba22ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_846ab46c57f0eadda0f3211e3efdae2e.setIcon(icon_34217ad6bf6c54dd8055b819e8ba22ba);
+        
+    
+        var popup_de1731377bccd96a2fc8f1007a661b99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_955119873076260dd12b844ba14afc02 = $(`<div id="html_955119873076260dd12b844ba14afc02" style="width: 100.0%; height: 100.0%;">서울 숭례문</div>`)[0];
+            popup_de1731377bccd96a2fc8f1007a661b99.setContent(html_955119873076260dd12b844ba14afc02);
+        
+
+        marker_846ab46c57f0eadda0f3211e3efdae2e.bindPopup(popup_de1731377bccd96a2fc8f1007a661b99)
+        ;
+
+        
+    
+    
+            var marker_533c6f29bb1a3995bea7f862bf379d68 = L.marker(
+                [37.57155, 126.9882],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_32d43b3bd8f910ca0a29a01fcaba8b31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_533c6f29bb1a3995bea7f862bf379d68.setIcon(icon_32d43b3bd8f910ca0a29a01fcaba8b31);
+        
+    
+        var popup_2948b7ca356970350899b1c07e6782d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_627a35147126e6abcfb701c8a494b2ce = $(`<div id="html_627a35147126e6abcfb701c8a494b2ce" style="width: 100.0%; height: 100.0%;">서울 원각사지 십층석탑</div>`)[0];
+            popup_2948b7ca356970350899b1c07e6782d6.setContent(html_627a35147126e6abcfb701c8a494b2ce);
+        
+
+        marker_533c6f29bb1a3995bea7f862bf379d68.bindPopup(popup_2948b7ca356970350899b1c07e6782d6)
+        ;
+
+        
+    
+    
+            var marker_94a310703e773831d16d74c26848a7d8 = L.marker(
+                [37.39382, 127.6525],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_5ad2673f39b9a836500546f47b2fd63e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_94a310703e773831d16d74c26848a7d8.setIcon(icon_5ad2673f39b9a836500546f47b2fd63e);
+        
+    
+        var popup_4bcd304ef738f61cc3126687c8aa9fd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86025fe932338b38fd356750037de3f8 = $(`<div id="html_86025fe932338b38fd356750037de3f8" style="width: 100.0%; height: 100.0%;">여주 고달사지 승탑</div>`)[0];
+            popup_4bcd304ef738f61cc3126687c8aa9fd6.setContent(html_86025fe932338b38fd356750037de3f8);
+        
+
+        marker_94a310703e773831d16d74c26848a7d8.bindPopup(popup_4bcd304ef738f61cc3126687c8aa9fd6)
+        ;
+
+        
+    
+    
+            var marker_9868ee94f9b21cba0c84a53403d06dce = L.marker(
+                [36.54177, 127.8332],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_c47bddcd84c4d8a4ddb920ce8fbedb22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9868ee94f9b21cba0c84a53403d06dce.setIcon(icon_c47bddcd84c4d8a4ddb920ce8fbedb22);
+        
+    
+        var popup_2166d3dfcd2ce5ac59b4f8e560245639 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb0984965f771c3198250bbf52ba356f = $(`<div id="html_bb0984965f771c3198250bbf52ba356f" style="width: 100.0%; height: 100.0%;">보은 법주사 쌍사자 석등</div>`)[0];
+            popup_2166d3dfcd2ce5ac59b4f8e560245639.setContent(html_bb0984965f771c3198250bbf52ba356f);
+        
+
+        marker_9868ee94f9b21cba0c84a53403d06dce.bindPopup(popup_2166d3dfcd2ce5ac59b4f8e560245639)
+        ;
+
+        
+    
+    
+            var marker_40ed5a714cc2f2962b974c95ac6a6ed8 = L.marker(
+                [37.01587, 127.8666],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_a9ac8e55db02d3c90cbe6a1fd6dc4ef1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_40ed5a714cc2f2962b974c95ac6a6ed8.setIcon(icon_a9ac8e55db02d3c90cbe6a1fd6dc4ef1);
+        
+    
+        var popup_6ff84851062433e07f73ff37042cfe09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72fdcd3c74c5dd73e5604feeca576333 = $(`<div id="html_72fdcd3c74c5dd73e5604feeca576333" style="width: 100.0%; height: 100.0%;">충주 탑평리 칠층석탑</div>`)[0];
+            popup_6ff84851062433e07f73ff37042cfe09.setContent(html_72fdcd3c74c5dd73e5604feeca576333);
+        
+
+        marker_40ed5a714cc2f2962b974c95ac6a6ed8.bindPopup(popup_6ff84851062433e07f73ff37042cfe09)
+        ;
+
+        
+    
+    
+            var marker_e61ab0ed4d93833360cc88244c5da5bc = L.marker(
+                [36.27873, 126.9146],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_e5ffe7fd14ff1463c5b6933596152448 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e61ab0ed4d93833360cc88244c5da5bc.setIcon(icon_e5ffe7fd14ff1463c5b6933596152448);
+        
+    
+        var popup_9bf5b9b6d69e571d257e5583e6558df2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47c0cd8e0144b74176d4d120a4c0cd47 = $(`<div id="html_47c0cd8e0144b74176d4d120a4c0cd47" style="width: 100.0%; height: 100.0%;">부여 정림사지 오층석탑</div>`)[0];
+            popup_9bf5b9b6d69e571d257e5583e6558df2.setContent(html_47c0cd8e0144b74176d4d120a4c0cd47);
+        
+
+        marker_e61ab0ed4d93833360cc88244c5da5bc.bindPopup(popup_9bf5b9b6d69e571d257e5583e6558df2)
+        ;
+
+        
+    
+    
+            var marker_a65d24a497ba3ffc9ac15088b1df0993 = L.marker(
+                [35.4423, 127.6198],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_cdbccb642f4b9dfb3188c3ae544a32d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a65d24a497ba3ffc9ac15088b1df0993.setIcon(icon_cdbccb642f4b9dfb3188c3ae544a32d2);
+        
+    
+        var popup_89ae32e1aca8018dee9a584e7d67ac3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdb446707151906ec7bd2cbd6f3f1083 = $(`<div id="html_bdb446707151906ec7bd2cbd6f3f1083" style="width: 100.0%; height: 100.0%;">남원 실상사 백장암 삼층석탑</div>`)[0];
+            popup_89ae32e1aca8018dee9a584e7d67ac3e.setContent(html_bdb446707151906ec7bd2cbd6f3f1083);
+        
+
+        marker_a65d24a497ba3ffc9ac15088b1df0993.bindPopup(popup_89ae32e1aca8018dee9a584e7d67ac3e)
+        ;
+
+        
+    
+    
+            var marker_99993ebec8baaa78c894f86bcc07e722 = L.marker(
+                [36.01242, 127.0305],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_5a64e2269b171c19ca0f0d339620b298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99993ebec8baaa78c894f86bcc07e722.setIcon(icon_5a64e2269b171c19ca0f0d339620b298);
+        
+    
+        var popup_561e6ed81dd3047dbd764365e489bfff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df26c44554cba457012f445140e412b4 = $(`<div id="html_df26c44554cba457012f445140e412b4" style="width: 100.0%; height: 100.0%;">익산 미륵사지 석탑</div>`)[0];
+            popup_561e6ed81dd3047dbd764365e489bfff.setContent(html_df26c44554cba457012f445140e412b4);
+        
+
+        marker_99993ebec8baaa78c894f86bcc07e722.bindPopup(popup_561e6ed81dd3047dbd764365e489bfff)
+        ;
+
+        
+    
+    
+            var marker_8b5e1977f89c71aa20b4eab9992ca9f5 = L.marker(
+                [35.25656, 127.4976],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_232dd088f3b45570b46fb5262f447c3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8b5e1977f89c71aa20b4eab9992ca9f5.setIcon(icon_232dd088f3b45570b46fb5262f447c3e);
+        
+    
+        var popup_b2ccf90a9fde0094d8761e56b48a4ddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0112d76d04170d0cd3d33edd20c67af = $(`<div id="html_a0112d76d04170d0cd3d33edd20c67af" style="width: 100.0%; height: 100.0%;">구례 화엄사 각황전 앞 석등</div>`)[0];
+            popup_b2ccf90a9fde0094d8761e56b48a4ddd.setContent(html_a0112d76d04170d0cd3d33edd20c67af);
+        
+
+        marker_8b5e1977f89c71aa20b4eab9992ca9f5.bindPopup(popup_b2ccf90a9fde0094d8761e56b48a4ddd)
+        ;
+
+        
+    
+    
+            var marker_a1b292016ae01dd783104a06447dc6c4 = L.marker(
+                [34.73859, 126.6865],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_21e593ecea2cef4ae2e2704fcb4d5d85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1b292016ae01dd783104a06447dc6c4.setIcon(icon_21e593ecea2cef4ae2e2704fcb4d5d85);
+        
+    
+        var popup_d9e2e25e78c0deaa00efdcf8e366cdd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f7e2abf4401192717b96e6d470f59c5 = $(`<div id="html_1f7e2abf4401192717b96e6d470f59c5" style="width: 100.0%; height: 100.0%;">강진 무위사 극락보전</div>`)[0];
+            popup_d9e2e25e78c0deaa00efdcf8e366cdd4.setContent(html_1f7e2abf4401192717b96e6d470f59c5);
+        
+
+        marker_a1b292016ae01dd783104a06447dc6c4.bindPopup(popup_d9e2e25e78c0deaa00efdcf8e366cdd4)
+        ;
+
+        
+    
+    
+            var marker_d2c0ec0524d867bd0a383c5c898775d3 = L.marker(
+                [36.02071, 128.764],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_785f4f61481fe18811df21eea0ba37d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2c0ec0524d867bd0a383c5c898775d3.setIcon(icon_785f4f61481fe18811df21eea0ba37d0);
+        
+    
+        var popup_03627321eb0643a1e0f0ce2110978e85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6148326b9cb80a2c4bb6a8cb655cf30b = $(`<div id="html_6148326b9cb80a2c4bb6a8cb655cf30b" style="width: 100.0%; height: 100.0%;">영천 거조사 영산전</div>`)[0];
+            popup_03627321eb0643a1e0f0ce2110978e85.setContent(html_6148326b9cb80a2c4bb6a8cb655cf30b);
+        
+
+        marker_d2c0ec0524d867bd0a383c5c898775d3.bindPopup(popup_03627321eb0643a1e0f0ce2110978e85)
+        ;
+
+        
+    
+    
+            var marker_d4f138e23cb6f1641da950098694de10 = L.marker(
+                [36.65324, 128.6622],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_881ac00429bbfe1ea69de244f7c29ba9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d4f138e23cb6f1641da950098694de10.setIcon(icon_881ac00429bbfe1ea69de244f7c29ba9);
+        
+    
+        var popup_d114284b31a10810cf3727aebbac0c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bd316e5463990606ca76021fc020bbf = $(`<div id="html_6bd316e5463990606ca76021fc020bbf" style="width: 100.0%; height: 100.0%;">안동 봉정사 극락전</div>`)[0];
+            popup_d114284b31a10810cf3727aebbac0c4f.setContent(html_6bd316e5463990606ca76021fc020bbf);
+        
+
+        marker_d4f138e23cb6f1641da950098694de10.bindPopup(popup_d114284b31a10810cf3727aebbac0c4f)
+        ;
+
+        
+    
+    
+            var marker_79203295a6adef5686ab1aaaa5ad0a0b = L.marker(
+                [36.56598, 128.7464],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_a9dd2fd4e98145e2f6e6eb3629c629e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79203295a6adef5686ab1aaaa5ad0a0b.setIcon(icon_a9dd2fd4e98145e2f6e6eb3629c629e8);
+        
+    
+        var popup_d1033f85e7d00d0da5af2c4786f95bc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b29189e16cfecd755ea8aa1ddb2ddfdf = $(`<div id="html_b29189e16cfecd755ea8aa1ddb2ddfdf" style="width: 100.0%; height: 100.0%;">안동 법흥사지 칠층전탑</div>`)[0];
+            popup_d1033f85e7d00d0da5af2c4786f95bc4.setContent(html_b29189e16cfecd755ea8aa1ddb2ddfdf);
+        
+
+        marker_79203295a6adef5686ab1aaaa5ad0a0b.bindPopup(popup_d1033f85e7d00d0da5af2c4786f95bc4)
+        ;
+
+        
+    
+    
+            var marker_bb38924d60bc7009f915f1ba5077c79b = L.marker(
+                [36.99856, 128.6872],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_1f9b5bd7f57aa2e1d1f5cd2c7cb254e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bb38924d60bc7009f915f1ba5077c79b.setIcon(icon_1f9b5bd7f57aa2e1d1f5cd2c7cb254e4);
+        
+    
+        var popup_f838c45e19fa3843ecc15965ec447d96 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d04db4a3242dd62baf70d08f0f07183f = $(`<div id="html_d04db4a3242dd62baf70d08f0f07183f" style="width: 100.0%; height: 100.0%;">영주 부석사 무량수전 앞 석등</div>`)[0];
+            popup_f838c45e19fa3843ecc15965ec447d96.setContent(html_d04db4a3242dd62baf70d08f0f07183f);
+        
+
+        marker_bb38924d60bc7009f915f1ba5077c79b.bindPopup(popup_f838c45e19fa3843ecc15965ec447d96)
+        ;
+
+        
+    
+    
+            var marker_8abdabf8f6ba2ba5785b8b60f23e036d = L.marker(
+                [36.99856, 128.6872],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_d03f76584f44779691611f2a2a0cb5ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8abdabf8f6ba2ba5785b8b60f23e036d.setIcon(icon_d03f76584f44779691611f2a2a0cb5ef);
+        
+    
+        var popup_12aefc81822e61615c18d91e42718931 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2a4a5366063b22bc3fb0f03a058840c = $(`<div id="html_a2a4a5366063b22bc3fb0f03a058840c" style="width: 100.0%; height: 100.0%;">영주 부석사 무량수전</div>`)[0];
+            popup_12aefc81822e61615c18d91e42718931.setContent(html_a2a4a5366063b22bc3fb0f03a058840c);
+        
+
+        marker_8abdabf8f6ba2ba5785b8b60f23e036d.bindPopup(popup_12aefc81822e61615c18d91e42718931)
+        ;
+
+        
+    
+    
+            var marker_48aca252634927e9c63239916e263bb0 = L.marker(
+                [36.99856, 128.6872],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_ebd731cc036cc6f356c499d9d5ad82bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_48aca252634927e9c63239916e263bb0.setIcon(icon_ebd731cc036cc6f356c499d9d5ad82bb);
+        
+    
+        var popup_ebeb4996ae3edeca679ec044ffee7fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37ad52c74e1d6f21d2cf82cdf742e8cc = $(`<div id="html_37ad52c74e1d6f21d2cf82cdf742e8cc" style="width: 100.0%; height: 100.0%;">영주 부석사 조사당</div>`)[0];
+            popup_ebeb4996ae3edeca679ec044ffee7fb1.setContent(html_37ad52c74e1d6f21d2cf82cdf742e8cc);
+        
+
+        marker_48aca252634927e9c63239916e263bb0.bindPopup(popup_ebeb4996ae3edeca679ec044ffee7fb1)
+        ;
+
+        
+    
+    
+            var marker_a0a60f20967116b946c16e358ae396d9 = L.marker(
+                [35.79015, 129.3313],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_5292f3e6c1580eee4cc5fe0999239558 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a0a60f20967116b946c16e358ae396d9.setIcon(icon_5292f3e6c1580eee4cc5fe0999239558);
+        
+    
+        var popup_3b839843149c2be46abf2abfd6940a29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5950dd85402ec5baf4fcbc3f1b047a6a = $(`<div id="html_5950dd85402ec5baf4fcbc3f1b047a6a" style="width: 100.0%; height: 100.0%;">경주 불국사 다보탑</div>`)[0];
+            popup_3b839843149c2be46abf2abfd6940a29.setContent(html_5950dd85402ec5baf4fcbc3f1b047a6a);
+        
+
+        marker_a0a60f20967116b946c16e358ae396d9.bindPopup(popup_3b839843149c2be46abf2abfd6940a29)
+        ;
+
+        
+    
+    
+            var marker_eaa6dd8811c850c0cbdd7c6058ddb578 = L.marker(
+                [35.79015, 129.3313],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_50944df2fd63c152b9ff6b8ac9791f64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eaa6dd8811c850c0cbdd7c6058ddb578.setIcon(icon_50944df2fd63c152b9ff6b8ac9791f64);
+        
+    
+        var popup_f2bc63b02ee0d2e85501f55539b2ba3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3e6a6f7f48a5bf57ecbf868b3e6a21c = $(`<div id="html_c3e6a6f7f48a5bf57ecbf868b3e6a21c" style="width: 100.0%; height: 100.0%;">경주 불국사 삼층석탑</div>`)[0];
+            popup_f2bc63b02ee0d2e85501f55539b2ba3c.setContent(html_c3e6a6f7f48a5bf57ecbf868b3e6a21c);
+        
+
+        marker_eaa6dd8811c850c0cbdd7c6058ddb578.bindPopup(popup_f2bc63b02ee0d2e85501f55539b2ba3c)
+        ;
+
+        
+    
+    
+            var marker_e6c50fa7c41d5a81414f616abaaa5368 = L.marker(
+                [35.79015, 129.3313],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_34da75127d1a4803cc0731e6c5822625 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e6c50fa7c41d5a81414f616abaaa5368.setIcon(icon_34da75127d1a4803cc0731e6c5822625);
+        
+    
+        var popup_3ce9e13152730f46b0d025a67103e280 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_313c4bcfe3e814241e000f9e6862a99f = $(`<div id="html_313c4bcfe3e814241e000f9e6862a99f" style="width: 100.0%; height: 100.0%;">경주 불국사 연화교 및 칠보교</div>`)[0];
+            popup_3ce9e13152730f46b0d025a67103e280.setContent(html_313c4bcfe3e814241e000f9e6862a99f);
+        
+
+        marker_e6c50fa7c41d5a81414f616abaaa5368.bindPopup(popup_3ce9e13152730f46b0d025a67103e280)
+        ;
+
+        
+    
+    
+            var marker_f6228c5bc6d5fff246319066d5b41b98 = L.marker(
+                [35.79015, 129.3313],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_e0cbcb876ecb54ea103877c24814b2f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f6228c5bc6d5fff246319066d5b41b98.setIcon(icon_e0cbcb876ecb54ea103877c24814b2f0);
+        
+    
+        var popup_9ecc69739f25956da648224b72b8720d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9025d7e76ea383dd6befc94d0045644 = $(`<div id="html_f9025d7e76ea383dd6befc94d0045644" style="width: 100.0%; height: 100.0%;">경주 불국사 청운교 및 백운교</div>`)[0];
+            popup_9ecc69739f25956da648224b72b8720d.setContent(html_f9025d7e76ea383dd6befc94d0045644);
+        
+
+        marker_f6228c5bc6d5fff246319066d5b41b98.bindPopup(popup_9ecc69739f25956da648224b72b8720d)
+        ;
+
+        
+    
+    
+            var marker_73c5d827566a2add82c3d9eb7f6159d0 = L.marker(
+                [35.7936, 129.3503],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_c1c32a6134fa84c352a7fe5b746f833b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_73c5d827566a2add82c3d9eb7f6159d0.setIcon(icon_c1c32a6134fa84c352a7fe5b746f833b);
+        
+    
+        var popup_9321aa721665600b200aa624ec8ee7ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17fd9566a1a5e5bb46cba45faeb5611f = $(`<div id="html_17fd9566a1a5e5bb46cba45faeb5611f" style="width: 100.0%; height: 100.0%;">경주 석굴암 석굴</div>`)[0];
+            popup_9321aa721665600b200aa624ec8ee7ff.setContent(html_17fd9566a1a5e5bb46cba45faeb5611f);
+        
+
+        marker_73c5d827566a2add82c3d9eb7f6159d0.bindPopup(popup_9321aa721665600b200aa624ec8ee7ff)
+        ;
+
+        
+    
+    
+            var marker_4aa29c0176773d680ada896dbc8117ae = L.marker(
+                [35.84098, 129.2339],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_211e898fbed82d621f9340e74cd619a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4aa29c0176773d680ada896dbc8117ae.setIcon(icon_211e898fbed82d621f9340e74cd619a1);
+        
+    
+        var popup_2fef4e4acf3ae2f0abad906b1acbd2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec2c09447d2a405920770eadd16bb626 = $(`<div id="html_ec2c09447d2a405920770eadd16bb626" style="width: 100.0%; height: 100.0%;">경주 분황사 모전석탑</div>`)[0];
+            popup_2fef4e4acf3ae2f0abad906b1acbd2f2.setContent(html_ec2c09447d2a405920770eadd16bb626);
+        
+
+        marker_4aa29c0176773d680ada896dbc8117ae.bindPopup(popup_2fef4e4acf3ae2f0abad906b1acbd2f2)
+        ;
+
+        
+    
+    
+            var marker_02c0f478626537a6434fd1e5dcb2991b = L.marker(
+                [35.5397, 128.4968],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_d695babeeaab6b631ede62c657489240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02c0f478626537a6434fd1e5dcb2991b.setIcon(icon_d695babeeaab6b631ede62c657489240);
+        
+    
+        var popup_36a1716cd71920768ef36b28f3c7f15a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_915d45f5c2fb4fb74a755d08ed20b39c = $(`<div id="html_915d45f5c2fb4fb74a755d08ed20b39c" style="width: 100.0%; height: 100.0%;">창녕 술정리 동 삼층석탑</div>`)[0];
+            popup_36a1716cd71920768ef36b28f3c7f15a.setContent(html_915d45f5c2fb4fb74a755d08ed20b39c);
+        
+
+        marker_02c0f478626537a6434fd1e5dcb2991b.bindPopup(popup_36a1716cd71920768ef36b28f3c7f15a)
+        ;
+
+        
+    
+    
+            var marker_e8e682496422e86f9787a75f8f2bae2c = L.marker(
+                [35.2695, 127.5093],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_17d58b12c4c72ba85b4a1c24bb2c9ef5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e8e682496422e86f9787a75f8f2bae2c.setIcon(icon_17d58b12c4c72ba85b4a1c24bb2c9ef5);
+        
+    
+        var popup_afe7a70bbba3ae97bfa2f7dfa59dcbe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35b8bd3434a2a566c0ce39f6b2806b0b = $(`<div id="html_35b8bd3434a2a566c0ce39f6b2806b0b" style="width: 100.0%; height: 100.0%;">구례 화엄사 사사자 삼층석탑</div>`)[0];
+            popup_afe7a70bbba3ae97bfa2f7dfa59dcbe1.setContent(html_35b8bd3434a2a566c0ce39f6b2806b0b);
+        
+
+        marker_e8e682496422e86f9787a75f8f2bae2c.bindPopup(popup_afe7a70bbba3ae97bfa2f7dfa59dcbe1)
+        ;
+
+        
+    
+    
+            var marker_0fe2987cd0cef7b97daa5ab70b8b9b38 = L.marker(
+                [35.83245, 129.2427],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_f7d30e51ac55326395f9ca29fcca49c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fe2987cd0cef7b97daa5ab70b8b9b38.setIcon(icon_f7d30e51ac55326395f9ca29fcca49c2);
+        
+    
+        var popup_145d697d48bbd00dd805705b9f6a9359 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7577cf4dd45484e30ba82beeca7eb389 = $(`<div id="html_7577cf4dd45484e30ba82beeca7eb389" style="width: 100.0%; height: 100.0%;">경주 황복사지 삼층석탑</div>`)[0];
+            popup_145d697d48bbd00dd805705b9f6a9359.setContent(html_7577cf4dd45484e30ba82beeca7eb389);
+        
+
+        marker_0fe2987cd0cef7b97daa5ab70b8b9b38.bindPopup(popup_145d697d48bbd00dd805705b9f6a9359)
+        ;
+
+        
+    
+    
+            var marker_1eef74f06880d75daed8088d9be5186b = L.marker(
+                [35.82919, 129.2279],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_968d355d160a59f3aab47d3e2e800594 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1eef74f06880d75daed8088d9be5186b.setIcon(icon_968d355d160a59f3aab47d3e2e800594);
+        
+    
+        var popup_4a64418d06e11ae6422d505ffc6ab042 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23e9b4b7222a910e76e4c2a6aa6d304d = $(`<div id="html_23e9b4b7222a910e76e4c2a6aa6d304d" style="width: 100.0%; height: 100.0%;">경주 고선사지 삼층석탑</div>`)[0];
+            popup_4a64418d06e11ae6422d505ffc6ab042.setContent(html_23e9b4b7222a910e76e4c2a6aa6d304d);
+        
+
+        marker_1eef74f06880d75daed8088d9be5186b.bindPopup(popup_4a64418d06e11ae6422d505ffc6ab042)
+        ;
+
+        
+    
+    
+            var marker_0959d8d0cfaf414984249972b487791f = L.marker(
+                [35.89372, 129.2123],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_1dd35d12612d858d86bb4246cbd7a5c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0959d8d0cfaf414984249972b487791f.setIcon(icon_1dd35d12612d858d86bb4246cbd7a5c0);
+        
+    
+        var popup_4004d32034ca00721fac7a93122fabd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_994a37aacae6449e2442d455e8185985 = $(`<div id="html_994a37aacae6449e2442d455e8185985" style="width: 100.0%; height: 100.0%;">경주 나원리 오층석탑</div>`)[0];
+            popup_4004d32034ca00721fac7a93122fabd3.setContent(html_994a37aacae6449e2442d455e8185985);
+        
+
+        marker_0959d8d0cfaf414984249972b487791f.bindPopup(popup_4004d32034ca00721fac7a93122fabd3)
+        ;
+
+        
+    
+    
+            var marker_9f0e451c0e91769a1db16efe0284f1f6 = L.marker(
+                [36.01906, 129.1577],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_f9c650d0373ad65ec72cadf9d794349f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9f0e451c0e91769a1db16efe0284f1f6.setIcon(icon_f9c650d0373ad65ec72cadf9d794349f);
+        
+    
+        var popup_1af29db908717d0429a1a1db9874d25c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56f10318bf5a5d28811f912f08fcb480 = $(`<div id="html_56f10318bf5a5d28811f912f08fcb480" style="width: 100.0%; height: 100.0%;">경주 정혜사지 십삼층석탑</div>`)[0];
+            popup_1af29db908717d0429a1a1db9874d25c.setContent(html_56f10318bf5a5d28811f912f08fcb480);
+        
+
+        marker_9f0e451c0e91769a1db16efe0284f1f6.bindPopup(popup_1af29db908717d0429a1a1db9874d25c)
+        ;
+
+        
+    
+    
+            var marker_3707a5e6d7418f28bd9ca0aba8ae0922 = L.marker(
+                [36.63309, 127.4898],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_ccf6b4c898402e607485b36f9e5dbc9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3707a5e6d7418f28bd9ca0aba8ae0922.setIcon(icon_ccf6b4c898402e607485b36f9e5dbc9c);
+        
+    
+        var popup_841adc41fb8a735bafd8469927559a38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_119cf01fab5ffcb8713a02c5ec29063b = $(`<div id="html_119cf01fab5ffcb8713a02c5ec29063b" style="width: 100.0%; height: 100.0%;">청주 용두사지 철당간</div>`)[0];
+            popup_841adc41fb8a735bafd8469927559a38.setContent(html_119cf01fab5ffcb8713a02c5ec29063b);
+        
+
+        marker_3707a5e6d7418f28bd9ca0aba8ae0922.bindPopup(popup_841adc41fb8a735bafd8469927559a38)
+        ;
+
+        
+    
+    
+            var marker_bd7b894b800715c5daa822513b037db1 = L.marker(
+                [34.80795, 126.8965],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_9c30d674f2cf42b41d72dd57eaa834ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd7b894b800715c5daa822513b037db1.setIcon(icon_9c30d674f2cf42b41d72dd57eaa834ea);
+        
+    
+        var popup_6792acf52bbda3d0069e4acd4937aeaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be0f94ee868674aca0e0406d600369df = $(`<div id="html_be0f94ee868674aca0e0406d600369df" style="width: 100.0%; height: 100.0%;">장흥 보림사 남·북 삼층석탑 및 석등</div>`)[0];
+            popup_6792acf52bbda3d0069e4acd4937aeaf.setContent(html_be0f94ee868674aca0e0406d600369df);
+        
+
+        marker_bd7b894b800715c5daa822513b037db1.bindPopup(popup_6792acf52bbda3d0069e4acd4937aeaf)
+        ;
+
+        
+    
+    
+            var marker_37b2f082b50eb40ca8919c4763cd24fb = L.marker(
+                [37.73163, 128.5921],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_f67819ea1b400ce6cad9fb62f2e0c1dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_37b2f082b50eb40ca8919c4763cd24fb.setIcon(icon_f67819ea1b400ce6cad9fb62f2e0c1dd);
+        
+    
+        var popup_7b1e4591ae4dce4a17d19b92620262b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59310a54946bc1d772e014475b5351bf = $(`<div id="html_59310a54946bc1d772e014475b5351bf" style="width: 100.0%; height: 100.0%;">평창 월정사 팔각 구층석탑</div>`)[0];
+            popup_7b1e4591ae4dce4a17d19b92620262b2.setContent(html_59310a54946bc1d772e014475b5351bf);
+        
+
+        marker_37b2f082b50eb40ca8919c4763cd24fb.bindPopup(popup_7b1e4591ae4dce4a17d19b92620262b2)
+        ;
+
+        
+    
+    
+            var marker_6c2117c6871ec52beeb677ce0529820b = L.marker(
+                [36.66259, 126.6219],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_36efe3d844bb793fd29526da20a062b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c2117c6871ec52beeb677ce0529820b.setIcon(icon_36efe3d844bb793fd29526da20a062b1);
+        
+    
+        var popup_170a6c4cdd2e9ae4dee55ca1f40de286 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9255ac6fc5f2a461e4022d56b52d772 = $(`<div id="html_b9255ac6fc5f2a461e4022d56b52d772" style="width: 100.0%; height: 100.0%;">예산 수덕사 대웅전</div>`)[0];
+            popup_170a6c4cdd2e9ae4dee55ca1f40de286.setContent(html_b9255ac6fc5f2a461e4022d56b52d772);
+        
+
+        marker_6c2117c6871ec52beeb677ce0529820b.bindPopup(popup_170a6c4cdd2e9ae4dee55ca1f40de286)
+        ;
+
+        
+    
+    
+            var marker_2f8ecbc30d2ccf462a9006457326b16d = L.marker(
+                [34.75277, 126.6632],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_bf6bafd19cc519cc4d08e2a17d206147 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f8ecbc30d2ccf462a9006457326b16d.setIcon(icon_bf6bafd19cc519cc4d08e2a17d206147);
+        
+    
+        var popup_20556ec104094064679a8d7432c9d799 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_840f544111e5819833def0b04ee10b75 = $(`<div id="html_840f544111e5819833def0b04ee10b75" style="width: 100.0%; height: 100.0%;">영암 도갑사 해탈문</div>`)[0];
+            popup_20556ec104094064679a8d7432c9d799.setContent(html_840f544111e5819833def0b04ee10b75);
+        
+
+        marker_2f8ecbc30d2ccf462a9006457326b16d.bindPopup(popup_20556ec104094064679a8d7432c9d799)
+        ;
+
+        
+    
+    
+            var marker_ca15f2a03f4516e64ecc087d93b1f6ac = L.marker(
+                [37.75322, 128.8917],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_03d21e7271531ca5972440232a04d3eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ca15f2a03f4516e64ecc087d93b1f6ac.setIcon(icon_03d21e7271531ca5972440232a04d3eb);
+        
+    
+        var popup_5262f523065270b381846456c5dbaf1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5da6ec9051cd56f922c02b2f0e2e2eb0 = $(`<div id="html_5da6ec9051cd56f922c02b2f0e2e2eb0" style="width: 100.0%; height: 100.0%;">강릉 임영관 삼문</div>`)[0];
+            popup_5262f523065270b381846456c5dbaf1c.setContent(html_5da6ec9051cd56f922c02b2f0e2e2eb0);
+        
+
+        marker_ca15f2a03f4516e64ecc087d93b1f6ac.bindPopup(popup_5262f523065270b381846456c5dbaf1c)
+        ;
+
+        
+    
+    
+            var marker_477db5d4a21180f4db3c00d8405ef801 = L.marker(
+                [35.80128, 128.0977],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_35d6d265886c978a4f405825a705437d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_477db5d4a21180f4db3c00d8405ef801.setIcon(icon_35d6d265886c978a4f405825a705437d);
+        
+    
+        var popup_175d2eb05251b2e87cd8f0cb639f2fd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e54a8507081b88e8e228e2da6c281de = $(`<div id="html_6e54a8507081b88e8e228e2da6c281de" style="width: 100.0%; height: 100.0%;">합천 해인사 장경판전</div>`)[0];
+            popup_175d2eb05251b2e87cd8f0cb639f2fd9.setContent(html_6e54a8507081b88e8e228e2da6c281de);
+        
+
+        marker_477db5d4a21180f4db3c00d8405ef801.bindPopup(popup_175d2eb05251b2e87cd8f0cb639f2fd9)
+        ;
+
+        
+    
+    
+            var marker_a12eec4a402ae80f0574491df15f12cb = L.marker(
+                [35.25849, 127.5868],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_270e19d074e307bec67eb237fdb81dec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a12eec4a402ae80f0574491df15f12cb.setIcon(icon_270e19d074e307bec67eb237fdb81dec);
+        
+    
+        var popup_67eb03bc8b98441c7455977783c1e0f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dbc0bf9e6fc917e6443ed368afe7060 = $(`<div id="html_5dbc0bf9e6fc917e6443ed368afe7060" style="width: 100.0%; height: 100.0%;">구례 연곡사 동 승탑</div>`)[0];
+            popup_67eb03bc8b98441c7455977783c1e0f1.setContent(html_5dbc0bf9e6fc917e6443ed368afe7060);
+        
+
+        marker_a12eec4a402ae80f0574491df15f12cb.bindPopup(popup_67eb03bc8b98441c7455977783c1e0f1)
+        ;
+
+        
+    
+    
+            var marker_7ea846c9575c1e013267c27903e97788 = L.marker(
+                [35.25849, 127.5868],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_7b42aab0b5ac068f871d35789664d9f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ea846c9575c1e013267c27903e97788.setIcon(icon_7b42aab0b5ac068f871d35789664d9f1);
+        
+    
+        var popup_99b9b76813a34b8c92f14c050bdcd1f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e1492cd77880d01691846abae3658aa = $(`<div id="html_0e1492cd77880d01691846abae3658aa" style="width: 100.0%; height: 100.0%;">구례 연곡사 북 승탑</div>`)[0];
+            popup_99b9b76813a34b8c92f14c050bdcd1f0.setContent(html_0e1492cd77880d01691846abae3658aa);
+        
+
+        marker_7ea846c9575c1e013267c27903e97788.bindPopup(popup_99b9b76813a34b8c92f14c050bdcd1f0)
+        ;
+
+        
+    
+    
+            var marker_778a2e3ca3f0efed446c0b3e7533e312 = L.marker(
+                [36.54177, 127.8332],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_c36318e307199484ee0014d746ae0abc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_778a2e3ca3f0efed446c0b3e7533e312.setIcon(icon_c36318e307199484ee0014d746ae0abc);
+        
+    
+        var popup_13b86819e49e4035250b37b92730205f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc6836b9acca21cec1edeaa724c9d1e4 = $(`<div id="html_cc6836b9acca21cec1edeaa724c9d1e4" style="width: 100.0%; height: 100.0%;">보은 법주사 팔상전</div>`)[0];
+            popup_13b86819e49e4035250b37b92730205f.setContent(html_cc6836b9acca21cec1edeaa724c9d1e4);
+        
+
+        marker_778a2e3ca3f0efed446c0b3e7533e312.bindPopup(popup_13b86819e49e4035250b37b92730205f)
+        ;
+
+        
+    
+    
+            var marker_402c2d4d63e2f23d7af32c44a1451270 = L.marker(
+                [35.00225, 127.2758],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_82cd53387433e84bcf5553a84ef6915f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_402c2d4d63e2f23d7af32c44a1451270.setIcon(icon_82cd53387433e84bcf5553a84ef6915f);
+        
+    
+        var popup_7e886b2d8ff704c3d5650be1d2371583 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cca7fc0b2c72584edf9c5a82f3422588 = $(`<div id="html_cca7fc0b2c72584edf9c5a82f3422588" style="width: 100.0%; height: 100.0%;">순천 송광사 국사전</div>`)[0];
+            popup_7e886b2d8ff704c3d5650be1d2371583.setContent(html_cca7fc0b2c72584edf9c5a82f3422588);
+        
+
+        marker_402c2d4d63e2f23d7af32c44a1451270.bindPopup(popup_7e886b2d8ff704c3d5650be1d2371583)
+        ;
+
+        
+    
+    
+            var marker_5a8d0e64b1c8b5fb3f1a5a3604a152a2 = L.marker(
+                [34.88752, 127.0606],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_ad18dc0588e80b0717837e201388dc63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5a8d0e64b1c8b5fb3f1a5a3604a152a2.setIcon(icon_ad18dc0588e80b0717837e201388dc63);
+        
+    
+        var popup_ef313434f087bc4aecec856b390b4201 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62fae3e7e78d8d1c0288274d81462af6 = $(`<div id="html_62fae3e7e78d8d1c0288274d81462af6" style="width: 100.0%; height: 100.0%;">화순 쌍봉사 철감선사탑</div>`)[0];
+            popup_ef313434f087bc4aecec856b390b4201.setContent(html_62fae3e7e78d8d1c0288274d81462af6);
+        
+
+        marker_5a8d0e64b1c8b5fb3f1a5a3604a152a2.bindPopup(popup_ef313434f087bc4aecec856b390b4201)
+        ;
+
+        
+    
+    
+            var marker_192cf17dfe38f277da962e00694ed211 = L.marker(
+                [35.72294, 127.0536],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_16f6c3e71129c5c4b3d10eacfec8d600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_192cf17dfe38f277da962e00694ed211.setIcon(icon_16f6c3e71129c5c4b3d10eacfec8d600);
+        
+    
+        var popup_8e04377d50170d06da8aef411f5568df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eac39993605de80265fd5c19c7ec0c3 = $(`<div id="html_0eac39993605de80265fd5c19c7ec0c3" style="width: 100.0%; height: 100.0%;">김제 금산사 미륵전</div>`)[0];
+            popup_8e04377d50170d06da8aef411f5568df.setContent(html_0eac39993605de80265fd5c19c7ec0c3);
+        
+
+        marker_192cf17dfe38f277da962e00694ed211.bindPopup(popup_8e04377d50170d06da8aef411f5568df)
+        ;
+
+        
+    
+    
+            var marker_a3c5656abb0e2cae42c93fdc8d60eb20 = L.marker(
+                [36.54138, 127.8322],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_670e223f2e4f37775349938296b7fc7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a3c5656abb0e2cae42c93fdc8d60eb20.setIcon(icon_670e223f2e4f37775349938296b7fc7b);
+        
+    
+        var popup_872a967fed488abbab30e11c3648814f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4c78147dbf66f4669f57ed1f593ecd2 = $(`<div id="html_b4c78147dbf66f4669f57ed1f593ecd2" style="width: 100.0%; height: 100.0%;">보은 법주사 석련지</div>`)[0];
+            popup_872a967fed488abbab30e11c3648814f.setContent(html_b4c78147dbf66f4669f57ed1f593ecd2);
+        
+
+        marker_a3c5656abb0e2cae42c93fdc8d60eb20.bindPopup(popup_872a967fed488abbab30e11c3648814f)
+        ;
+
+        
+    
+    
+            var marker_c97d717753dad5512991e35a8fdf5e07 = L.marker(
+                [35.25656, 127.4976],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_8a004f4ac7eafe4fcbbacef9ccf20cb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c97d717753dad5512991e35a8fdf5e07.setIcon(icon_8a004f4ac7eafe4fcbbacef9ccf20cb2);
+        
+    
+        var popup_b531a40dbd44575cba7cab4559dd9ab8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f35057212c315b0acee61c220ee92806 = $(`<div id="html_f35057212c315b0acee61c220ee92806" style="width: 100.0%; height: 100.0%;">구례 화엄사 각황전</div>`)[0];
+            popup_b531a40dbd44575cba7cab4559dd9ab8.setContent(html_f35057212c315b0acee61c220ee92806);
+        
+
+        marker_c97d717753dad5512991e35a8fdf5e07.bindPopup(popup_b531a40dbd44575cba7cab4559dd9ab8)
+        ;
+
+        
+    
+    
+            var marker_f758a1c4fe376657c8b99892feb4d3d0 = L.marker(
+                [36.25501, 128.6836],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_981bd99a3350ad54a81c8b4dc0af0a6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f758a1c4fe376657c8b99892feb4d3d0.setIcon(icon_981bd99a3350ad54a81c8b4dc0af0a6f);
+        
+    
+        var popup_665f5cb268b6f127f9de60d864976be4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf0dcaeb44aaa1ee92f473c166f39fda = $(`<div id="html_cf0dcaeb44aaa1ee92f473c166f39fda" style="width: 100.0%; height: 100.0%;">의성 탑리리 오층석탑</div>`)[0];
+            popup_665f5cb268b6f127f9de60d864976be4.setContent(html_cf0dcaeb44aaa1ee92f473c166f39fda);
+        
+
+        marker_f758a1c4fe376657c8b99892feb4d3d0.bindPopup(popup_665f5cb268b6f127f9de60d864976be4)
+        ;
+
+        
+    
+    
+            var marker_3d2cb4eefb4cdfad61f7ff402c6ee4f2 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_a1bf5a822eb48b52ddef0a26b14fbbd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3d2cb4eefb4cdfad61f7ff402c6ee4f2.setIcon(icon_a1bf5a822eb48b52ddef0a26b14fbbd6);
+        
+    
+        var popup_87e7484c4f693ecc945843b5fb28f139 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58ba9299717420c19431cf7bce50466a = $(`<div id="html_58ba9299717420c19431cf7bce50466a" style="width: 100.0%; height: 100.0%;">개성 경천사지 십층석탑</div>`)[0];
+            popup_87e7484c4f693ecc945843b5fb28f139.setContent(html_58ba9299717420c19431cf7bce50466a);
+        
+
+        marker_3d2cb4eefb4cdfad61f7ff402c6ee4f2.bindPopup(popup_87e7484c4f693ecc945843b5fb28f139)
+        ;
+
+        
+    
+    
+            var marker_380f69898a967a541300b7c104873124 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_d7fe13f310eb7b93a18b451c68280e5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_380f69898a967a541300b7c104873124.setIcon(icon_d7fe13f310eb7b93a18b451c68280e5f);
+        
+    
+        var popup_e085a2dd8278f84e4ffe98c6edc308db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f21c35147a1e3a2cc7d9ead4425b752 = $(`<div id="html_8f21c35147a1e3a2cc7d9ead4425b752" style="width: 100.0%; height: 100.0%;">김천 갈항사지 동·서 삼층석탑</div>`)[0];
+            popup_e085a2dd8278f84e4ffe98c6edc308db.setContent(html_8f21c35147a1e3a2cc7d9ead4425b752);
+        
+
+        marker_380f69898a967a541300b7c104873124.bindPopup(popup_e085a2dd8278f84e4ffe98c6edc308db)
+        ;
+
+        
+    
+    
+            var marker_ac1fa5dbf72a2e28e7f60dbde9c9bbc8 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_fa6b9d460a52617e62c1c931d2619259 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ac1fa5dbf72a2e28e7f60dbde9c9bbc8.setIcon(icon_fa6b9d460a52617e62c1c931d2619259);
+        
+    
+        var popup_ec1e342a625ecfd565e83eff5bb94d77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c59ea471d239ffb27adff20a3544c30c = $(`<div id="html_c59ea471d239ffb27adff20a3544c30c" style="width: 100.0%; height: 100.0%;">개성 남계원지 칠층석탑</div>`)[0];
+            popup_ec1e342a625ecfd565e83eff5bb94d77.setContent(html_c59ea471d239ffb27adff20a3544c30c);
+        
+
+        marker_ac1fa5dbf72a2e28e7f60dbde9c9bbc8.bindPopup(popup_ec1e342a625ecfd565e83eff5bb94d77)
+        ;
+
+        
+    
+    
+            var marker_928c909b5bc5804fe161acfe1bf11036 = L.marker(
+                [36.38988, 127.3924],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_2b444ef4b436a8ab3f3faa03fa24aea4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_928c909b5bc5804fe161acfe1bf11036.setIcon(icon_2b444ef4b436a8ab3f3faa03fa24aea4);
+        
+    
+        var popup_271e90d357b294354307b0dd40dbe54d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5e2376ac2926964956cf4a1be279aea = $(`<div id="html_e5e2376ac2926964956cf4a1be279aea" style="width: 100.0%; height: 100.0%;">원주 법천사지 지광국사탑</div>`)[0];
+            popup_271e90d357b294354307b0dd40dbe54d.setContent(html_e5e2376ac2926964956cf4a1be279aea);
+        
+
+        marker_928c909b5bc5804fe161acfe1bf11036.bindPopup(popup_271e90d357b294354307b0dd40dbe54d)
+        ;
+
+        
+    
+    
+            var marker_04059a7fd609def634dc11a06d634be3 = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_cd0abb4540ab766b6d47a6ae8de84dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04059a7fd609def634dc11a06d634be3.setIcon(icon_cd0abb4540ab766b6d47a6ae8de84dc9);
+        
+    
+        var popup_bfa8c78e9ce5dddc33792b034a77c06c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_000c290151753ffe347826f2e0e0ffc7 = $(`<div id="html_000c290151753ffe347826f2e0e0ffc7" style="width: 100.0%; height: 100.0%;">충주 정토사지 홍법국사탑</div>`)[0];
+            popup_bfa8c78e9ce5dddc33792b034a77c06c.setContent(html_000c290151753ffe347826f2e0e0ffc7);
+        
+
+        marker_04059a7fd609def634dc11a06d634be3.bindPopup(popup_bfa8c78e9ce5dddc33792b034a77c06c)
+        ;
+
+        
+    
+    
+            var marker_d975fe692d2a58b47504c9101db07793 = L.marker(
+                [35.19193, 126.8858],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_a7a320cc41daf37e5dc38167c2ad7bdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d975fe692d2a58b47504c9101db07793.setIcon(icon_a7a320cc41daf37e5dc38167c2ad7bdc);
+        
+    
+        var popup_4e53852d452c3ad569caf1990b767666 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e260d8ffd53f794f245e6a885df3da06 = $(`<div id="html_e260d8ffd53f794f245e6a885df3da06" style="width: 100.0%; height: 100.0%;">광양 중흥산성 쌍사자 석등</div>`)[0];
+            popup_4e53852d452c3ad569caf1990b767666.setContent(html_e260d8ffd53f794f245e6a885df3da06);
+        
+
+        marker_d975fe692d2a58b47504c9101db07793.bindPopup(popup_4e53852d452c3ad569caf1990b767666)
+        ;
+
+        
+    
+    
+            var marker_af191cefd549200c754af059b5d549ca = L.marker(
+                [37.52304, 126.9822],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_dd962f4bdb1c51e90e71fa72e6884af7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af191cefd549200c754af059b5d549ca.setIcon(icon_dd962f4bdb1c51e90e71fa72e6884af7);
+        
+    
+        var popup_5bf6f2cb464113f3ec586873b6f350bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8574b8ebbeb37ed17c7ef0b26a822b7a = $(`<div id="html_8574b8ebbeb37ed17c7ef0b26a822b7a" style="width: 100.0%; height: 100.0%;">전 원주 흥법사지 염거화상탑</div>`)[0];
+            popup_5bf6f2cb464113f3ec586873b6f350bb.setContent(html_8574b8ebbeb37ed17c7ef0b26a822b7a);
+        
+
+        marker_af191cefd549200c754af059b5d549ca.bindPopup(popup_5bf6f2cb464113f3ec586873b6f350bb)
+        ;
+
+        
+    
+    
+            var marker_5b9eb9e754e6347cc38fcf0d771f5c03 = L.marker(
+                [35.18944, 128.0772],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_c1276d527d48849f67c487306d0ee71b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b9eb9e754e6347cc38fcf0d771f5c03.setIcon(icon_c1276d527d48849f67c487306d0ee71b);
+        
+    
+        var popup_f44f14133538c1f855cdbbd7c22e6703 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb16c1bcb0eb967e832c7711d77fb6be = $(`<div id="html_eb16c1bcb0eb967e832c7711d77fb6be" style="width: 100.0%; height: 100.0%;">산청 범학리 삼층석탑</div>`)[0];
+            popup_f44f14133538c1f855cdbbd7c22e6703.setContent(html_eb16c1bcb0eb967e832c7711d77fb6be);
+        
+
+        marker_5b9eb9e754e6347cc38fcf0d771f5c03.bindPopup(popup_f44f14133538c1f855cdbbd7c22e6703)
+        ;
+
+        
+    
+    
+            var marker_da0300becefddf5e903237256146280e = L.marker(
+                [36.04774, 128.6407],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_35429dab110b8ee90eab27f64f5a9e37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da0300becefddf5e903237256146280e.setIcon(icon_35429dab110b8ee90eab27f64f5a9e37);
+        
+    
+        var popup_3d3d0c3abf152d4380908c25d2d2be0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08c780742edbf5671b7a7932ae6f1fae = $(`<div id="html_08c780742edbf5671b7a7932ae6f1fae" style="width: 100.0%; height: 100.0%;">군위 아미타여래삼존 석굴</div>`)[0];
+            popup_3d3d0c3abf152d4380908c25d2d2be0e.setContent(html_08c780742edbf5671b7a7932ae6f1fae);
+        
+
+        marker_da0300becefddf5e903237256146280e.bindPopup(popup_3d3d0c3abf152d4380908c25d2d2be0e)
+        ;
+
+        
+    
+    
+            var marker_a97d18b57b781fc771da9b81a796b3f4 = L.marker(
+                [35.74783, 129.4779],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_5a70a5e25600e78cce9f22b4e7eaaec3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a97d18b57b781fc771da9b81a796b3f4.setIcon(icon_5a70a5e25600e78cce9f22b4e7eaaec3);
+        
+    
+        var popup_172be90304916c65f605191d77bcc89a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8600a44def10d02f59491c79d7782c3 = $(`<div id="html_a8600a44def10d02f59491c79d7782c3" style="width: 100.0%; height: 100.0%;">경주 감은사지 동·서 삼층석탑</div>`)[0];
+            popup_172be90304916c65f605191d77bcc89a.setContent(html_a8600a44def10d02f59491c79d7782c3);
+        
+
+        marker_a97d18b57b781fc771da9b81a796b3f4.bindPopup(popup_172be90304916c65f605191d77bcc89a)
+        ;
+
+        
+    
+    
+            var marker_12d608b39a4aabf6e6e2e2d3eceb582e = L.marker(
+                [38.12117, 128.5495],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_7a91769de51f53e5c9d5c7f3555050f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12d608b39a4aabf6e6e2e2d3eceb582e.setIcon(icon_7a91769de51f53e5c9d5c7f3555050f8);
+        
+    
+        var popup_62fe9ec049d77ec809288540b2c680f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78f5bb81eea77cc7dae9e5f002d3b7c1 = $(`<div id="html_78f5bb81eea77cc7dae9e5f002d3b7c1" style="width: 100.0%; height: 100.0%;">양양 진전사지 삼층석탑</div>`)[0];
+            popup_62fe9ec049d77ec809288540b2c680f9.setContent(html_78f5bb81eea77cc7dae9e5f002d3b7c1);
+        
+
+        marker_12d608b39a4aabf6e6e2e2d3eceb582e.bindPopup(popup_62fe9ec049d77ec809288540b2c680f9)
+        ;
+
+        
+    
+    
+            var marker_8446d06eae652dea11b1b397a92def44 = L.marker(
+                [36.24864, 128.2817],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_a13d43b42938f3897159eba97653aea3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8446d06eae652dea11b1b397a92def44.setIcon(icon_a13d43b42938f3897159eba97653aea3);
+        
+    
+        var popup_cd6f6d14a178a12204790b31eeeb870b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbec06c31a38c6153b999478ca186f76 = $(`<div id="html_bbec06c31a38c6153b999478ca186f76" style="width: 100.0%; height: 100.0%;">구미 죽장리 오층석탑</div>`)[0];
+            popup_cd6f6d14a178a12204790b31eeeb870b.setContent(html_bbec06c31a38c6153b999478ca186f76);
+        
+
+        marker_8446d06eae652dea11b1b397a92def44.bindPopup(popup_cd6f6d14a178a12204790b31eeeb870b)
+        ;
+
+        
+    
+    
+            var marker_79debc2002507c0fa5fae4b4b8d43ebc = L.marker(
+                [36.58489, 129.0695],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_ee2a2549fe26f13045ee2031c2864939 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_79debc2002507c0fa5fae4b4b8d43ebc.setIcon(icon_ee2a2549fe26f13045ee2031c2864939);
+        
+    
+        var popup_fd31950571235752f281815a13e77e65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a31e97ed1b1446058ded8fef1a069288 = $(`<div id="html_a31e97ed1b1446058ded8fef1a069288" style="width: 100.0%; height: 100.0%;">영양 산해리 오층모전석탑</div>`)[0];
+            popup_fd31950571235752f281815a13e77e65.setContent(html_a31e97ed1b1446058ded8fef1a069288);
+        
+
+        marker_79debc2002507c0fa5fae4b4b8d43ebc.bindPopup(popup_fd31950571235752f281815a13e77e65)
+        ;
+
+        
+    
+    
+            var marker_df7be7033018fbafa38fe3707d36ec86 = L.marker(
+                [37.1305, 127.8383],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_8ca8eb185a078f6e8ec0fd4303b8cc01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_df7be7033018fbafa38fe3707d36ec86.setIcon(icon_8ca8eb185a078f6e8ec0fd4303b8cc01);
+        
+    
+        var popup_d373732e3ff8ead34fec26ebf5b2c60e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9435a2edd8fe2b76de44f5eedb3e0b9 = $(`<div id="html_f9435a2edd8fe2b76de44f5eedb3e0b9" style="width: 100.0%; height: 100.0%;">충주 청룡사지 보각국사탑</div>`)[0];
+            popup_d373732e3ff8ead34fec26ebf5b2c60e.setContent(html_f9435a2edd8fe2b76de44f5eedb3e0b9);
+        
+
+        marker_df7be7033018fbafa38fe3707d36ec86.bindPopup(popup_d373732e3ff8ead34fec26ebf5b2c60e)
+        ;
+
+        
+    
+    
+            var marker_298f15520ec7f188ef9762052d1f7aef = L.marker(
+                [37.55929, 126.9986],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_2be54dcb764ff3f4e10be50884add6a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_298f15520ec7f188ef9762052d1f7aef.setIcon(icon_2be54dcb764ff3f4e10be50884add6a8);
+        
+    
+        var popup_8f995bf61501e6449ad1b63fd97eb86c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_765d18dbe7616845bfdb169858ba6188 = $(`<div id="html_765d18dbe7616845bfdb169858ba6188" style="width: 100.0%; height: 100.0%;">보협인석탑</div>`)[0];
+            popup_8f995bf61501e6449ad1b63fd97eb86c.setContent(html_765d18dbe7616845bfdb169858ba6188);
+        
+
+        marker_298f15520ec7f188ef9762052d1f7aef.bindPopup(popup_8f995bf61501e6449ad1b63fd97eb86c)
+        ;
+
+        
+    
+    
+            var marker_4f5e8e5b644d55100c0308ed2ec93e3f = L.marker(
+                [37.57825, 126.9783],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_30312836607dc3afe36c1ae86d843b45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f5e8e5b644d55100c0308ed2ec93e3f.setIcon(icon_30312836607dc3afe36c1ae86d843b45);
+        
+    
+        var popup_146b71a11b2618bafd98c9232e642223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ea85d575967e639771ae4d902052573 = $(`<div id="html_7ea85d575967e639771ae4d902052573" style="width: 100.0%; height: 100.0%;">경복궁 근정전</div>`)[0];
+            popup_146b71a11b2618bafd98c9232e642223.setContent(html_7ea85d575967e639771ae4d902052573);
+        
+
+        marker_4f5e8e5b644d55100c0308ed2ec93e3f.bindPopup(popup_146b71a11b2618bafd98c9232e642223)
+        ;
+
+        
+    
+    
+            var marker_6ecaf019af833e2f7b27617bdd2848f9 = L.marker(
+                [37.57825, 126.9783],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_725954cb1f0a80ce5e868f6a47e9282a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ecaf019af833e2f7b27617bdd2848f9.setIcon(icon_725954cb1f0a80ce5e868f6a47e9282a);
+        
+    
+        var popup_9ff0128ea082bd183e861e2d80a7c45a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1f019c873632aa1f10bbdcc4567f730 = $(`<div id="html_a1f019c873632aa1f10bbdcc4567f730" style="width: 100.0%; height: 100.0%;">경복궁 경회루</div>`)[0];
+            popup_9ff0128ea082bd183e861e2d80a7c45a.setContent(html_a1f019c873632aa1f10bbdcc4567f730);
+        
+
+        marker_6ecaf019af833e2f7b27617bdd2848f9.bindPopup(popup_9ff0128ea082bd183e861e2d80a7c45a)
+        ;
+
+        
+    
+    
+            var marker_de933931703ee65d501040d8c5bea5b7 = L.marker(
+                [37.58036, 126.9928],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_0189d016e956ec7f3b382cb400914ac5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_de933931703ee65d501040d8c5bea5b7.setIcon(icon_0189d016e956ec7f3b382cb400914ac5);
+        
+    
+        var popup_ae690564ab4d9435b8be91ee8f63d090 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2adc9d3e2295e6d810658a31786911a1 = $(`<div id="html_2adc9d3e2295e6d810658a31786911a1" style="width: 100.0%; height: 100.0%;">창덕궁 인정전</div>`)[0];
+            popup_ae690564ab4d9435b8be91ee8f63d090.setContent(html_2adc9d3e2295e6d810658a31786911a1);
+        
+
+        marker_de933931703ee65d501040d8c5bea5b7.bindPopup(popup_ae690564ab4d9435b8be91ee8f63d090)
+        ;
+
+        
+    
+    
+            var marker_4ebfc44f6a890b311a1a97fa9c3f7248 = L.marker(
+                [37.57929, 126.995],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_925f6ee95b0df738f212bb37ebd5b1d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ebfc44f6a890b311a1a97fa9c3f7248.setIcon(icon_925f6ee95b0df738f212bb37ebd5b1d0);
+        
+    
+        var popup_04e739b8f4f33267a656f8aca139009f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0fb8ef3ec7ae2c9a7a704011e8f771c = $(`<div id="html_a0fb8ef3ec7ae2c9a7a704011e8f771c" style="width: 100.0%; height: 100.0%;">창경궁 명정전</div>`)[0];
+            popup_04e739b8f4f33267a656f8aca139009f.setContent(html_a0fb8ef3ec7ae2c9a7a704011e8f771c);
+        
+
+        marker_4ebfc44f6a890b311a1a97fa9c3f7248.bindPopup(popup_04e739b8f4f33267a656f8aca139009f)
+        ;
+
+        
+    
+    
+            var marker_25d12b57582b8f2bc530be54138b7e6e = L.marker(
+                [37.57466, 126.9941],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_d2459e3e8d867a531145c1cc26232c06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_25d12b57582b8f2bc530be54138b7e6e.setIcon(icon_d2459e3e8d867a531145c1cc26232c06);
+        
+    
+        var popup_a588a5333dd76c4f17f2c919baba2189 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_875899ef39d6a7e4a5013bafb1ec0ed3 = $(`<div id="html_875899ef39d6a7e4a5013bafb1ec0ed3" style="width: 100.0%; height: 100.0%;">종묘 정전</div>`)[0];
+            popup_a588a5333dd76c4f17f2c919baba2189.setContent(html_875899ef39d6a7e4a5013bafb1ec0ed3);
+        
+
+        marker_25d12b57582b8f2bc530be54138b7e6e.bindPopup(popup_a588a5333dd76c4f17f2c919baba2189)
+        ;
+
+        
+    
+    
+            var marker_a38c07e8d3e67b9c15840d5372269277 = L.marker(
+                [35.77489, 129.373],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_6a7b98b9a8223bace56070b338d4d0b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a38c07e8d3e67b9c15840d5372269277.setIcon(icon_6a7b98b9a8223bace56070b338d4d0b0);
+        
+    
+        var popup_6407c946a06fe61c6020c335a686734e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b4fcc4c6564fce07f153803b87bb0e6 = $(`<div id="html_7b4fcc4c6564fce07f153803b87bb0e6" style="width: 100.0%; height: 100.0%;">경주 장항리 서 오층석탑</div>`)[0];
+            popup_6407c946a06fe61c6020c335a686734e.setContent(html_7b4fcc4c6564fce07f153803b87bb0e6);
+        
+
+        marker_a38c07e8d3e67b9c15840d5372269277.bindPopup(popup_6407c946a06fe61c6020c335a686734e)
+        ;
+
+        
+    
+    
+            var marker_5137c569718ee3e3832f3a3b8571cff0 = L.marker(
+                [35.97319, 127.0546],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_0fc257ac0675680b84246616f9cc1afa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5137c569718ee3e3832f3a3b8571cff0.setIcon(icon_0fc257ac0675680b84246616f9cc1afa);
+        
+    
+        var popup_e8f6893f00ef1dd1785716bbc089e5d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ec0424331de6593af42145c3e78d5e0 = $(`<div id="html_6ec0424331de6593af42145c3e78d5e0" style="width: 100.0%; height: 100.0%;">익산 왕궁리 오층석탑</div>`)[0];
+            popup_e8f6893f00ef1dd1785716bbc089e5d9.setContent(html_6ec0424331de6593af42145c3e78d5e0);
+        
+
+        marker_5137c569718ee3e3832f3a3b8571cff0.bindPopup(popup_e8f6893f00ef1dd1785716bbc089e5d9)
+        ;
+
+        
+    
+    
+            var marker_8deb2a773498bb2a027fcac52748230e = L.marker(
+                [35.48766, 129.0544],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_08992f624d6f3227e7dbf3d26fea6548 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8deb2a773498bb2a027fcac52748230e.setIcon(icon_08992f624d6f3227e7dbf3d26fea6548);
+        
+    
+        var popup_1406a073ecb97f7f00375486e09066a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a9618130c707c74b2111e79813ed673 = $(`<div id="html_6a9618130c707c74b2111e79813ed673" style="width: 100.0%; height: 100.0%;">양산 통도사 대웅전 및 금강계단</div>`)[0];
+            popup_1406a073ecb97f7f00375486e09066a8.setContent(html_6a9618130c707c74b2111e79813ed673);
+        
+
+        marker_8deb2a773498bb2a027fcac52748230e.bindPopup(popup_1406a073ecb97f7f00375486e09066a8)
+        ;
+
+        
+    
+    
+            var marker_19223ff73371d12ab0048238f82983b3 = L.marker(
+                [34.7419, 127.7367],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_f330f6d3c7cb71f5428c58e94ffa955d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_19223ff73371d12ab0048238f82983b3.setIcon(icon_f330f6d3c7cb71f5428c58e94ffa955d);
+        
+    
+        var popup_4973722d11e7eab00e0e6c16b9ebbfab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b12b31f488a89922e2ccd72ff4239024 = $(`<div id="html_b12b31f488a89922e2ccd72ff4239024" style="width: 100.0%; height: 100.0%;">여수 진남관</div>`)[0];
+            popup_4973722d11e7eab00e0e6c16b9ebbfab.setContent(html_b12b31f488a89922e2ccd72ff4239024);
+        
+
+        marker_19223ff73371d12ab0048238f82983b3.bindPopup(popup_4973722d11e7eab00e0e6c16b9ebbfab)
+        ;
+
+        
+    
+    
+            var marker_ce91237b268e299a993a085ad0b1f0d8 = L.marker(
+                [34.84822, 128.4228],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_bb5c3ad93e706c38c0709a696ff8ecec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce91237b268e299a993a085ad0b1f0d8.setIcon(icon_bb5c3ad93e706c38c0709a696ff8ecec);
+        
+    
+        var popup_cef9c8fbac4717bd1c35f29fea100f87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72c0e344371cf026d51621ebafd50e76 = $(`<div id="html_72c0e344371cf026d51621ebafd50e76" style="width: 100.0%; height: 100.0%;">통영 세병관</div>`)[0];
+            popup_cef9c8fbac4717bd1c35f29fea100f87.setContent(html_72c0e344371cf026d51621ebafd50e76);
+        
+
+        marker_ce91237b268e299a993a085ad0b1f0d8.bindPopup(popup_cef9c8fbac4717bd1c35f29fea100f87)
+        ;
+
+        
+    
+    
+            var marker_9470ae54af491165770135e8cbfbca4f = L.marker(
+                [36.65328, 128.6625],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_a366bce255b77d20157e36427cd86612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9470ae54af491165770135e8cbfbca4f.setIcon(icon_a366bce255b77d20157e36427cd86612);
+        
+    
+        var popup_79ffb2cd6322a4891f7fdf2c9df7e1b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6db7fceed82c514c1dfe7392510e2ab4 = $(`<div id="html_6db7fceed82c514c1dfe7392510e2ab4" style="width: 100.0%; height: 100.0%;">안동 봉정사 대웅전</div>`)[0];
+            popup_79ffb2cd6322a4891f7fdf2c9df7e1b8.setContent(html_6db7fceed82c514c1dfe7392510e2ab4);
+        
+
+        marker_9470ae54af491165770135e8cbfbca4f.bindPopup(popup_79ffb2cd6322a4891f7fdf2c9df7e1b8)
+        ;
+
+        
+    
+    
+            var marker_ec43645e67bc60edd9fe292e392a9e36 = L.marker(
+                [36.06632, 127.2871],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_7d7e251c092050c2f43e38bf50dfacfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec43645e67bc60edd9fe292e392a9e36.setIcon(icon_7d7e251c092050c2f43e38bf50dfacfa);
+        
+    
+        var popup_3262330a78b1ca5dc4723dc103ca2407 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f98dc3a165413e5fa62b4b40de5a39ba = $(`<div id="html_f98dc3a165413e5fa62b4b40de5a39ba" style="width: 100.0%; height: 100.0%;">완주 화암사 극락전</div>`)[0];
+            popup_3262330a78b1ca5dc4723dc103ca2407.setContent(html_f98dc3a165413e5fa62b4b40de5a39ba);
+        
+
+        marker_ec43645e67bc60edd9fe292e392a9e36.bindPopup(popup_3262330a78b1ca5dc4723dc103ca2407)
+        ;
+
+        
+    
+    
+            var marker_696c1d129d63e5682e9ede743ac1a13f = L.marker(
+                [36.73144, 128.3696],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_48b0b2fffb0206226feda113c722a77a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_696c1d129d63e5682e9ede743ac1a13f.setIcon(icon_48b0b2fffb0206226feda113c722a77a);
+        
+    
+        var popup_b8c65311413d4a2d28c3f00db1898d2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b068ec637a137feef39c282c304893d = $(`<div id="html_7b068ec637a137feef39c282c304893d" style="width: 100.0%; height: 100.0%;">예천 용문사 대장전과 윤장대</div>`)[0];
+            popup_b8c65311413d4a2d28c3f00db1898d2c.setContent(html_7b068ec637a137feef39c282c304893d);
+        
+
+        marker_696c1d129d63e5682e9ede743ac1a13f.bindPopup(popup_b8c65311413d4a2d28c3f00db1898d2c)
+        ;
+
+        
+    
+    
+            var marker_bc5a37dc87b869ee6ba7b2c93794f628 = L.marker(
+                [37.18302, 128.8925],
+                {}
+            ).addTo(marker_cluster_7b4c0008c2fdbecfc33837879106ddf9);
+        
+    
+            var icon_7bbd22effa3e0169321597908464d37c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc5a37dc87b869ee6ba7b2c93794f628.setIcon(icon_7bbd22effa3e0169321597908464d37c);
+        
+    
+        var popup_154e8fdf3a1e1185a51206ed2e8b81cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d398673ddfc7b95b38d61432dc277be = $(`<div id="html_3d398673ddfc7b95b38d61432dc277be" style="width: 100.0%; height: 100.0%;">정선 정암사 수마노탑</div>`)[0];
+            popup_154e8fdf3a1e1185a51206ed2e8b81cd.setContent(html_3d398673ddfc7b95b38d61432dc277be);
+        
+
+        marker_bc5a37dc87b869ee6ba7b2c93794f628.bindPopup(popup_154e8fdf3a1e1185a51206ed2e8b81cd)
+        ;
+
+        
+    
+</script>
