@@ -1,0 +1,818 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>2. 데이터 구축 과정</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+
+		<!-- Favicon -->
+		<link href="./../images/teamCayley_logo_trans.png" rel="icon">
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header">
+					<h1>문화재 시냅스: 국보 데이터 연결하기</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="../index.html">Home</a></li>
+										<li><a href="page0.html" target="_blank">About Team.Cayley</a></li>
+										<li><a href="page1.html" target="_blank">프로젝트 목적</a></li>
+										<li><a href="page2.html" target="_blank">데이터 구축 과정</a></li>
+										<li><a href="page3.html" target="_blank">구축 데이터 현황</a></li>
+										<li><a href="page4.html" target="_blank">텍스트 데이터 활용예시</a></li>
+										<li><a href="page5.html" target="_blank">국보 지식그래프</a></li>
+										<li><a href="page6.html" target="_blank">지식그래프 활용예시</a></li>
+									</ul>
+
+									<div style="position : absolute; bottom:0.5%; left:10%;letter-spacing:0.5em;color:rgb(163, 163, 163);font-size:larger;">
+										<ul class="icons" style="border-top: none!important;">
+											<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+											<li style="border-top: none;"><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+											<li style="border-top: none;"><a href="mailto:team.cayley.official@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+											<li style="font-size: 0.5em;letter-spacing: 0.1em;">&copy;2022. Team.Cayley All Rights Reserved</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Main -->
+					<article id="main">
+						<!-------제목------->
+						<header>
+							<h1>2. 데이터 구축 과정</h1>
+							<p>
+								메타데이터 셋을 구축한 과정에 대한 설명입니다.
+								<!-- <br>
+								<br>1. 데이터 탐색
+								<br>2. 데이터 수집
+								<br>3. 구축 메타데이터 컬럼 정비
+								<br>4. 시대구분 기준
+								<br>5. 설명글 작성
+								<br>6. 데이터 수정 -->
+							</p>
+							<!-- <p style="font-size:smaller;color:lightgrey;">작성자: 권예빈, 손범준, 안지은, 이정윤, 조현서</p> -->
+						</header>
+
+						<!-------페이지------->
+						<section class="wrapper style5">
+							<div class="inner2">
+
+								<section>
+									<!--text1-->
+									<header>
+										<h2>1. 데이터 탐색</h2>
+									</header>
+									<p>
+										Team. Cayley 문화재 데이터 구축을 위하여 <b>위키피디아, 한국민족대백과사전,
+										문화재청</b>의 데이터를 주로 활용하였다. 그러나 일부 문화재의 경우, 앞선 세
+										자료 외 메타데이터와 설명글을 보완할 자료가 필요하였다. 따라서, 수집 과정에선
+										앞선 세 주요 활용 사이트 뿐만 아니라 웹자료(인터넷 기사, 논문, 공공기관 사이트 등)과
+										오프라인 자료(도서)도 수집하였다. 위키피디아, 문화재청과 같이 전문을 실을 수 있는 경우도
+										있었던 반면, 두산백과와 같이 전문을 싣지 못하는 경우가 있는 등 자원별로 저작권이 상이하여,
+										정보 자원별로 저작권을 정리하고 확인하는 과정을 거쳤다.
+
+										하단의 표는 대체적인 웹 자원의 유형과 수집 방식, 활용 범위와 저작권 관련 사항을 정리한 표로,
+										보다 자세한 사항을 확인하고자 한다면 하단에 제시된 관련 시트들을 참고하는 것을 권장한다.
+									</p>
+
+
+									<!-- 버튼 -->
+									<table>
+										<tr>
+										<form>
+											<a href="https://docs.google.com/spreadsheets/d/1prJnmMjmbgEf1IU650KYNhHsy90BNW0sdt_EuJ4s4Jo/edit#gid=0"  target='_blank'>
+											<input type="button" value="사용데이터 목록">
+											</a>
+										</form>
+										</tr>
+
+										<tr>
+										<form>
+											<a href="https://docs.google.com/spreadsheets/d/1hnguxT1szlL8q-wDyjk9AtABJHQvdGkMevAiyA4a4xQ/edit#gid=0"  target='_blank'>
+											<input type="button" value="문화재별 사용 데이터 목록">
+											</a>
+										</form>
+										</tr>
+
+										<tr>
+										<form>
+											<a href="https://docs.google.com/spreadsheets/d/1gGKvK0HuhmWqcnxZicxnajlD5mLkoSBuz2mv6wsSDvM/edit#gid=0"  target='_blank'>
+												<input type="button" value="라이선스 정리">
+											</a>
+										</form>
+										</tr>
+									</table>
+
+									<!-- 사용 데이터 정리 테이블 -->
+									<div class="table-wrapper" style="width:100%; height:500px; overflow:auto">
+										<table>
+											<tr>
+												<h3> 사용 데이터 리스트 </h3>
+											</tr>
+
+											<thead>
+												<tr>
+													<th>종류</th>
+													<th>사용데이터(예시)</th>
+													<th>수집 방법</th>
+													<th>수집 범위</th>
+													<th>저작권 관련 사항</th>
+												</tr>
+												
+											</thead>
+	
+											<tr>
+												<td rowspan="3">주요 사이트</td>
+												<td>위키피디아</td>
+												<td>API</td>
+												<td>전체 수집</td>
+												<td>전문 사용 가능</td>
+											</tr>
+	
+											<tr>
+												<td>문화재청</td>
+												<td>API</td>
+												<td>전체 수집</td>
+												<td>전문 사용 가능</td>
+											</tr>
+	
+											<tr>
+												<td>한국민족문화대백과사전</td>
+												<td>크롤링</td>
+												<td>전체 수집 (+관요 관련 설명 참고함.)</td>
+												<td>사진자료에 대한 설명만 존재함. - 출처 표기 하에 이용 가능(공공누리의 제 1유형)</td>
+											</tr>
+	
+											<tr>
+												<td>도서자료</td>
+												<td>저자명.[도서명].발행처(발행연도)  <span style='font-size:12px;'>
+													EX: 정양모.[고려 청자].대원사(1998)</span></td>
+												<td>타이핑(내용 재구성)</td>
+												<td>국보 번호(p참고 페이지)  <span style='font-size:12px;'> EX: 114호(p78)</span> </td>
+												<td>무단전재 및 재배포 금지</td>
+											</tr>
+	
+											<tr>
+												<td>기타 사이트</td>
+												<td>기관(사이트)명 <span style='font-size:12px;'>
+													EX: 국립중앙박물관
+												</span>
+												</td>
+												<td>타이핑(내용 재구성)</td>
+												<td>국보 번호(해당 사이트 페이지로 연결)<span style='font-size:12px;'>
+													EX: <a href= 'https://www.museum.go.kr/site/main/relic/search/view?relicId=4244' target='_blank'>253호</a></span>
+												<td>기관(사이트)마다 상이함</td>
+	
+											<tr>
+												<td>인터넷 기사</td>
+												<td>작성자,기사명,사이트,작성일 <span style='font-size:12px;'>
+													EX: 최원열 논설위원, '[도청도설] 출산 가산점', 국제신문, 2010-01-08</span>
+												</td>
+												<td>타이핑(내용 재구성)</td>
+												<td>국보 번호(해당 기사 사이트 페이지로 연결) <span style='font-size:12px;'>
+													EX: <a href= 'http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20100109.22023193732' target='_blank'>278호</a></span>
+												</td>
+												<td>무단전재 및 재배포 금지</td>
+											</tr>
+	
+											<tr>
+												<td>논문</td>
+												<td>저자.(게재연도).논문명.게재지명<span style='font-size:12px;'>
+													EX: 한정호. (2009). 익산 왕궁리 오층석탑과 사리장엄구 연구. 신라사학보</span></td>
+												<td>타이핑(내용 재구성)</td>
+												<td>국보 번호(참고 페이지 / 오픈액세스 논문의 경우 해당 페이지로 연결됨.)<span style='font-size:12px;'>
+												EX: 123호(p16, p149~195)</span></td>
+												<td>자료마다 상이함</td>
+											</tr>
+										</table>
+									</div>
+
+									<br>
+									<br>
+
+									<!--text2-->
+									<header>
+										<h2>2. 데이터 수집</h2>
+									</header>
+									<p>
+										국보 데이터는 앞서 저작권 사용 가능 여부를 확인했을 때 가능한 아래 3개의 사이트를 메인으로 기준으로 수집하였다.
+										문화재청과 위키피디아 데이터의 경우 각 사이트에서 제공하는 OpenAPI를 활용하고, 한국민족문화대백과사전의 경우 크롤링을 활용하였다. 
+										데이터 수집에 활용한 코드는 깃헙에 모두 공개하며 아래에서 링크를 확인할 수 있다. 
+									</p>
+
+									<!-- 버튼 -->
+									<table>
+										<tr>
+										<form>
+											<a href="https://colab.research.google.com/drive/190SqmHwhmozGFqc7CTxjZ-WAH7pnb9Ep"  target='_blank'>
+											<input type="button" value="문화재청 API 사용코드">
+											</a>
+										</form>
+										</tr>
+
+										<tr>
+										<form>
+											<a href="https://colab.research.google.com/drive/1kYRUdUV3pR10DE_Dsk7au5681-NPnS7s"  target='_blank'>
+											<input type="button" value="위키피디아 API 사용코드">
+											</a>
+										</form>
+										</tr>
+
+										<tr>
+										<form>
+											<a href="https://colab.research.google.com/drive/1eGSYSGW0obUxhN1gMqDg58mqLZenyuWj"  target='_blank'>
+												<input type="button" value="한민족대백과 크롤링 코드">
+											</a>
+										</form>
+										</tr>
+									</table>
+
+									<p>
+										데이터 수집 이후 문화재 별 설명글 정보의 양 차이를 맞춰주기 위하여, 각 국보 정보의 글자수를 확인하여 이상치를 제외한 평균값으로 정보의 양을 맞춰주기 위한 작업을 진행했다. 
+										평균 보다 정보의 양이 적은 국보 102개의 내용을 추가적인 디지털(논문, 타 사이트), 오프라인자료(도서 및 논문, 박물관 리플렛) 등 신뢰할 수 있는 출처에 한하여 내용을 추가하였다. 
+										사용한 데이터 및 출처에 대한 정보는 위의 '1. 데이터 탐색'에서 확인할 수 있다. 
+									</p>
+							         	
+									<br>
+									<br>
+
+									<!--text3-->
+									<header>
+									<h2>3. 구축 메타데이터 컬럼 정비</h2>
+									</header>
+									
+									<p>
+										구축하는 데이터셋의 메타데이터 컬럼은 문화재청에서 제공하는 OpenAPI의 <a href='https://www.cha.go.kr/html/HtmlPage.do?pg=/publicinfo/pbinfo3_0201.jsp&mn=NS_04_04_03'  target = '_blank'>'문화재검색 상세’</a>
+										의 데이터를 기준으로 하며, 케일리에서 수집한 데이터를 기반으로 컬럼을 추가하였다. 
+										데이터 구축 및 정리를 여러 인원이 진행함에 따라 통일된 기준 수립이 필요했고 띄어쓰기, 구두법, 명칭 등 동일한 기준에 의하여 정리하였다. 
+										다음 표에는 컬럼 이름, 컬럼별 의미, 컬럼추가 여부에 대한 내용을 기재하였으며, 세부 사항은 구글 스프레드 시트(아래 버튼)에서 확인할 수 있다. 
+									</p>
+
+									<div class="col-6 col-12-medium">
+										<ul class="actions stacked">
+											<li><a href="https://docs.google.com/spreadsheets/d/1RoKSyNm1FKC_U6Fw9cMj3BPj72e9m7JgqzLT-5dvZzM/edit#gid=0" target="_blank" class="button">메타데이터 컬럼 상세 설명</a></li>
+										</ul>
+									</div>
+
+									<div class="table-wrapper" style="width:100%; height:400px; overflow:auto">
+										<table class='alt'>
+											<thead>
+												<tr>
+													<th>컬럼 이름</th>
+													<th>컬럼 설명</th>
+													<th>컬럼추가<br>여부</th>
+												</tr>
+												
+											</thead>
+											<tbody>
+												<tr>
+													<td>지정호수</td>
+													<td>문화재 연번(고유값)</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>문화재명(국문)</td>
+													<td>한글로 표기된 문화재명</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>문화재명(한문)</td>
+													<td>한자로 표기된 문화재명</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>문화재명(영문)</td>
+													<td>영어로 표기된 문화재명</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>다른명칭</td>
+													<td>공식명칭(문화재API 기준) 외에 불리는 다른 명칭 (비공식 포함)</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>문화재분류1</td>
+													<td>문화재청 기준 문화재분류 (최상위)</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>문화재분류2</td>
+													<td>문화재청 기준 문화재분류 (상위)</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>문화재분류3</td>
+													<td>문화재청 기준 문화재분류 (하위)</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>문화재분류4</td>
+													<td>문화재청 기준 문화재분류 (최하위)</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>수량</td>
+													<td>확인된 문화재 수량</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>재질</td>
+													<td>e-뮤지엄 기준 재질분류 (상위)</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>재질상세</td>
+													<td>e-뮤지엄 기준 재질분류 (하위)</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>크기</td>
+													<td>"확인된 문화재 크기(가로/세로/높이).
+														단위 cm로 통일"</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>지정(등록일)</td>
+													<td>문화재(국보)가 지정된 지정 연도·날짜</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>소유자</td>
+													<td>현재 문화재를 소유하고 있는 기관·단체</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>관리자</td>
+													<td>현재 문화재를 관리하고 있는 기관·단체</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>소재지시도명</td>
+													<td>현재 문화재가 위치한 시도명</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>소재지시군구명</td>
+													<td>현재 문화재가 위치한 시군구명</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>소재지상세 (도로명주소)</td>
+													<td>현재 문화재가 위치한 상세 도로명 주소</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>소재지상세 (지번주소)</td>
+													<td>현재 문화재가 위치한 시군구명</td>
+													<td>N</td>
+												</tr>
+
+												<tr>
+													<td>소재지_위도</td>
+													<td>현재 문화재가 위치한 위도</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>소재지_경도</td>
+													<td>현재 문화재가 위치한 경도</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>출토지시도명</td>
+													<td>문화재가 출토된 시도명</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>출토지시군구명</td>
+													<td>문화재가 출토된 시군구명</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>출토지상세</td>
+													<td>문화재가 출토된 상세 주소 (도로명주소, 지번주소 혼용)</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>시대</td>
+													<td>문화재가 제작된 시대</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>전기/중기/후기</td>
+													<td>문화재가 제작된 각 시대 별 전기, 중기, 후기</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>시대상세</td>
+													<td>문화재가 제작된 상세 시대 (**왕 *년)</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>세기</td>
+													<td>문화재가 제작된 세기</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>연도</td>
+													<td>문화재 제작 연도</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>추정</td>
+													<td>세기, 연도의 추정 여부</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>수리/붕괴 여부</td>
+													<td>문화재가 수리·붕괴된 기록 여부</td>
+													<td>Y</td>
+												</tr>
+
+												<tr>
+													<td>설명글</td>
+													<td>문화재에 대한 설명글</td>
+													<td>Y</td>
+												</tr>
+											</tbody>
+										
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>									
+													<td>33columns</td>
+												</tr>											
+											</tfoot>
+										
+										</table>
+									</div>
+									<p style = 'font-size:smaller;'>* '컬럼추가 여부'는 문화재청의 '문화재검색 상세'에 없는 새로운 컬럼 추가 여부를 의미함.</p>
+
+									<br>
+									<br>
+
+									<!--text4-->
+									<header>
+										<h2>4. 시대구분 기준</h2>
+									</header>
+
+									<p>
+										2022년 8월 문화재청에 문의한 바에 의하면 아직까지 문화재의 시대를 명확하게 구분하는 기준은 없다. 
+										이는 다양한 학설이 제기되어 아직까지 의견이 좁혀지지 않았기 때문으로 추측된다. 
+										하지만 국보 데이터를 구축하는 과정에서 이러한 기준의 불명확함 때문에 자료마다 국보의 시대를 다르게 표기함을 확인했다. 
+										이에 케일리는 보다 체계적인 데이터 구축을 위해 문화재 제작시대의 기준을 구체화할 필요성을 느껴 <u>자체적인 시대 구분 기준을 제작</u>했다. 
+										<br><br>
+										시대는 문화유산포탈에 표기되어 있는 국보들의 시대 중 모든 국보의 시대를 아우를 수 있는 시대를 선정하고자 하였으며, 
+										이때 국보가 없거나 드문 시대는 생략 및 단순화했다. 
+										크게 <b>‘선사시대', ‘청동기시대', ‘철기시대', ‘삼국시대', 남북국시대', ‘고려시대', ‘조선시대', 마지막으로 ‘시대미상'</b> 이렇게 8개를 선정하였으며, 
+										선정 기준은 다음과 같다.
+									</p>
+
+									<o>
+										<li>선사시대</li>
+									</o>
+
+									<p>선사시대는 인류의 출현부터 문자 기록이 나타난 청동기 시대 이전까지로, 
+                                        '우리역사넷'<sup><a href= 'http://contents.history.go.kr/front/nh/view.do?levelId=nh_003_0010' target='_blank'>[1]</a></sup>에 의거해 설정하였다. 
+                                        이때 정확한 시기를 알기 어려우므로 세분화하거나 정확한 연도를 두지 않았다. </p>
+										
+									<o>
+										<li>청동기시대</li>
+									</o>
+										
+									<p>청동기시대는 기원전 10세기부터 기원전 300년까지로, 철기시대는 기원전 299년부터 기원후 1년, 후기를 2년부터 300년으로 구분했다. 
+                                        이때 청동기시대는 선사시대와 마찬가지로 시대 구분이 불필요하다 판단하여 생략했으나, 철기시대는 전기와 후기로 나누었다. 
+                                        시대를 더 구체적으로 고려해본다면 청동기시대와 철기시대는 명확하게 구분될 수 없으며, 많은 기존 자료에서도 두 시기가 겹치는 모습을 보이고 있다. 
+                                        하지만 케일리에서는 '우리역사넷'<sup><a href= 'http://contents.history.go.kr/front/nh/view.do?levelId=nh_003_0010' target='_blank'>[2]</a></sup>에 따라 
+                                        임의로 선사시대와 청동기시대를 나누어 시대 구분을 보다 명확하고 간결하게 하고자 했다. </p>
+										
+									<o>
+										<li>삼국시대</li>
+									</o>
+									<p>삼국시대는 문화재청에 따라 크게 전기와 후기로 나누어 전기를 1년~300년, 후기를 301년~653년으로 구분했다. 
+                                        이때 케일리의 기준에서 철기시대 후기와 삼국시대 전기가 겹치는 것을 알 수 있는데, 
+                                        이는 삼국이 철기시대 때 형성되었다는 문화재청의 설명을 따르고자 한 것이다. 
+                                        그렇기에 철기시대와 삼국시대에 분포한 문화재는 문화재청의 설명에 따라 철기시대 후기와 삼국시대 전기 중 하나를 선택해 선정했다. 
+                                        해당 내용은 '우리역사넷'<sup><a href= 'http://contents.history.go.kr/front/nh/view.do?levelId=nh_003_0010' target='_blank'>[3]</a></sup>에 의거하였다. 
+                                        해당 시기에는 가야(기원전 1년~562년, '한겨레 기사'<sup><a href= 'https://m.hani.co.kr/arti/area/area_general/853447.html#cb' target='_blank'>[4]</a></sup>)에도 포함하는데 
+                                        이는 가야가 삼국시대 내에서 건국하고 멸망했기 때문이며, 다만 구체적인 구분은 생략했다.
+										</p>
+
+									<o>
+										<li>남북국시대</li>
+									</o>
+									<p>남북국시대의 경우 전기는 654년~742년(무열왕~효성왕), 중기는 743년~857년(경덕왕~문성왕), 후기는 858년~935년(헌안왕~멸망)까지로 구분했다. 
+                                        해당 시대에서는 발해와 통일신라를 하나로 묶고자 했으나 발해에 대한 명확한 시대 기준이 없어 국보가 많은 통일신라를 중심으로 한 '문화재청'
+                                        <a href='https://www.cha.go.kr/main.html' target='_blank'>'[5]'</a>의 기준을 따랐다. 
+                                        이때 후삼국으로 인해 고려 초기와 시대가 조금 겹치나, 이로 인해 커다란 문제가 되는 문화재가 없어 그대로 사용했다. </p>
+										
+									<o>
+										<li>고려시대</li>
+									</o>
+									<p>고려시대는 전기를 918년~980년, 중기를 981년~1258년, 마지막 후기를 1259년~1391년으로 선정했다. 
+                                        전기의 경우 '우리역사넷'<sup><a href= 'http://contents.history.go.kr/front/nh/view.do?levelId=nh_003_0010' target='_blank'>[6]</a></sup>에 의거하여 
+                                        당시 정치제도를 기준으로 성종 이전까지로 구분했다. 
+                                        중기와 후기는 'KBS WORLD Radio'<sup><a href=' http://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=history&id=&board_seq=41618&page=26&board_code=' target='_blank'>
+                                            [7]</a></sup>에 의거하여 원간섭기 전후로 분리했다. </p>
+								
+
+									<o>
+										<li>조선시대</li>
+									</o>		
+									<p>조선시대는 전기를 1392년~1497년, 중기를 498년부터 1724년, 마지막 후기는 1725년~1897년으로 설정하였다. 
+                                        이때 조선이 유교 사회였기에 유교적 사건을 기준으로 시기를 구분하고자 했다. 따라서 전기는 건국([8]이성무,『조선왕조실록 1 – 태조~세종 편』)부터 사림파와 훈구파가 충돌한 무오사화 이전까지로 지정했으며, 
+                                        중기는 무오사화(한국역사연구회<sup><a href=' http://contents.history.go.kr/front/nh/view.do?levelId=nh_032' target='_blank'>[9]</sup></a>)부터 탕
+                                        평론을 본격적으로 펼친 영조 이전까지로 지정했다. 
+                                        후기는 영조부터 고종이 칭제건원(우리역사넷<sup><a href=' http://contents.history.go.kr/front/nh/view.do?levelId=nh_032' target='_blank'>[10]</sup></a>)한 
+                                        1897년까지로 지정하였다. </p>
+										
+									<o>
+										<li>시대미상</li>
+									</o>
+
+									<p>
+										시대미상은 시대를 알 수 없는 경우에 해당한다. 현재까지 케일리가 구축한 데이터 중에는 시대미상에 해당되는 국보는 없으나, 추후 필요할 수 있다고 판단하여 추가하였다.
+									</p>
+									
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>시대</th>
+													<th>전기/중기/후기 연도</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>선사시대</td>
+													<td>인류의 출현부터 문자 기록이 나타난 청동기 시대 이전</td>
+												</tr>
+												<tr>
+													<td>청동기시대</td>
+													<td>기원전 10세기 ~ 기원전 300년</td>
+												</tr>
+												<tr>
+													<td>삼국시대</td>
+													<td>전기 | 1년 ~ 300년 <br> 후기 | 301년 ~ 653년</td>
+												</tr>
+												<tr>
+													<td>남북국시대</td>
+													<td>전기 | 654년 ~ 742년 (무열왕~효성왕) <br>
+														중기 | 743년 ~ 857년 (경덕왕~문성왕) <br> 
+														후기 | 858년 ~ 935년 (헌안왕~멸망)</td>
+												</tr>
+												<tr>
+													<td>고려시대</td>
+													<td>전기 | 918년 ~ 980년 <br>
+														중기 | 981년 ~ 1258년 <br>
+														후기 | 1259년 ~ 1391년</td>
+												</tr>
+												<tr>
+													<td>조선시대</td>
+													<td>전기 | 1392년 ~ 1497년<br>
+														중기 | 1498년 ~ 1724년<br>
+														후기 | 1725년 ~ 1897년</td>
+												</tr>
+												<tr>
+													<td>시대미상</td>
+													<td>시대를 알 수 없는 경우</td>
+												</tr>
+											</tbody>
+											
+										</table>
+									</div>
+
+                                    <p style ='font-size:12px;'>
+                                        [1] 우리역사넷, http://contents.history.go.kr/mobile/ta/view.do?levelId=ta_h71_0030_0010_0030
+                                        <br>
+                                        [2] 우리역사넷, http://contents.history.go.kr/front/nh/view.do?levelId=nh_003_0010
+                                        <br>
+                                        [3] 우리역사넷, http://contents.history.go.kr/front/nh/view.do?levelId=nh_003_0010
+                                        <br>
+                                        [4] 최상원, “고대국가 가야, 6개국 아닌 12개 이상 나라로 구성”, 한겨레, 2018-07-16, https://m.hani.co.kr/arti/area/area_general/853447.html#cb
+                                        <br> 
+                                        [5] 문화재청, https://www.cha.go.kr/main.html
+                                        <br>
+                                        [6] 우리역사넷, http://contents.history.go.kr/front/nh/view.do?levelId=nh_013_0020
+                                        <br>
+                                        [7] KBS WORLD Radio, 2013-07-13, http://world.kbs.co.kr/service/contents_view.htm?lang=k&menu_cate=history&id=&board_seq=41618&page=26&board_code=
+                                        <br>
+                                        [8]  이성무, 『조선왕조실록 1 – 태조~세종 편』, 살림, 2021.
+                                        <br>
+                                        [9] 한국역사연구회, http://contents.history.go.kr/front/nh/view.do?levelId=nh_032
+                                        <br>
+                                        [10] 우리역사넷http://contents.history.go.kr/front/nh/view.do?levelId=nh_032
+									</p>
+
+
+									<br>
+									<br>
+
+									<!--text5-->
+									<header>
+										<h2>5. 설명글 작성</h2>
+									</header>
+
+									<p>
+										텍스트 데이터 이용을 위한 전처리의 간소화와 내용적 구조화를 위하여,
+										수집한 위키백과와 한민족 대백과사전, 그리고 문화재청의 설명글과 오프라인 자료의
+										설명글을 정제하여 통일된 틀에 기입하였다. 설명글의 구조는 다음과 같다.
+									</p>
+
+									<h3>개요</h3>
+									<p style='background-color: lightgrey;padding:0.5em; border-radius: 10px;font-size: smaller;'>
+										‘서울 숭례문(崇禮門)은 남대문이라고도 불리는데 그 이유는 조선시대 한양도성 정문의 남쪽에 있기 때문이다. 조선왕조실록에도 숭례문을 남대문이라 부른 기사가 존재한다.
+										오행사상에 따라 지어진 것으로 '례'(禮: 남)는 그와 같은 배경에서 유래 된 것이다. 1962년 12월 20일에 국보 제1호로 지정되었고 문화재청 숭례문 관리소에서 관리하고 있다.’
+									</p>
+									<p>
+										[개요] 항목에서는 문화재의 제작 시기, 현 소장처, 국보 지정일이나 국보 승격 관련 사항과 같은 문화재 관련 사항과 현 상태를 기재한 항목이다.
+										출토지나 출토 관련 사항이 많지 않을 경우도 [개요] 항목에 작성하였다.
+									</p>
+
+									<h3>제작연대</h3>
+									<p style='background-color: lightgrey;padding:0.5em; border-radius: 10px;font-size: smaller;'>
+										'서울에서  연대를 정확히 알 수 있는 현존하는 목조 건물 중 가장 오래되었고
+										조선시대 태조 5년(1396)에 공사를 시작하여 태조 7년(1398)에 완성하였다.'
+									</p>
+									<p>
+										[제작 연대]
+										항목에서는 해당 문화재가 제작된 연도를 기재하고 있다.
+										제작 연대가 명확하지 않은 경우 설명글과 기타 자료에서 확인되는 추정 시기를 기재하였으며,
+										아예 관련 사항이 확인되지 않는 경우는 '해당 국보의 제작 연대는 현재 파악할 수 없는 것으로
+										확인된다.' 라고 기재하였다. '제작 연대' 칼럼의 데이터와 설명글에서의 내용이 다른 경우,
+										설명글을 기준으로 통일하였다.
+										추가로, 제작자나 제작 장소와 관련된 정보가 있을 경우,
+										그 분량이 [기타] 항목에 들어갈 만큼 많지 않으면 [제작 연대] 항목에 포함하였다.
+									</p>
+
+									<h3>특징: 크기 및 형태</h3>
+									<p style='background-color: lightgrey;padding:0.5em; border-radius: 10px;font-size: smaller;'>
+										'숭례문은 앞면 5칸, 옆면 2칸 크기로 지은 누각형 2층 건물이다.
+										돌을 쌓아 만든 석축 가운데에 무지개 모양의 홍예문이 있으며
+										판목에 철갑을 씌운 문 두짝이 달려 있다.
+										지붕은 정면에서 볼 때 사다리꼴의 모양인데, 이러한 지붕을 우진각지붕이라 한다. ...'
+									</p>
+									<p>
+										[특징: 크기 및 형태]
+										항목에서는 문화재의 크기 정보와 대체적인 형태, 그리고 외형적 특징을 기술하였다.
+									</p>
+											
+									<h3>특징: 내용 및 의의</h3>
+									<p style='background-color: lightgrey;padding:0.5em; border-radius: 10px;font-size: smaller;'>
+										'전형적인 다포양식의 건물로 창건연대를 알 수 있으며
+										목조건축물의 수법을 확인할 수 있는 한국건축사상 중요한 건물이다.'
+									</p>
+									<p>
+										[특징 : 내용 및 의의]
+										항목에서는 해당 문화재의 역사적 의의를 기술하고 있다.
+										문화재의 유형이 그림이나 문서(서각류 포함)인 경우
+										대략적인 내용에 대한 설명도 포함시켰다.
+									</p>
+
+									<h3>기타</h3>
+									<p style='background-color: lightgrey;padding:0.5em; border-radius: 10px;font-size: smaller;'>
+										'숭례문의 역사는 다음과 같다.
+										1396년(태조 5년) 최유경이 준공하여 양녕대군이 숭례문의 현액을 쓰고 1398(태조 7년)
+										숭례문을 완성하였다. ...'
+									</p>
+									<p>
+										[기타]
+										항목에서는 [특징] 항목들에서 다루지 않았던 내용들을 기술하며,
+										기술할 내용이 있는 경우에만 선택적으로 기술하였다.
+										출토지 관련 사항이 많은 경우나, 제작 장소나 제작자에 대한 설명이 있는 경우,
+										또는 출토지나 제작 과정, 제작 장소에 대한 설명이 있으면  모두 [기타] 항목에 기술하였다.
+									</p>
+
+
+									<br>
+									<br>
+
+									<!--text6-->
+									<header>
+										<h2>6. 데이터 수정</h2>
+									</header>
+
+									<p>
+										프로젝트 진행 과정에서 지속적으로 데이터를 수집과 정제를 진행하였다. 수정, 정제 과정에서 사용한 데이터 출처 리스트는 '1. 데이터 탐색'에서 확인할 수 있다. 
+									</p>
+
+									<h3>데이터 통일 기준</h3>
+									<p>
+										문화재청 API에서 가져온 메타데이터 정보와 수집한 데이터의 정보가 일치하지 않는 경우가 일부 있었다. (특히 크기, 시대관련 부분에서 불일치 경우 많음.)
+										이 경우 다음 기준에 따라 수정하였다. 
+										<ul>
+											<li>여러 데이터 간에 정보가 다른 경우 문화재청 API 정보를 기준으로 함.</li>
+											<li>문화재청 API 정보와 문화재청 국가문화유산포털 정보를 대조하여 다른 경우 국가문화유산포털의 정보를 선택함.</li>
+											<li>수집한 여러 정보 중 가장 다수의 동일한 정보 선택함.</li>
+										</ul>
+									</p>
+​
+									<h3>소재지 구분</h3>
+
+									<p>
+										문화재청 API의 '소재지 상세' 컬럼에는 도로명 주소와 지번 주소가 혼용되어 작성된 경우가 있었다.
+										이 부분을 '소재지 상세_도로명주소', '소재지 상세_지번주소' 두 개로 분리하였고, 지번주소의 경우 누락값이 없도록 채워주었다. 도로명주소의 경우 일부 주소를 확인할 수 없어 누락값이 존재한다.
+									</p>
+
+									<h3>소유자, 관리자</h3>
+
+									<p>
+										케일리는 문화재의 현 소유자, 관리자의 최신 정보를 파악해 데이터를 업데이트 하였으며(22.05기준), 누락된 정보를 추가하였다. 
+										개인 소유자의 경우 자세한 정보를 알 수 없으므로 문화재청의 * 표시를 유지한다. 
+									</p>
+
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+						<li><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:team.cayley@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+					</ul>
+					<p>
+						<br>Facilitators: 김학래, 김현지
+						<br>Members: 권예빈, 김가인, 김영규, 김원영, 김해리, 손범준, 신주영,
+						<br>설지은, 안지은, 이유정, 이정윤, 정예은, 조현서, 최은혜, 허인
+					</p>
+					<ul class="copyright">
+						<li>&copy;2022. Team.Cayley All Rights Reserved</li>
+						<br>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<br>
+						<li>Editors: <a href="https://github.com/kim-0q">Youngkyu Kim</a>, <a href="https://github.com/JeongYunLee">JeongYun Lee</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+			<!--Up to top button-->
+			<a href="#" class="back-to-top d-flex align-items-center justify-content-center active">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+				</svg>
+			</a>
+
+			<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

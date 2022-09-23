@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>6. 지식그래프 활용예시</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+
+		<!-- Favicon -->
+		<link href="./../images/teamCayley_logo_trans.png" rel="icon">
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+		
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+				<!-- Header -->
+				<header id="header">
+					<h1>문화재 시냅스: 국보 데이터 연결하기</a></h1>
+					<nav id="nav">
+						<ul>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="../index.html">Home</a></li>
+										<li><a href="page0.html" target="_blank">About Team.Cayley</a></li>
+										<li><a href="page1.html" target="_blank">프로젝트 목적</a></li>
+										<li><a href="page2.html" target="_blank">데이터 구축 과정</a></li>
+										<li><a href="page3.html" target="_blank">구축 데이터 현황</a></li>
+										<li><a href="page4.html" target="_blank">텍스트 데이터 활용예시</a></li>
+										<li><a href="page5.html" target="_blank">국보 지식그래프</a></li>
+										<li><a href="page6.html" target="_blank">지식그래프 활용예시</a></li>
+									</ul>
+
+									<div style="position : absolute; bottom:0.5%; left:10%;letter-spacing:0.5em;color:rgb(163, 163, 163);font-size:larger;">
+										<ul class="icons" style="border-top: none!important;">
+											<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+											<li style="border-top: none;"><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+											<li style="border-top: none;"><a href="mailto:team.cayley.official@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+											<li style="font-size: 0.5em;letter-spacing: 0.1em;">&copy;2022. Team.Cayley All Rights Reserved</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Main -->
+					<article id="main">
+						<!-------제목------->
+						<header>
+							<h1>6. 지식그래프 활용예시</h1>
+							<p>
+								구축한 rdf 파일을 활용한 지식그래프 시각화 예시 입니다. 
+							</p>
+							<!-- <p style="font-size:smaller;color:lightgrey;">작성자: 김가인, 김해리, 이정윤</p> -->
+						</header>
+
+						<!-------페이지------->
+						<section class="wrapper style5">
+							<div class="inner2">
+
+								<section>
+									<!--text1-->
+									<header>
+										<h2>1. 사용 툴 소개</h2>
+									</header>
+
+									<p>
+										3d-force-graph는 3차원 공간에서 그래프 데이터 구조를 나타내는 웹 컴포넌트이다. 3D 렌더링에는
+										ThreeJS/WebGL을 사용하고, 기본 물리 엔진에는 d3-force-3d 또는 ngraph를 사용한다.
+										우리는 공개된 소스코드 중 기본적인 형태의 ‘Basic’ 소스코드를 기반으로 노드를 이미지로 표현하는
+										‘Images as nodes’ 등의 소스코드를 추가해 사용하였다.
+										3d-force-graph는  공식 깃허브 <sup><a href='https://github.com/vasturiano/3d-force-graph' target="_blank">링크</a></sup>에  소스코드가   오픈되어   있다.  
+									</p>
+
+									<header>
+										<h2>2. 사용 데이터</h2>
+									</header>
+
+									<p>
+										3d-force-graph는 노드(nodes)와 간선(links)이 정의된 json 파일을 필요로 한다.
+										따라서 앞서 구축한 rdf 파일이 아닌 메타데이터를 포함한 csv 데이터의 일부를 json 파일로 변환하여 사용 하였다. 
+										이 과정에서 시각적 표현을 위해 참조한 데이터의 정보, literal 등은 표현되지 않는 한계가 있다. 
+
+										<br><br>
+										구축한 rdf를 기반으로 국보1호 '서울 숭례문' 한 개의 표현은 다음과 같다. 문화재분류1~4와 재질, 재질상세는 각각 <code>skos:braoder</code>와 <code>skos:narrow</code>로 계층관계를 나타내었다.
+										<code>VisualArtWork</code>, <code>PeriodOfTime</code>, <code>Concept</code>는 연결된 개체들의 type을 의미한다. 
+
+
+										<iframe src='https://flo.uri.sh/visualisation/11213606/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/11213606/?utm_source=embed&utm_campaign=visualisation/11213606' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
+										변환한 json 파일은 'nodes'와 'links'로 구성되며 각각 포함하는 요소들에 대한 설명은 다음과 같다. 
+										<br><br>
+
+										노드 부분은 ‘id’, ‘hover’, ‘group’, ‘icon’의 항을 가지며 각각이 하나의 노드로 표현된다. 
+										<ul>
+											<li>id: 데이터 프레임의 ‘문화재명_지정호수’</li>
+											<li>hover: 데이터 프레임의 ‘문화재분류’, ‘재질’, ‘시대’, ‘소재지’, ‘출토지’에 관련된 정보</li>
+											<li>group: '문화재명’, ‘문화재분류’, ‘재질’, ‘시대’, ‘소재지’, ‘출토지’를 각각 1에서 6까지의 숫자로 매칭한 값</li>
+											<li>icon: ‘문화재명’을 id값으로 가지는 항에 대해 각 문화재의 대표 이미지의 파일경로</li>
+										</ul>
+
+										링크 부분은 ‘source’, ‘target’, ‘value’, ‘description’의 항을 가지며, 노드와 노드를 연결해주는 엣지(간선)을 의미한다. 
+										<ul>
+											<li>source: 링크의 시작점</li>
+											<li>target: 링크의 도착점</li>
+											<li>value: target의 유형</li>
+											<li>description: 해당 링크의 속성(property)과 속성의 출처 어휘</li>
+										</ul>
+									</p>
+
+									<br>
+									<br>
+									
+									<header>
+										<h2>3. 최종 시각화</h2>
+									</header>
+
+									<p>
+										다음은 국보 총 351개의 데이터들을 연결하여 나타낸 네트워크 시각화이다. 각 노드들은 '국보', '문화재명’, ‘문화재분류1’, ‘문화재분류2’, ‘문화재분류3’, ‘문화재분류4’, ‘문화재분류5’, 
+										‘재질’, '재질분류', ‘시대’,'시대상세', ‘소재지시도_시명’, '소재지도명', ‘출토지시도_시명’, '출토지도명' 으로 구성되어 있다. 
+									</p>
+				
+									<iframe id="igraph" scrolling="no" style="border:none;" src='6_knowledgeGraph(1)/index.html' height="600" width="100%"></iframe>
+									<br>
+									<br>
+
+									<p> 
+										<b>국보를 나타내는 노드</b>들의 경우, '3D로 구현된 원모양'의 노드대신 <b>'이미지 파일'</b>을 노드로 적용했다.
+										<b>시각화에 사용된 모든 이미지 파일</b>은, 문화재청에서 제공하는 <b>'문화재 이미지검색 API'</b>를 활용했다.<br>
+									    대부분의 국보는 2개 이상의 이미지를 제공하고 있으므로, 다음 기준으로 하나의 이미지를 선택하였다. 
+										<ul>
+											<li>1순위 : 국보의 전체적인 모습을 보여주는가</li>
+											<li>2순위 : 가장 최근의 사진인가</li>
+										</ul>
+										문화재청에서 제공하는 API의 종류 및 상세정보는 <u><a href="https://www.cha.go.kr/html/HtmlPage.do?pg=/publicinfo/pbinfo3_0201.jsp&mn=NS_04_04_03">해당 링크</a></u>에서 확인할 수 있다. 
+										<br>국보 외의 다른 노들들의 색은 해당 노드의 카테고리에 따라 부여하였다. '문화재명’, ‘문화재분류’, ‘재질’, ‘시대’, ‘소재지’, ‘출토지’ 별로 같은 색을 갖는다. 
+									</p>
+
+									<p>
+										각각의 노드를 연결하는 링크(엣지, 간선)에는 해당하는 property를 적어주었다. 각 노드에 마우스를 올렸을 때 등장하는 팝업은 해당 노드의 정보 혹은 국보 노드의 경우
+										시각화 상에서 표현되지 않는 세부 정보들에 대한 내용이다. 
+
+										<br><br>
+										
+										앞서 언급했든 해당 시각화는 국보 간의 연결정도를 확인하기 위한 목적을 가지고 국보 데이터를 활용한 지식그래프 시각화의 한 가지 예시 자료이다. 
+										Team.Cayley가 구축한 데이터를 사용하여 더욱 효과적인 시각화 및 서비스를 개발하길 바란다. 
+
+									</p>
+							    		
+
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+						<li><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+						<li><a href="mailto:team.cayley@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+					</ul>
+					<p>
+						<br>Facilitators: 김학래, 김현지
+						<br>Members: 권예빈, 김가인, 김영규, 김원영, 김해리, 손범준, 신주영,
+						<br>설지은, 안지은, 이유정, 이정윤, 정예은, 조현서, 최은혜, 허인
+					</p>
+					<ul class="copyright">
+						<li>&copy;2022. Team.Cayley All Rights Reserved</li>
+						<br>
+						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<br>
+						<li>Editors: <a href="https://github.com/kim-0q">Youngkyu Kim</a>, <a href="https://github.com/JeongYunLee">JeongYun Lee</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+			<!--Up to top button-->
+			<a href="#" class="back-to-top d-flex align-items-center justify-content-center active">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"/>
+				</svg>
+			</a>
+
+			<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
