@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Team.Cayley_CulturalHeritage@2022</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="//unpkg.com/3d-force-graph"></script>
+
+		<!-- Favicon -->
+		<link href="./images/teamCayley_logo_trans.png" rel="icon">
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+	</head>
+	
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+					<!-- Header -->
+					<header id="header" class="alt">
+						<h1>문화재 시냅스: 국보 데이터 연결하기</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="./pages/page0.html" target="_blank">About Team.Cayley</a></li>
+											<li><a href="./pages/page1.html" target="_blank">프로젝트 목적</a></li>
+											<li><a href="./pages/page2.html" target="_blank">데이터 구축 과정</a></li>
+											<li><a href="./pages/page3.html" target="_blank">구축 데이터 현황</a></li>
+											<li><a href="./pages/page4.html" target="_blank">텍스트 데이터 활용예시</a></li>
+											<li><a href="./pages/page5.html" target="_blank">국보 지식그래프</a></li>
+											<li><a href="./pages/page6.html" target="_blank">지식그래프 활용예시</a></li>
+										</ul>
+
+										<div style="position : absolute; bottom:0.5%; left:10%;letter-spacing:0.5em;color:rgb(163, 163, 163);font-size:larger;">
+											<ul class="icons" style="border-top: none!important;">
+												<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+												<li style="border-top: none;"><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+												<li style="border-top: none;"><a href="mailto:team.cayley.official@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+												<li style="font-size: 0.5em;letter-spacing: 0.1em;">&copy;2022. Team.Cayley All Rights Reserved</li>
+											</ul>
+										</div>
+									</div>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+					<!-- Banner -->
+					<section id="banner">
+						<div id="bodyy"></div>
+						<div id="filter"></div>
+						<div id="page-wrapper">
+							<h2>문화재 시냅스: 국보 데이터 연결하기</h2>
+							<p>
+								대한민국 국보 351점,<br />
+								산재되어 있는 데이터를 모두<br />
+								모아서 한 번에.
+							</p>
+							<a href="#two" class="more scrolly">START</a>
+						</div>
+					</section>
+					
+					<script>
+						const N = 300;
+						const gData = {
+						  nodes: [...Array(N).keys()].map((i) => ({ id: i })),
+						  links: [...Array(N).keys()]
+							.filter((id) => id)
+							.map((id) => ({
+							  source: id,
+							  target: Math.round(Math.random() * (id - 1)),
+							})),
+						};
+				
+						const distance = 1500;
+				
+						const Graph = ForceGraph3D()(document.getElementById('bodyy'))
+						  .enableNodeDrag(false)
+						  .enableNavigationControls(false)
+						  //.backgroundColor('#000000')
+						  .showNavInfo(false)
+						  .cameraPosition({ z: distance })
+						  .graphData(gData);
+				
+						// camera orbit
+						let angle = 0;
+						setInterval(() => {
+						  Graph.cameraPosition({
+							x: distance * Math.sin(angle),
+							z: distance * Math.cos(angle),
+						  });
+						  angle += Math.PI / 300;
+						}, 10);
+					</script>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/main-Gyeongbokgung.jpg" alt="" /></div><div class="content">
+								<h1>What's our purpose?</h1>
+								<h2>국보 제 121호 '안동 하회탈 및 병산탈'의 제작시기는 <br>
+									고려 '중기'<sup><a href='http://encykorea.aks.ac.kr/Contents/Item/E0060758' target="_blank">한국민족대백과</a></sup>
+									일까 '후기'<sup><a href="https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=11,01210000,37&pageNo=1_1_1_0" target="_blank">국가문화유산포털</a></sup>일까?</h2>
+								<p>
+									검색창에 한 국보를 검색해보면 문화재청을 비롯한 다양한 사이트에서 관련 정보를 제공한다. 
+									같은 국보라도 기록되어 있는 정보는 조금씩 다르며, 각 국보당 정보 양의 차이는 상당하다. 
+									따라서 '하나의 통일된 국보 데이터 정리해보자'는 목표를 갖고 '문화재 시냅스: 국보 데이터 연결하기' 프로젝트를 시작했다.
+
+									<br><br>
+									Team.Cayley는 온·오프라인 상에 산재된 국보 정보를 모아 하나의 양질의 데이터를 만들고, 
+									국보 데이터의 기준을 제안하고자 한다. 
+								</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h1>What we do?</h1>
+								<p style="color:#fff;">
+									약 65개의 온·오프라인 상의 정보원에서 대한민국 국보 총 351개의 데이터를 수집하였고
+									<br>이를 하나의 데이터 셋으로 정리하였다. 또한 텍스트 분석, 지식그래프 등 
+									<br>구축한 데이터를 활용할 수 있는 방법을 소개한다. 
+
+									<br><br>
+									사용한 모든 데이터, 분석 코드는 <a href="https://github.com/TeamCayley-official/CulturalHeritage-2022">Team.Cayley GitHub</a>을 통해 공유한다. 
+								</p>
+							</header>
+							<ul class="icons major" >
+								<!-- <li>
+									<h1>353개</h1>
+									<p style="font-size:1.1em;font-weight:600;">대한민국 국보</p>
+								</li> -->
+								<li>
+									<p style="font-size:2.3em;font-weight:600;margin: 0 0 0.5em 0;">351개</p>
+									<p style="font-size:1.1em;font-weight:600;">대한민국 국보</p>
+									
+								</li>
+								<li>
+									<p style="font-size:2.3em;font-weight:600;margin: 0 0 0.5em 0;">65개</p>
+									<p style="font-size:1.1em;font-weight:600;">데이터 수집 출처 수</p>
+								</li>
+								<li>
+									<p style="font-size:2.3em;font-weight:600;margin: 0 0 0.5em 0;">33개</p>
+									<p style="font-size:1.1em;font-weight:600;">메타데이터 컬럼 수</p>
+								</li>
+								<li>
+									<p style="font-size:2.3em;font-weight:600;margin: 0 0 0.5em 0;">3배</p>
+									<p style="font-size:1.1em;font-weight:600;">타 정보원 대비 설명글 양</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+						<header class="major">
+							<h1>Examples File</h1>
+							<p>
+							우리가 뭘 만들었는지 살펴보세요<br />
+							6가지의 파일로 구성되어 있습니다
+							</p>
+						</header>
+						<ul class="features">
+							<li class="first">
+							<a href="./pages/page3.html" target="_blank">
+								<span>
+									<h3>구축 데이터 현황</h3>
+								<p>
+									Team.Cayley가 구축한 데이터와 문화재청 데이터의 차이를 확인합니다. 
+									도표, 그래프, 지도시각화 등을 활용했습니다. 
+								</p>
+								<span>
+							</a>
+							</li>
+							<li class="second">
+							<a href="./pages/page5.html" target="_blank">
+								<span>
+									<h3>텍스트 데이터 활용예시</h3>
+								<p>
+									Team.Cayley가 구축한 설명글 텍스트 데이터를 활용한 워드클라우드, 네트워크 시각화 예시입니다. 
+								</p></span>
+								</a>
+							</li>
+							<li class="third">
+							<a href="./pages/page4.html" target="_blank">
+								<span>
+									<h3>국보 지식그래프</h3>
+								<p>
+									구축한 csv 형식의 데이터를 RDF 형식으로 변환하여 구축하는 과정을 담은 내용입니다. 
+								</p></span>
+							</a>
+							</li>
+							<li class="fourth">
+							<a href="./pages/page6.html" target="_blank">
+								<span><h3>지식그래프 활용예시</h3>
+								<p>
+									구축한 RDF 파일을 활용한 지식그래프 시각화 예시 입니다. 
+									<br>
+									<br>
+									<br>
+								</p></span>
+							</a>
+							</li>
+						</ul>
+						</div>
+					</section>
+
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="http://okfn.kr/projects/covid-19-our-memory/" class="icon solid fa-home" target="_blank"><span class="label">Team.Cayley</span></a></li>
+							<li><a href="https://github.com/TeamCayley-official" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="mailto:team.cayley@gmail.com" class="icon solid fa-envelope"><span class="label" target="_blank">Email</span></a></li>
+						</ul>
+						<p>
+							<br>Facilitators: 김학래, 김현지
+							<br>Members: 권예빈, 김가인, 김영규, 김원영, 김해리, 손범준, 신주영,
+							<br>설지은, 안지은, 이유정, 이정윤, 정예은, 조현서, 최은혜, 허인
+						</p>
+						<ul class="copyright">
+							<li>&copy;2022. Team.Cayley All Rights Reserved</li>
+							<br>
+							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<br>
+							<li>Editors: <a href="https://github.com/kim-0q">Youngkyu Kim</a>, <a href="https://github.com/JeongYunLee">JeongYun Lee</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script
+
+	</body>
+</html>
