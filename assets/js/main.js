@@ -25,8 +25,8 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 3000); //시간 지연. 그래프 보여줄 때 수정
- 		}); //페이지 로드 애니메이션
+			}, 100);
+		});
 
 	// Mobile?
 		if (browser.mobile)
@@ -79,5 +79,6 @@
 			});
 
 		}
+		
 
 })(jQuery);
