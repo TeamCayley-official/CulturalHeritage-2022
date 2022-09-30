@@ -3775,7 +3775,7 @@ input, select, textarea {
 				width: 100vw;
 				height: 100vh;
 				position:absolute;
-				z-index: 100;
+				z-index: 1;
 			  }
 		
 			 #filter{
